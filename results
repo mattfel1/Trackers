@@ -1,6 +1,6 @@
 **pass.5_TPCHQ6**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_TPCHQ6.png)  
 **pass.4_OuterProduct**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_OuterProduct.png)  
 **pass.3_MatMult_outer**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_MatMult_outer.png)  
-**pass.2_MatMult_inner**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_MatMult_inner.png)  
 **pass.0_DotProduct**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_DotProduct.png)  
 <--------failed_execution_nonexistent_validation.1_GDA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_GDA.png)  
+<----------------------------failed_app_initialized.2_MatMult_inner[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/fpga_MatMult_inner.png)  
