@@ -5,12 +5,12 @@ if [ ! -f results ]; then
   exit 1
 fi
 
-errors=(0)
+errors=(`cat results | grep -i "fail\|unknown" | wc -l`)
 if [[ $errors != 0 ]]; then
   cat results
   echo "FAIL: Errors found"
   exit 1
 else
-  echo "Succes"
+  echo "Success"
   exit 0
 fi
