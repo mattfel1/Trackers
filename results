@@ -3,6 +3,6 @@
 **pass.2_MatMult_inner**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_MatMult_inner.csv)  
 **pass.1_DotProduct**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_DotProduct.csv)  
 **pass.0_TPCHQ6**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_TPCHQ6.csv)  
-<----failed_execution_validation.7_Kmeans[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_Kmeans.csv)  
+<--------failed_execution_nonexistent_validation.7_Kmeans[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_Kmeans.csv)  
 <--------failed_execution_nonexistent_validation.3_GDA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_GDA.csv)  
 <--------------------failed_app_spatial_compile.5_BlackScholes[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_fpga_scala_BlackScholes.csv)  
