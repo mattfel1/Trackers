@@ -2,7 +2,11 @@ language: c
 notifications:
   email:
     recipients: mattfel@stanford.edu
+<<<<<<< HEAD
     on_failure: never # default: always
+=======
+    on_failure: never # default: always
+>>>>>>> c25122f1126d0689344da39efe7c9ac42d93dfb8
 script:
   - bash ./status.sh
 
