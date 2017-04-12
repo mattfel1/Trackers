@@ -6,6 +6,6 @@
 <----------------failed_compile_backend_crash.4_DotProduct[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_DotProduct.csv)  
 <----------------failed_compile_backend_crash.3_Convolution_FPGA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_Convolution_FPGA.csv)  
 <----------------failed_compile_backend_crash.2_SGD[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_SGD.csv)  
+<----------------failed_compile_backend_crash.1_TPCHQ6[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_TPCHQ6.csv)  
+<----------------failed_compile_backend_crash.10_Kmeans[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_Kmeans.csv)  
 <----------------failed_compile_backend_crash.0_SYRK_col[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_SYRK_col.csv)  
-<--------------------failed_app_spatial_compile.1_TPCHQ6[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_TPCHQ6.csv)  
-<----------------------------failed_app_initialized.10_Kmeans[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_Kmeans.csv)  
