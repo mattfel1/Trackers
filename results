@@ -1,2 +1,3 @@
-<----------------failed_compile_backend_crash.1_ScatterGather[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_chisel_ScatterGather.csv)  
-<----------------failed_compile_backend_crash.0_SMV[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_chisel_SMV.csv)  
+**pass.2_ScatterGather**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_chisel_ScatterGather.csv)  
+**pass.1_GatherStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_chisel_GatherStore.csv)  
+**pass.0_SMV**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_chisel_SMV.csv)  
