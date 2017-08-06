@@ -1,0 +1,8 @@
+language: c
+notifications:
+  email:
+    recipients: mattfel@stanford.edu
+    on_failure: never # default: always
+script:
+  - sudo bash ./status.sh # Is sudo now needed for travis?
+
