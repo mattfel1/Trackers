@@ -79,6 +79,7 @@
 **pass.21_StackLoadStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_StackLoadStore.csv)  
 **pass.20_FifoLoadStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_FifoLoadStore.csv)  
 **pass.1_FloatBasics**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_FloatBasics.csv)  
+**pass.19_ParFifoLoad**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_ParFifoLoad.csv)  
 **pass.18_UnalignedFifoLoad**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_UnalignedFifoLoad.csv)  
 **pass.17_OHM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_OHM.csv)  
 **pass.16_SimpleTileLoadStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_SimpleTileLoadStore.csv)  
@@ -89,4 +90,3 @@
 **pass.11_MemTest1D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_MemTest1D.csv)  
 **pass.10_Niter**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_Niter.csv)  
 **pass.0_InOutArg**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_InOutArg.csv)  
-<----------------failed_compile_cpp_crash.19_ParFifoLoad[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_ParFifoLoad.csv)  
