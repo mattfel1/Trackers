@@ -5,6 +5,7 @@
 **pass.5_MD_KNN**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_MD_KNN.csv)  
 **pass.4_NW**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_NW.csv)  
 **pass.3_Stencil3D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_Stencil3D.csv)  
+**pass.36_BasicBLAS**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_BasicBLAS.csv)  
 **pass.35_DotProduct**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_DotProduct.csv)  
 **pass.34_OuterProduct**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_OuterProduct.csv)  
 **pass.33_TRSM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_master_scala_TRSM.csv)  
