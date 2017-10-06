@@ -1,96 +1,200 @@
-<--------------------failed_app_spatial_compile.9_EdgeDetector[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_EdgeDetector.csv)  
-<--------------------failed_app_spatial_compile.8_Convolution_FPGA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Convolution_FPGA.csv)  
-<--------------------failed_app_spatial_compile.7_Kmeans[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Kmeans.csv)  
-<--------------------failed_app_spatial_compile.6_DotProduct[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_DotProduct.csv)  
-<--------------------failed_app_spatial_compile.5_OuterProduct[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_OuterProduct.csv)  
-<--------------------failed_app_spatial_compile.4_Convolutions[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Convolutions.csv)  
-<--------------------failed_app_spatial_compile.3_BasicBLAS[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BasicBLAS.csv)  
-<--------------------failed_app_spatial_compile.37_MatMult_inner[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MatMult_inner.csv)  
-<--------------------failed_app_spatial_compile.36_MatMult_outer[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MatMult_outer.csv)  
-<--------------------failed_app_spatial_compile.35_FFT_Transpose[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FFT_Transpose.csv)  
-<--------------------failed_app_spatial_compile.34_FFT_Strided[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FFT_Strided.csv)  
-<--------------------failed_app_spatial_compile.33_Backprop[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Backprop.csv)  
-<--------------------failed_app_spatial_compile.32_Sort_Radix[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Sort_Radix.csv)  
-<--------------------failed_app_spatial_compile.31_Sort_Merge[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Sort_Merge.csv)  
-<--------------------failed_app_spatial_compile.30_GEMM_Blocked[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_GEMM_Blocked.csv)  
-<--------------------failed_app_spatial_compile.2_JPEG_Decompress[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_JPEG_Decompress.csv)  
-<--------------------failed_app_spatial_compile.29_GEMM_NCubed[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_GEMM_NCubed.csv)  
-<--------------------failed_app_spatial_compile.28_KMP[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_KMP.csv)  
-<--------------------failed_app_spatial_compile.27_MD_Grid[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MD_Grid.csv)  
-<--------------------failed_app_spatial_compile.26_MD_KNN[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MD_KNN.csv)  
-<--------------------failed_app_spatial_compile.25_NW[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_NW.csv)  
-<--------------------failed_app_spatial_compile.24_Stencil3D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Stencil3D.csv)  
-<--------------------failed_app_spatial_compile.23_Stencil2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Stencil2D.csv)  
-<--------------------failed_app_spatial_compile.22_Viterbi[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Viterbi.csv)  
-<--------------------failed_app_spatial_compile.21_AES[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_AES.csv)  
-<--------------------failed_app_spatial_compile.20_TRSM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_TRSM.csv)  
-<--------------------failed_app_spatial_compile.1_JPEG_Markers[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_JPEG_Markers.csv)  
-<--------------------failed_app_spatial_compile.19_SYRK_col[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SYRK_col.csv)  
-<--------------------failed_app_spatial_compile.18_Sobel[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Sobel.csv)  
-<--------------------failed_app_spatial_compile.17_SW[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SW.csv)  
-<--------------------failed_app_spatial_compile.16_BTC[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BTC.csv)  
-<--------------------failed_app_spatial_compile.15_TPCHQ6[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_TPCHQ6.csv)  
-<--------------------failed_app_spatial_compile.14_SGD_minibatch[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SGD_minibatch.csv)  
-<--------------------failed_app_spatial_compile.13_SGD[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SGD.csv)  
-<--------------------failed_app_spatial_compile.12_Gibbs_Ising2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Gibbs_Ising2D.csv)  
-<--------------------failed_app_spatial_compile.11_GDA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_GDA.csv)  
-<--------------------failed_app_spatial_compile.10_Differentiator[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Differentiator.csv)  
-<--------------------failed_app_spatial_compile.0_SHA1[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SHA1.csv)  
-<--------------------failed_app_spatial_compile.9_ArbitraryLambda[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_ArbitraryLambda.csv)  
-<--------------------failed_app_spatial_compile.8_BubbledWriteTest[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BubbledWriteTest.csv)  
-<--------------------failed_app_spatial_compile.7_MultiplexedWriteTest[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MultiplexedWriteTest.csv)  
-<--------------------failed_app_spatial_compile.6_MixedIOTest[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MixedIOTest.csv)  
-<--------------------failed_app_spatial_compile.5_LUTTest[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_LUTTest.csv)  
-<--------------------failed_app_spatial_compile.4_Tensor5D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Tensor5D.csv)  
-<--------------------failed_app_spatial_compile.48_SimpleRowStridedConv[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SimpleRowStridedConv.csv)  
-<--------------------failed_app_spatial_compile.47_SSV2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SSV2D.csv)  
-<--------------------failed_app_spatial_compile.46_SSV1D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SSV1D.csv)  
-<--------------------failed_app_spatial_compile.45_MultiWriteBuffer[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MultiWriteBuffer.csv)  
-<--------------------failed_app_spatial_compile.44_DiagBanking[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_DiagBanking.csv)  
-<--------------------failed_app_spatial_compile.43_SpecialMath[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SpecialMath.csv)  
-<--------------------failed_app_spatial_compile.42_FixPtMem[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FixPtMem.csv)  
-<--------------------failed_app_spatial_compile.41_MaskedWrite[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MaskedWrite.csv)  
-<--------------------failed_app_spatial_compile.40_FixPtInOutArg[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FixPtInOutArg.csv)  
-<--------------------failed_app_spatial_compile.3_Tensor4D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Tensor4D.csv)  
-<--------------------failed_app_spatial_compile.39_LaneMaskPar[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_LaneMaskPar.csv)  
-<--------------------failed_app_spatial_compile.38_FifoStackFSM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FifoStackFSM.csv)  
-<--------------------failed_app_spatial_compile.37_CtrlEnable[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_CtrlEnable.csv)  
-<--------------------failed_app_spatial_compile.36_DotProductFSM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_DotProductFSM.csv)  
-<--------------------failed_app_spatial_compile.35_BasicCondFSM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BasicCondFSM.csv)  
-<--------------------failed_app_spatial_compile.34_BasicFSM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BasicFSM.csv)  
-<--------------------failed_app_spatial_compile.33_FifoPushPop[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FifoPushPop.csv)  
-<--------------------failed_app_spatial_compile.32_ChangingCtrMax[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_ChangingCtrMax.csv)  
-<--------------------failed_app_spatial_compile.31_SequentialWrites[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SequentialWrites.csv)  
-<--------------------failed_app_spatial_compile.30_BlockReduce2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BlockReduce2D.csv)  
-<--------------------failed_app_spatial_compile.2_Tensor3D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Tensor3D.csv)  
-<--------------------failed_app_spatial_compile.29_UnalignedLd[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_UnalignedLd.csv)  
-<--------------------failed_app_spatial_compile.28_BlockReduce1D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BlockReduce1D.csv)  
-<--------------------failed_app_spatial_compile.27_UniqueParallelLoad[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_UniqueParallelLoad.csv)  
-<--------------------failed_app_spatial_compile.26_Memcpy2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Memcpy2D.csv)  
-<--------------------failed_app_spatial_compile.25_SimpleFold[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SimpleFold.csv)  
-<--------------------failed_app_spatial_compile.24_SimpleMemReduce[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SimpleMemReduce.csv)  
-<--------------------failed_app_spatial_compile.23_SimpleReduce[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SimpleReduce.csv)  
-<--------------------failed_app_spatial_compile.22_StackLoadStore[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_StackLoadStore.csv)  
-<--------------------failed_app_spatial_compile.21_FifoLoadStore[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FifoLoadStore.csv)  
-<--------------------failed_app_spatial_compile.20_ParFifoLoad[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_ParFifoLoad.csv)  
-<--------------------failed_app_spatial_compile.1_FloatBasics[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FloatBasics.csv)  
-<--------------------failed_app_spatial_compile.19_CompactingFifo[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_CompactingFifo.csv)  
-<--------------------failed_app_spatial_compile.18_UnalignedFifoLoad[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_UnalignedFifoLoad.csv)  
-<--------------------failed_app_spatial_compile.17_OHM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_OHM.csv)  
-<--------------------failed_app_spatial_compile.16_SimpleTileLoadStore[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SimpleTileLoadStore.csv)  
-<--------------------failed_app_spatial_compile.15_DeviceMemcpy[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_DeviceMemcpy.csv)  
-<--------------------failed_app_spatial_compile.14_SimpleSequential[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SimpleSequential.csv)  
-<--------------------failed_app_spatial_compile.13_FifoLoadSRAMStore[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_FifoLoadSRAMStore.csv)  
-<--------------------failed_app_spatial_compile.12_MemTest2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MemTest2D.csv)  
-<--------------------failed_app_spatial_compile.11_MemTest1D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_MemTest1D.csv)  
-<--------------------failed_app_spatial_compile.10_Niter[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_Niter.csv)  
-<--------------------failed_app_spatial_compile.0_InOutArg[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_InOutArg.csv)  
-<--------------------failed_app_spatial_compile.8_BFS_Queue[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BFS_Queue.csv)  
-<--------------------failed_app_spatial_compile.7_BFS_Bulk[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_BFS_Bulk.csv)  
-<--------------------failed_app_spatial_compile.6_SPMV_ELL[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SPMV_ELL.csv)  
-<--------------------failed_app_spatial_compile.5_SPMV_CRS[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SPMV_CRS.csv)  
-<--------------------failed_app_spatial_compile.4_PageRank_Bulk[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_PageRank_Bulk.csv)  
-<--------------------failed_app_spatial_compile.3_SPMV_DumbPack[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_SPMV_DumbPack.csv)  
-<--------------------failed_app_spatial_compile.2_PageRank[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_PageRank.csv)  
-<--------------------failed_app_spatial_compile.1_ScatterGather[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_ScatterGather.csv)  
-<--------------------failed_app_spatial_compile.0_GatherStore[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_develop_chisel_GatherStore.csv)  
+Chisel.Dense.AES: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/AES/make.log  
+Chisel.Dense.Backprop: **Pass**  
+Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.EdgeDetector: **Pass**  
+Chisel.Dense.FFT_Strided: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/make.log  
+Chisel.Dense.FFT_Transpose: **Pass**  
+Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.GEMM_Blocked: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/make.log  
+Chisel.Dense.GEMM_NCubed: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_NCubed/make.log  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.KMP: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.MatMult_outer: **Pass**  
+Chisel.Dense.MD_Grid: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/make.log  
+Chisel.Dense.MD_KNN: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/MD_KNN/make.log  
+Chisel.Dense.NW: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
+Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
+Chisel.Dense.SHA1: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.Sobel: **Pass**  
+Chisel.Dense.Sort_Merge: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
+Chisel.Dense.Sort_Radix: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/make.log  
+Chisel.Dense.Stencil2D: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil2D/make.log  
+Chisel.Dense.Stencil3D: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/make.log  
+Chisel.Dense.SW: **Pass**  
+Chisel.Dense.SYRK_col: **Pass**  
+Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TRSM: **Pass**  
+Chisel.Dense.Viterbi: Fail [Backend Compile]  
+&nbsp;&nbsp;Cause: Non-zero exit code  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/make.log  
+Chisel.Sparse.GatherStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "mkdir": error=24, Too many open files  
+&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "mkdir": error=24, Too many open files  
+Chisel.Sparse.ScatterGather: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/gen/Chisel/Sparse/ScatterGather/controller_tree.html (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/gen/Chisel/Sparse/ScatterGather/controller_tree.html (Too many open files)  
+Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_ELL: **Pass**  
+Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/console.log (Too many open files)  
+Chisel.Unit.BasicFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/console.log (Too many open files)  
+Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/console.log (Too many open files)  
+Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/console.log (Too many open files)  
+Chisel.Unit.ChangingCtrMax: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/ChangingCtrMax/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/ChangingCtrMax/console.log (Too many open files)  
+Chisel.Unit.CompactingFifo: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/console.log (Too many open files)  
+Chisel.Unit.CtrlEnable: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/console.log (Too many open files)  
+Chisel.Unit.DeviceMemcpy: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/console.log (Too many open files)  
+Chisel.Unit.DiagBanking: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/console.log (Too many open files)  
+Chisel.Unit.DotProductFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/console.log (Too many open files)  
+Chisel.Unit.FifoLoadSRAMStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/console.log (Too many open files)  
+Chisel.Unit.FifoLoadStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/console.log (Too many open files)  
+Chisel.Unit.FifoPushPop: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/console.log (Too many open files)  
+Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/console.log (Too many open files)  
+Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/console.log (Too many open files)  
+Chisel.Unit.FixPtMem: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/console.log (Too many open files)  
+Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/console.log (Too many open files)  
+Chisel.Unit.InOutArg: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/InOutArg/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/InOutArg/console.log (Too many open files)  
+Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/console.log (Too many open files)  
+Chisel.Unit.MaskedWrite: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MaskedWrite/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MaskedWrite/console.log (Too many open files)  
+Chisel.Unit.Memcpy2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/console.log (Too many open files)  
+Chisel.Unit.MemTest1D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest1D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest1D/console.log (Too many open files)  
+Chisel.Unit.MemTest2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest2D/console.log (Too many open files)  
+Chisel.Unit.MultiWriteBuffer: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/console.log (Too many open files)  
+Chisel.Unit.Niter: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/console.log (Too many open files)  
+Chisel.Unit.OHM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/console.log (Too many open files)  
+Chisel.Unit.ParFifoLoad: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/console.log (Too many open files)  
+Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SequentialWrites/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SequentialWrites/console.log (Too many open files)  
+Chisel.Unit.SimpleFold: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/console.log (Too many open files)  
+Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/console.log (Too many open files)  
+Chisel.Unit.SimpleReduce: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/console.log (Too many open files)  
+Chisel.Unit.SimpleSequential: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleSequential/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleSequential/console.log (Too many open files)  
+Chisel.Unit.SimpleTileLoadStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/console.log (Too many open files)  
+Chisel.Unit.SpecialMath: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/console.log (Too many open files)  
+Chisel.Unit.SSV1D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/console.log (Too many open files)  
+Chisel.Unit.SSV2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/console.log (Too many open files)  
+Chisel.Unit.StackLoadStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/console.log (Too many open files)  
+Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/console.log (Too many open files)  
+Chisel.Unit.Tensor4D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor4D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor4D/console.log (Too many open files)  
+Chisel.Unit.Tensor5D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor5D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor5D/console.log (Too many open files)  
+Chisel.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/console.log (Too many open files)  
+Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/console.log (Too many open files)  
+Chisel.Unit.UniqueParallelLoad: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2017-10-06_13-52-15.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/console.log (Too many open files)  
