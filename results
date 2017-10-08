@@ -1,238 +1,212 @@
-Chisel.Dense.AES: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/AES/make.log  
-Chisel.Dense.Backprop: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Backprop/make.log  
-Chisel.Dense.BasicBLAS: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/BasicBLAS/make.log  
-Chisel.Dense.BTC: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/BTC/make.log  
-Chisel.Dense.Convolution_FPGA: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Convolution_FPGA/make.log  
-Chisel.Dense.Convolutions: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Convolutions/make.log  
-Chisel.Dense.Differentiator: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/make.log  
-Chisel.Dense.DotProduct: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/DotProduct/make.log  
-Chisel.Dense.EdgeDetector: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/make.log  
-Chisel.Dense.FFT_Strided: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/make.log  
-Chisel.Dense.FFT_Transpose: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
-Chisel.Dense.GDA: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/GDA/make.log  
-Chisel.Dense.GEMM_Blocked: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/make.log  
-Chisel.Dense.GEMM_NCubed: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_NCubed/make.log  
-Chisel.Dense.Gibbs_Ising2D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/make.log  
+Chisel.Dense.AES: **Pass**  
+Chisel.Dense.Backprop: **Pass**  
+Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.EdgeDetector: **Pass**  
+Chisel.Dense.FFT_Strided: **Pass**  
+Chisel.Dense.FFT_Transpose: **Pass**  
+Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.GEMM_Blocked: **Pass**  
+Chisel.Dense.GEMM_NCubed: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
-Chisel.Dense.JPEG_Markers: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Markers/make.log  
-Chisel.Dense.Kmeans: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Kmeans/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
+&nbsp;&nbsp;ause: Spatial compile timed out after 1800 seconds  
+Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
-Chisel.Dense.MatMult_inner: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_inner/make.log  
-Chisel.Dense.MatMult_outer: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
-Chisel.Dense.MD_Grid: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/make.log  
-Chisel.Dense.MD_KNN: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/MD_KNN/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.MatMult_outer: **Pass**  
+Chisel.Dense.MD_Grid: **Pass**  
+Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
-Chisel.Dense.OuterProduct: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/OuterProduct/make.log  
-Chisel.Dense.SGD_minibatch: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/SGD_minibatch/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
+Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/SHA1/make.log  
-Chisel.Dense.SimpleRowStridedConv: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
+Chisel.Dense.SHA1: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Sobel/make.log  
+&nbsp;&nbsp;Cause: Backend compile timed out after 1800 seconds  
 Chisel.Dense.Sort_Merge: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
-Chisel.Dense.Sort_Radix: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/make.log  
-Chisel.Dense.Stencil2D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil2D/make.log  
-Chisel.Dense.Stencil3D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
+Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.Stencil2D: **Pass**  
+Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/SW/make.log  
-Chisel.Dense.SYRK_col: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/SYRK_col/make.log  
-Chisel.Dense.TPCHQ6: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/TPCHQ6/make.log  
-Chisel.Dense.TRSM: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/TRSM/make.log  
-Chisel.Dense.Viterbi: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Dense/SW/make.log  
+Chisel.Dense.SYRK_col: **Pass**  
+Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TRSM: **Pass**  
+Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Bulk/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Bulk/make.log  
 Chisel.Sparse.BFS_Queue: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Queue/make.log  
-Chisel.Sparse.GatherStore: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/GatherStore/make.log  
-Chisel.Sparse.PageRank_Bulk: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/make.log  
-Chisel.Sparse.PageRank: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank/make.log  
-Chisel.Sparse.ScatterGather: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
-Chisel.Sparse.SPMV_CRS: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_CRS/make.log  
-Chisel.Sparse.SPMV_DumbPack: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_DumbPack/make.log  
-Chisel.Sparse.SPMV_ELL: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_ELL/make.log  
-Chisel.Unit.ArbitraryLambda: **Pass**  
-Chisel.Unit.BasicCondFSM: **Pass**  
-Chisel.Unit.BasicFSM: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/make.log  
-Chisel.Unit.BlockReduce1D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/make.log  
-Chisel.Unit.BlockReduce2D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/make.log  
-Chisel.Unit.BubbledWriteTest: **Pass**  
-Chisel.Unit.ChangingCtrMax: **Pass**  
-Chisel.Unit.CompactingFifo: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/make.log  
-Chisel.Unit.CtrlEnable: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/make.log  
-Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/make.log  
-Chisel.Unit.DotProductFSM: **Pass**  
-Chisel.Unit.FifoLoadSRAMStore: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/make.log  
-Chisel.Unit.FifoLoadStore: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/make.log  
-Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/make.log  
-Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/make.log  
-Chisel.Unit.FloatBasics: **Pass**  
-Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: **Pass**  
-Chisel.Unit.MaskedWrite: **Pass**  
-Chisel.Unit.Memcpy2D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/make.log  
-Chisel.Unit.MemTest1D: **Pass**  
-Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/make.log  
-Chisel.Unit.MultiplexedWriteTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
-Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/make.log  
-Chisel.Unit.ParFifoLoad: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/make.log  
-Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: **Pass**  
-Chisel.Unit.SimpleReduce: **Pass**  
-Chisel.Unit.SimpleSequential: **Pass**  
-Chisel.Unit.SimpleTileLoadStore: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/make.log  
-Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/make.log  
-Chisel.Unit.SSV2D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/make.log  
-Chisel.Unit.StackLoadStore: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/make.log  
-Chisel.Unit.Tensor3D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/make.log  
-Chisel.Unit.Tensor4D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor4D/make.log  
-Chisel.Unit.Tensor5D: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor5D/make.log  
-Chisel.Unit.UnalignedFifoLoad: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/make.log  
-Chisel.Unit.UnalignedLd: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/make.log  
-Chisel.Unit.UniqueParallelLoad: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_18-08-22.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Queue/make.log  
+Chisel.Sparse.GatherStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Sparse/GatherStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Sparse/GatherStore/console.log (Too many open files)  
+Chisel.Sparse.PageRank_Bulk: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/gen/Chisel/Sparse/PageRank_Bulk/chisel/GlobalModulesMixer.scala (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/gen/Chisel/Sparse/PageRank_Bulk/chisel/GlobalModulesMixer.scala (Too many open files)  
+Chisel.Sparse.ScatterGather: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/console.log (Too many open files)  
+Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_ELL: **Pass**  
+Chisel.Unit.ArbitraryLambda: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/console.log (Too many open files)  
+Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/console.log (Too many open files)  
+Chisel.Unit.BasicFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/console.log (Too many open files)  
+Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/console.log (Too many open files)  
+Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/console.log (Too many open files)  
+Chisel.Unit.BubbledWriteTest: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/console.log (Too many open files)  
+Chisel.Unit.ChangingCtrMax: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/ChangingCtrMax/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/ChangingCtrMax/console.log (Too many open files)  
+Chisel.Unit.CompactingFifo: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/console.log (Too many open files)  
+Chisel.Unit.CtrlEnable: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/console.log (Too many open files)  
+Chisel.Unit.DeviceMemcpy: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/console.log (Too many open files)  
+Chisel.Unit.DiagBanking: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/console.log (Too many open files)  
+Chisel.Unit.DotProductFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/console.log (Too many open files)  
+Chisel.Unit.FifoLoadSRAMStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/console.log (Too many open files)  
+Chisel.Unit.FifoLoadStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/console.log (Too many open files)  
+Chisel.Unit.FifoPushPop: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/console.log (Too many open files)  
+Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/console.log (Too many open files)  
+Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/console.log (Too many open files)  
+Chisel.Unit.FixPtMem: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/console.log (Too many open files)  
+Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/console.log (Too many open files)  
+Chisel.Unit.InOutArg: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/InOutArg/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/InOutArg/console.log (Too many open files)  
+Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/console.log (Too many open files)  
+Chisel.Unit.LUTTest: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/console.log (Too many open files)  
+Chisel.Unit.MaskedWrite: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MaskedWrite/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MaskedWrite/console.log (Too many open files)  
+Chisel.Unit.Memcpy2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/console.log (Too many open files)  
+Chisel.Unit.MemTest1D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest1D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest1D/console.log (Too many open files)  
+Chisel.Unit.MemTest2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MemTest2D/console.log (Too many open files)  
+Chisel.Unit.MixedIOTest: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/console.log (Too many open files)  
+Chisel.Unit.MultiplexedWriteTest: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/console.log (Too many open files)  
+Chisel.Unit.MultiWriteBuffer: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/console.log (Too many open files)  
+Chisel.Unit.Niter: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/console.log (Too many open files)  
+Chisel.Unit.OHM: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/console.log (Too many open files)  
+Chisel.Unit.ParFifoLoad: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/console.log (Too many open files)  
+Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SequentialWrites/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SequentialWrites/console.log (Too many open files)  
+Chisel.Unit.SimpleFold: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/console.log (Too many open files)  
+Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/console.log (Too many open files)  
+Chisel.Unit.SimpleReduce: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/console.log (Too many open files)  
+Chisel.Unit.SimpleSequential: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleSequential/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleSequential/console.log (Too many open files)  
+Chisel.Unit.SimpleTileLoadStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/console.log (Too many open files)  
+Chisel.Unit.SpecialMath: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/console.log (Too many open files)  
+Chisel.Unit.SSV1D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/console.log (Too many open files)  
+Chisel.Unit.SSV2D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/console.log (Too many open files)  
+Chisel.Unit.StackLoadStore: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/console.log (Too many open files)  
+Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/console.log (Too many open files)  
+Chisel.Unit.Tensor4D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor4D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor4D/console.log (Too many open files)  
+Chisel.Unit.Tensor5D: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor5D/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor5D/console.log (Too many open files)  
+Chisel.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/console.log (Too many open files)  
+Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/console.log (Too many open files)  
+Chisel.Unit.UniqueParallelLoad: Fail [Spatial Compile]  
+&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/console.log (Too many open files)  
+&nbsp;&nbsp;&nbsp;&nbsp;/home/regression/testdir-fpga.2017-10-07_16-10-43.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/console.log (Too many open files)  
