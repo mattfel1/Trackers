@@ -22,7 +22,8 @@ Chisel.Dense.MatMult_outer: **Pass**
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.OuterProduct: Fail [Execution]  
+&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
@@ -48,9 +49,7 @@ Chisel.Sparse.SPMV_DumbPack: **Pass**
 Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
-Chisel.Unit.BasicFSM: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-07_19-38-24.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/make.log  
+Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.BubbledWriteTest: **Pass**  
