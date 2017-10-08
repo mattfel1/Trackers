@@ -3,9 +3,7 @@ Chisel.Dense.Backprop: **Pass**
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-07_19-33-24.chisel.all/spatial-lang/logs/Chisel/Dense/Convolutions/make.log  
+Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
@@ -28,9 +26,7 @@ Chisel.Dense.OuterProduct: **Pass**
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: Fail [Backend Compile]  
-&nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-07_19-33-24.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
@@ -47,14 +43,15 @@ Chisel.Sparse.GatherStore: **Pass**
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_CRS: Fail [Execution]  
+&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Sparse.SPMV_DumbPack: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: Fail [Backend Compile]  
 &nbsp;&nbsp;Cause: Non-zero exit code  
-&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-07_19-33-24.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/make.log  
+&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-10-07_19-38-43.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/make.log  
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.BubbledWriteTest: **Pass**  
