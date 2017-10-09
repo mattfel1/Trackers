@@ -9,7 +9,8 @@ Chisel.Dense.DotProduct: **Pass**
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.GDA: Fail [Execution]  
+&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
@@ -22,8 +23,7 @@ Chisel.Dense.MatMult_outer: **Pass**
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: Fail [Execution]  
-&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
