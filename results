@@ -10,8 +10,7 @@ Chisel.Dense.EdgeDetector: **Pass**
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: Fail [Execution]  
-&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
@@ -32,8 +31,7 @@ Chisel.Dense.SimpleRowStridedConv: **Pass**
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: Fail [Execution]  
-&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
