@@ -57,9 +57,7 @@ Chisel.Unit.FifoPushPop: **Pass**
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(new FloatingPoint(8, 24))!  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(new FloatingPoint(8, 24))!  
+Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
