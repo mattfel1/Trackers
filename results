@@ -1,50 +1,118 @@
-Chisel.Dense.AES: **Pass**  
-Chisel.Dense.Backprop: **Pass**  
-Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.AES: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/AES/make.log  
+Chisel.Dense.Backprop: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Backprop/make.log  
+Chisel.Dense.BasicBLAS: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/BasicBLAS/make.log  
 Chisel.Dense.BTC: **Pass**  
-Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
-Chisel.Dense.Differentiator: **Pass**  
-Chisel.Dense.DotProduct: **Pass**  
-Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: **Pass**  
-Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.Convolution_FPGA: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Convolution_FPGA/make.log  
+Chisel.Dense.Convolutions: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Convolutions/make.log  
+Chisel.Dense.Differentiator: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/make.log  
+Chisel.Dense.DotProduct: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/DotProduct/make.log  
+Chisel.Dense.EdgeDetector: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/make.log  
+Chisel.Dense.FFT_Strided: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/make.log  
+Chisel.Dense.FFT_Transpose: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
+Chisel.Dense.GDA: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/GDA/make.log  
+Chisel.Dense.GEMM_Blocked: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/make.log  
+Chisel.Dense.GEMM_NCubed: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_NCubed/make.log  
+Chisel.Dense.Gibbs_Ising2D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/make.log  
 Chisel.Dense.JPEG_Decompress: **Pass**  
-Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.MatMult_inner: **Pass**  
-Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: **Pass**  
-Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.JPEG_Markers: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Markers/make.log  
+Chisel.Dense.Kmeans: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Kmeans/make.log  
+Chisel.Dense.MatMult_inner: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_inner/make.log  
+Chisel.Dense.MatMult_outer: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
+Chisel.Dense.MD_Grid: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/make.log  
+Chisel.Dense.MD_KNN: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/MD_KNN/make.log  
+Chisel.Dense.NW: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
+Chisel.Dense.OuterProduct: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/OuterProduct/make.log  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.Sobel: **Pass**  
+Chisel.Dense.SHA1: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/SHA1/make.log  
+Chisel.Dense.SimpleRowStridedConv: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
+Chisel.Dense.Sobel: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Sobel/make.log  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: **Pass**  
+Chisel.Dense.Stencil2D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil2D/make.log  
+Chisel.Dense.Stencil3D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/make.log  
+Chisel.Dense.SW: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/SW/make.log  
 Chisel.Dense.SYRK_col: **Pass**  
-Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TPCHQ6: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/TPCHQ6/make.log  
 Chisel.Dense.TRSM: **Pass**  
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.PageRank_Bulk: **Pass**  
-Chisel.Unit.ArbitraryLambda: **Pass**  
+Chisel.Sparse.PageRank_Bulk: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/make.log  
+Chisel.Unit.ArbitraryLambda: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/make.log  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
-Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.BubbledWriteTest: **Pass**  
+Chisel.Unit.BlockReduce1D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/make.log  
+Chisel.Unit.BlockReduce2D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/make.log  
+Chisel.Unit.BubbledWriteTest: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
@@ -57,33 +125,65 @@ Chisel.Unit.FifoPushPop: **Pass**
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: **Pass**  
+Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(new FloatingPoint(8, 24))!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(new FloatingPoint(8, 24))!  
 Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: **Pass**  
+Chisel.Unit.LaneMaskPar: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/make.log  
 Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: **Pass**  
-Chisel.Unit.MultiplexedWriteTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
+Chisel.Unit.MultiplexedWriteTest: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/make.log  
+Chisel.Unit.MultiWriteBuffer: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/make.log  
 Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
-Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: **Pass**  
+Chisel.Unit.OHM: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/make.log  
+Chisel.Unit.ParFifoLoad: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/make.log  
+Chisel.Unit.SequentialWrites: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/SequentialWrites/make.log  
+Chisel.Unit.SimpleFold: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/make.log  
+Chisel.Unit.SimpleMemReduce: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/make.log  
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: **Pass**  
+Chisel.Unit.SSV1D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/make.log  
+Chisel.Unit.SSV2D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/make.log  
 Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.Tensor3D: **Pass**  
-Chisel.Unit.Tensor4D: **Pass**  
-Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: **Pass**  
+Chisel.Unit.Tensor3D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/make.log  
+Chisel.Unit.Tensor4D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor4D/make.log  
+Chisel.Unit.Tensor5D: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor5D/make.log  
+Chisel.Unit.UnalignedFifoLoad: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/make.log  
+Chisel.Unit.UnalignedLd: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-10_18-13-30.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/make.log  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
