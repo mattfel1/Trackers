@@ -16,8 +16,6 @@ Chisel.Dense.Gibbs_Ising2D: **Pass**
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.KMP: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:195: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion `0' failed.  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
@@ -40,19 +38,7 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.GatherStore: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion `0' failed.  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
-Chisel.Sparse.PageRank: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion `0' failed.  
-Chisel.Sparse.ScatterGather: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion `0' failed.  
-Chisel.Sparse.SPMV_CRS: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion `0' failed.  
-Chisel.Sparse.SPMV_DumbPack: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion `0' failed.  
-Chisel.Sparse.SPMV_ELL: Fail [Execution]  
-&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion `0' failed.  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
