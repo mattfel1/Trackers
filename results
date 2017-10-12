@@ -1,5 +1,6 @@
 Scala.Dense.AES: **Pass**  
-Scala.Dense.Backprop: **Pass**  
+Scala.Dense.Backprop: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.BasicBLAS: **Pass**  
 Scala.Dense.BTC: **Pass**  
 Scala.Dense.Convolution_FPGA: **Pass**  
