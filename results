@@ -1,151 +1,90 @@
-Chisel.Dense.AES: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.BasicBLAS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.BTC: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.Convolution_FPGA: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.Convolutions: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.Differentiator: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.DotProduct: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.EdgeDetector: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.FFT_Strided: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.FFT_Transpose: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.GDA: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.AES: **Pass**  
+Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.EdgeDetector: **Pass**  
+Chisel.Dense.FFT_Strided: **Pass**  
+Chisel.Dense.FFT_Transpose: **Pass**  
+Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.GEMM_NCubed: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.Gibbs_Ising2D: Fail [Validation]  
+Chisel.Dense.GEMM_NCubed: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.MatMult_outer: **Pass**  
+Chisel.Dense.MD_Grid: **Pass**  
+Chisel.Dense.MD_KNN: **Pass**  
+Chisel.Dense.NW: **Pass**  
+Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
+Chisel.Dense.SHA1: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.Sobel: **Pass**  
+Chisel.Dense.Sort_Merge: **Pass**  
+Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.Stencil2D: **Pass**  
+Chisel.Dense.Stencil3D: **Pass**  
+Chisel.Dense.SW: **Pass**  
+Chisel.Dense.SYRK_col: **Pass**  
+Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TRSM: **Pass**  
+Chisel.Dense.Viterbi: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.JPEG_Decompress: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.JPEG_Markers: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.Kmeans: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.MatMult_inner: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.MatMult_outer: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.MD_Grid: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.MD_KNN: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.NW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.OuterProduct: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.SGD: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.SGD_minibatch: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.SHA1: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.SimpleRowStridedConv: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.Sobel: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.Sort_Merge: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.Sort_Radix: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.Stencil2D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.Stencil3D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.SW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.SYRK_col: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.TPCHQ6: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Dense.TRSM: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.Viterbi: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Sparse.BFS_Bulk: **Pass**  
-Chisel.Sparse.BFS_Queue: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Sparse.PageRank_Bulk: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.ArbitraryLambda: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Sparse.BFS_Queue: **Pass**  
+Chisel.Sparse.PageRank_Bulk: **Pass**  
+Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
-Chisel.Unit.BasicFSM: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.BlockReduce1D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.BlockReduce2D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.BubbledWriteTest: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.ChangingCtrMax: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.CompactingFifo: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.BasicFSM: **Pass**  
+Chisel.Unit.BlockReduce1D: **Pass**  
+Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.BubbledWriteTest: **Pass**  
+Chisel.Unit.ChangingCtrMax: **Pass**  
+Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
 Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.DotProductFSM: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.FifoLoadSRAMStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.FifoLoadStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.DiagBanking: **Pass**  
+Chisel.Unit.DotProductFSM: **Pass**  
+Chisel.Unit.FifoLoadSRAMStore: **Pass**  
+Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
-Chisel.Unit.MaskedWrite: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.ParFifoLoad: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
-Chisel.Unit.SimpleReduce: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SimpleMemReduce: **Pass**  
+Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
-Chisel.Unit.SimpleTileLoadStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.Tensor3D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.Tensor4D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.Tensor5D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.Tensor3D: **Pass**  
+Chisel.Unit.Tensor4D: **Pass**  
+Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
