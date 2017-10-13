@@ -1,6 +1,10 @@
-Chisel.Dense.AES: **Pass**  
+Chisel.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new multidimRegW(2,List(4,4),8)))!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new multidimRegW(2,List(4,4),8)))!  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.BTC: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(8,new multidimRegW(1,List(8),32)))!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(8,new multidimRegW(1,List(8),32)))!  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
