@@ -18,8 +18,9 @@ Chisel.Dense.GEMM_Blocked: Fail [Validation]
 Chisel.Dense.GEMM_NCubed: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.JPEG_Decompress: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-10-15_18-07-56.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
