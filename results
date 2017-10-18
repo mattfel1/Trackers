@@ -1,8 +1,6 @@
 Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/BTC/make.log  
+Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
@@ -13,38 +11,26 @@ Chisel.Dense.FFT_Transpose: **Pass**
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/make.log  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/make.log  
+Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
+Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/SHA1/make.log  
+Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
+Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.chisel.all/spatial-lang/logs/Chisel/Dense/SW/make.log  
+Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
