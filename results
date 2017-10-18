@@ -59,7 +59,9 @@ Scala.Unit.FixPtMem: **Pass**
 Scala.Unit.FloatBasics: **Pass**  
 Scala.Unit.InOutArg: **Pass**  
 Scala.Unit.LaneMaskPar: **Pass**  
-Scala.Unit.LUTTest: **Pass**  
+Scala.Unit.LUTTest: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2017-10-18_08-22-55.scala.all/spatial-lang/logs/Scala/Unit/LUTTest/make.log  
 Scala.Unit.MaskedWrite: **Pass**  
 Scala.Unit.Memcpy2D: **Pass**  
 Scala.Unit.MemTest1D: **Pass**  
