@@ -1,11 +1,8 @@
 language: c
 notifications:
-  slack:
-    rooms:
-      - plasticine-arch:kRp0KfrygHiq2wCMrcgMogBW#regression
   email:
     recipients: mattfel@stanford.edu
-    on_failure: always
+    on_failure: never # default: always
 script:
   - sudo bash ./status.sh # Is sudo now needed for travis?
 
