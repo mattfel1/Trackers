@@ -37,7 +37,9 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.PageRank_Bulk: **Pass**  
+Chisel.Sparse.PageRank_Bulk: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
+↳&nbsp;&nbsp;&nbsp;&nbsp;null  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
@@ -54,7 +56,9 @@ Chisel.Unit.FifoLoadSRAMStore: **Pass**
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: **Pass**  
+Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
+↳&nbsp;&nbsp;&nbsp;&nbsp;null  
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
