@@ -1,77 +1,39 @@
 Chisel.Dense.AES: **Pass**  
-Chisel.Dense.BasicBLAS: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.BTC: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.Convolutions: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.Differentiator: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.DotProduct: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.EdgeDetector: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.MatMult_outer: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.SGD: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.SGD_minibatch: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.Sobel: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
-Chisel.Dense.SYRK_col: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.TPCHQ6: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Dense.TRSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Dense.SYRK_col: **Pass**  
+Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TRSM: **Pass**  
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
@@ -79,120 +41,52 @@ Chisel.Sparse.PageRank_Bulk: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;null  
 Chisel.Unit.ArbitraryLambda: **Pass**  
-Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.BasicFSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.BubbledWriteTest: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.ChangingCtrMax: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.CompactingFifo: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.CtrlEnable: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.BasicCondFSM: **Pass**  
+Chisel.Unit.BasicFSM: **Pass**  
+Chisel.Unit.BlockReduce1D: **Pass**  
+Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.BubbledWriteTest: **Pass**  
+Chisel.Unit.ChangingCtrMax: **Pass**  
+Chisel.Unit.CompactingFifo: **Pass**  
+Chisel.Unit.CtrlEnable: **Pass**  
 Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.DotProductFSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.FifoLoadSRAMStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.DiagBanking: **Pass**  
+Chisel.Unit.DotProductFSM: **Pass**  
+Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.FixPtMem: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
-Chisel.Unit.MaskedWrite: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.Memcpy2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.MemTest1D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.MemTest2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.MixedIOTest: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.MultiplexedWriteTest: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.MultiWriteBuffer: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.MaskedWrite: **Pass**  
+Chisel.Unit.Memcpy2D: **Pass**  
+Chisel.Unit.MemTest1D: **Pass**  
+Chisel.Unit.MemTest2D: **Pass**  
+Chisel.Unit.MixedIOTest: **Pass**  
+Chisel.Unit.MultiplexedWriteTest: **Pass**  
+Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
-Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.SimpleFold: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.SequentialWrites: **Pass**  
+Chisel.Unit.SimpleFold: **Pass**  
+Chisel.Unit.SimpleMemReduce: **Pass**  
 Chisel.Unit.SimpleReduce: **Pass**  
-Chisel.Unit.SimpleSequential: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.SimpleTileLoadStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.SpecialMath: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.SSV1D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.SSV2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.SimpleSequential: **Pass**  
+Chisel.Unit.SimpleTileLoadStore: **Pass**  
+Chisel.Unit.SpecialMath: **Pass**  
+Chisel.Unit.SSV1D: **Pass**  
+Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.Tensor4D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.Tensor5D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.Tensor3D: **Pass**  
+Chisel.Unit.Tensor4D: **Pass**  
+Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
-Chisel.Unit.UniqueParallelLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: 1-syncMem  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: 1-syncMem  
+Chisel.Unit.UnalignedLd: **Pass**  
+Chisel.Unit.UniqueParallelLoad: **Pass**  
