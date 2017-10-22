@@ -37,9 +37,7 @@ Scala.Dense.TRSM: **Pass**
 Scala.Dense.Viterbi: **Pass**  
 Scala.Sparse.BFS_Bulk: **Pass**  
 Scala.Sparse.BFS_Queue: **Pass**  
-Scala.Sparse.PageRank_Bulk: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
+Scala.Sparse.PageRank_Bulk: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
 Scala.Unit.BasicFSM: **Pass**  
@@ -56,9 +54,7 @@ Scala.Unit.FifoLoadSRAMStore: **Pass**
 Scala.Unit.FifoLoadStore: **Pass**  
 Scala.Unit.FifoPushPop: **Pass**  
 Scala.Unit.FifoStackFSM: **Pass**  
-Scala.Unit.FixPtInOutArg: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
+Scala.Unit.FixPtInOutArg: **Pass**  
 Scala.Unit.FixPtMem: **Pass**  
 Scala.Unit.FloatBasics: **Pass**  
 Scala.Unit.InOutArg: **Pass**  
