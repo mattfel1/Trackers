@@ -10,7 +10,9 @@ Scala.Dense.FFT_Strided: **Pass**
 Scala.Dense.FFT_Transpose: **Pass**  
 Scala.Dense.GDA: **Pass**  
 Scala.Dense.GEMM_Blocked: **Pass**  
-Scala.Dense.GEMM_NCubed: **Pass**  
+Scala.Dense.GEMM_NCubed: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2017-10-26_16-56-10.scala.all/spatial-lang/logs/Scala/Dense/GEMM_NCubed/make.log  
 Scala.Dense.Gibbs_Ising2D: **Pass**  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
