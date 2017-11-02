@@ -19,9 +19,7 @@ Chisel.Dense.MatMult_inner: **Pass**
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-11-01_10-39-01.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
+Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
