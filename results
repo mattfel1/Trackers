@@ -26,8 +26,7 @@ Chisel.Dense.SGD: **Pass**
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: TopHost.cpp:82: void Application(int, std::vector<std::basic_string<char> >*): Assertion \`x2408_file.good() && "File filename does not exist"' failed.  
+Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Stencil2D: **Pass**  
