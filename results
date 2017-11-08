@@ -5,7 +5,9 @@ Scala.Dense.Convolution_FPGA: **Pass**
 Scala.Dense.Convolutions: **Pass**  
 Scala.Dense.Differentiator: **Pass**  
 Scala.Dense.DotProduct: **Pass**  
-Scala.Dense.EdgeDetector: **Pass**  
+Scala.Dense.EdgeDetector: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-11-07_20-29-45.scala.all/spatial-lang/logs/Scala/Dense/EdgeDetector/make.log  
 Scala.Dense.FFT_Strided: **Pass**  
 Scala.Dense.FFT_Transpose: **Pass**  
 Scala.Dense.GDA: **Pass**  
@@ -26,8 +28,7 @@ Scala.Dense.SGD: **Pass**
 Scala.Dense.SHA1: **Pass**  
 Scala.Dense.SimpleRowStridedConv: **Pass**  
 Scala.Dense.Sobel: **Pass**  
-Scala.Dense.Sort_Merge: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-fpga.2017-11-07_15-25-34.scala.all/spatial-lang/apps/data/sort/sort_gold.csv (No such file or directory)  
+Scala.Dense.Sort_Merge: **Pass**  
 Scala.Dense.Sort_Radix: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.Stencil2D: **Pass**  
