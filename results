@@ -27,7 +27,8 @@ Scala.Dense.SHA1: **Pass**
 Scala.Dense.SimpleRowStridedConv: **Pass**  
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
-Scala.Dense.Sort_Radix: **Pass**  
+Scala.Dense.Sort_Radix: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
 Scala.Dense.SW: **Pass**  
