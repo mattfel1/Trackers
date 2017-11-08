@@ -5,9 +5,7 @@ Scala.Dense.Convolution_FPGA: **Pass**
 Scala.Dense.Convolutions: **Pass**  
 Scala.Dense.Differentiator: **Pass**  
 Scala.Dense.DotProduct: **Pass**  
-Scala.Dense.EdgeDetector: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-11-07_20-29-45.scala.all/spatial-lang/logs/Scala/Dense/EdgeDetector/make.log  
+Scala.Dense.EdgeDetector: **Pass**  
 Scala.Dense.FFT_Strided: **Pass**  
 Scala.Dense.FFT_Transpose: **Pass**  
 Scala.Dense.GDA: **Pass**  
