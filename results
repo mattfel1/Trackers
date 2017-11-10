@@ -2,8 +2,7 @@ Scala.Dense.AES: **Pass**
 Scala.Dense.BasicBLAS: **Pass**  
 Scala.Dense.BTC: **Pass**  
 Scala.Dense.Convolution_FPGA: **Pass**  
-Scala.Dense.Convolutions: Indeterminate  
-↳&nbsp;&nbsp;Cause: Application did not report validation result.  
+Scala.Dense.Convolutions: **Pass**  
 Scala.Dense.Differentiator: **Pass**  
 Scala.Dense.DotProduct: **Pass**  
 Scala.Dense.EdgeDetector: **Pass**  
