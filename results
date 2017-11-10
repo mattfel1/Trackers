@@ -2,8 +2,9 @@ Chisel.Dense.AES: **Pass**
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Convolutions: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-11-10_11-08-08.chisel.all/spatial-lang/logs/Chisel/Dense/Convolutions/make.log  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
