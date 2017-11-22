@@ -83,6 +83,7 @@ Chisel.Unit.StackLoadStore: **Pass**
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: **Pass**  
+Chisel.Unit.UnalignedFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
