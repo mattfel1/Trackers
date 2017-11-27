@@ -41,7 +41,8 @@ Chisel.Sparse.GatherStore: **Pass**
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_CRS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
@@ -64,7 +65,9 @@ Chisel.Unit.FixPtMem: **Pass**
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: **Pass**  
+Chisel.Unit.LUTTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-11-27_11-27-27.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/make.log  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
@@ -87,7 +90,8 @@ Chisel.Unit.SSV2D: **Pass**
 Chisel.Unit.StackLoadStore: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
-Chisel.Unit.Tensor5D: **Pass**  
+Chisel.Unit.Tensor5D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
 Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
