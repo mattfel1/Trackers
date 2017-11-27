@@ -37,17 +37,12 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.GatherStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
+Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
-Chisel.Sparse.PageRank: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
-Chisel.Sparse.ScatterGather: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
-Chisel.Sparse.SPMV_CRS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
-Chisel.Sparse.SPMV_ELL: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
+Chisel.Sparse.PageRank: **Pass**  
+Chisel.Sparse.ScatterGather: **Pass**  
+Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
