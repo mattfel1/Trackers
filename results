@@ -37,7 +37,12 @@ Scala.Dense.TRSM: **Pass**
 Scala.Dense.Viterbi: **Pass**  
 Scala.Sparse.BFS_Bulk: **Pass**  
 Scala.Sparse.BFS_Queue: **Pass**  
+Scala.Sparse.GatherStore: **Pass**  
 Scala.Sparse.PageRank_Bulk: **Pass**  
+Scala.Sparse.PageRank: **Pass**  
+Scala.Sparse.ScatterGather: **Pass**  
+Scala.Sparse.SPMV_CRS: **Pass**  
+Scala.Sparse.SPMV_ELL: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
 Scala.Unit.BasicFSM: **Pass**  
