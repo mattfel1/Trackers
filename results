@@ -37,7 +37,12 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
+Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
+Chisel.Sparse.PageRank: **Pass**  
+Chisel.Sparse.ScatterGather: **Pass**  
+Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
@@ -83,7 +88,6 @@ Chisel.Unit.StackLoadStore: **Pass**
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Unit.UnalignedFifoLoad: **Pass**  
 Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
