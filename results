@@ -52,22 +52,16 @@ Chisel.Unit.BubbledWriteTest: **Pass**
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
-Chisel.Unit.DeviceMemcpy: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.max  
-↳&nbsp;&nbsp;&nbsp;&nbsp;empty.max  
+Chisel.Unit.DeviceMemcpy: **Pass**  
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.max  
-↳&nbsp;&nbsp;&nbsp;&nbsp;empty.max  
+Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.max  
-↳&nbsp;&nbsp;&nbsp;&nbsp;empty.max  
+Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
