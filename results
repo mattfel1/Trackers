@@ -65,9 +65,7 @@ Chisel.Unit.FixPtMem: **Pass**
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-11-27_11-27-27.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/make.log  
+Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
