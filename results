@@ -42,9 +42,7 @@ Scala.Sparse.PageRank_Bulk: **Pass**
 Scala.Sparse.PageRank: **Pass**  
 Scala.Sparse.ScatterGather: **Pass**  
 Scala.Sparse.SPMV_CRS: **Pass**  
-Scala.Sparse.SPMV_ELL: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-11-27_11-28-18.scala.all/spatial-lang/logs/Scala/Sparse/SPMV_ELL/run.log  
+Scala.Sparse.SPMV_ELL: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
 Scala.Unit.BasicFSM: **Pass**  
