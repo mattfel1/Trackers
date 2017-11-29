@@ -62,6 +62,7 @@ Chisel.Unit.FifoStackFSM: **Pass**
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
+Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
