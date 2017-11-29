@@ -37,7 +37,12 @@ Scala.Dense.TRSM: **Pass**
 Scala.Dense.Viterbi: **Pass**  
 Scala.Sparse.BFS_Bulk: **Pass**  
 Scala.Sparse.BFS_Queue: **Pass**  
+Scala.Sparse.GatherStore: **Pass**  
 Scala.Sparse.PageRank_Bulk: **Pass**  
+Scala.Sparse.PageRank: **Pass**  
+Scala.Sparse.ScatterGather: **Pass**  
+Scala.Sparse.SPMV_CRS: **Pass**  
+Scala.Sparse.SPMV_ELL: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
 Scala.Unit.BasicFSM: **Pass**  
@@ -57,6 +62,7 @@ Scala.Unit.FifoStackFSM: **Pass**
 Scala.Unit.FixPtInOutArg: **Pass**  
 Scala.Unit.FixPtMem: **Pass**  
 Scala.Unit.FloatBasics: **Pass**  
+Scala.Unit.IndirectLoad: **Pass**  
 Scala.Unit.InOutArg: **Pass**  
 Scala.Unit.LaneMaskPar: **Pass**  
 Scala.Unit.LUTTest: **Pass**  
