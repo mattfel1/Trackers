@@ -36,8 +36,7 @@ Chisel.Dense.SW: **Pass**
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Sparse.GatherStore: **Pass**  
@@ -46,8 +45,7 @@ Chisel.Sparse.PageRank: **Pass**
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
-Chisel.Unit.ArbitraryLambda: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
