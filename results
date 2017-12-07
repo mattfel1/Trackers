@@ -20,8 +20,7 @@ Chisel.Dense.MatMult_outer: **Pass**
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
@@ -87,6 +86,7 @@ Chisel.Unit.SpecialMath: **Pass**
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
