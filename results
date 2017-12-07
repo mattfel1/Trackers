@@ -86,6 +86,7 @@ Scala.Unit.SpecialMath: **Pass**
 Scala.Unit.SSV1D: **Pass**  
 Scala.Unit.SSV2D: **Pass**  
 Scala.Unit.StackLoadStore: **Pass**  
+Scala.Unit.StridedLoad: **Pass**  
 Scala.Unit.Tensor3D: **Pass**  
 Scala.Unit.Tensor4D: **Pass**  
 Scala.Unit.Tensor5D: **Pass**  
