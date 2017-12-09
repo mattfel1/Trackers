@@ -1,6 +1,5 @@
-Chisel.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.AES: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -11,19 +10,15 @@ Chisel.Dense.Differentiator: **Pass**
 Chisel.Dense.DotProduct: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
-Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.FFT_Strided: **Pass**  
+Chisel.Dense.FFT_Transpose: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.GDA: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.Gibbs_Ising2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: Fail [Validation]  
@@ -51,9 +46,8 @@ Chisel.Dense.SW: **Pass**
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.TRSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.TRSM: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Viterbi: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Sparse.BFS_Bulk: Fail [Validation]  
