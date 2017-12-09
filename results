@@ -1,4 +1,6 @@
-Scala.Dense.AES: **Pass**  
+Scala.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
 Scala.Dense.BasicBLAS: **Pass**  
 Scala.Dense.BTC: **Pass**  
 Scala.Dense.Convolution_FPGA: **Pass**  
@@ -6,15 +8,22 @@ Scala.Dense.Convolutions: **Pass**
 Scala.Dense.Differentiator: **Pass**  
 Scala.Dense.DotProduct: **Pass**  
 Scala.Dense.EdgeDetector: **Pass**  
-Scala.Dense.FFT_Strided: **Pass**  
-Scala.Dense.FFT_Transpose: **Pass**  
+Scala.Dense.FFT_Strided: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Scala.Dense.FFT_Transpose: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
 Scala.Dense.GDA: **Pass**  
 Scala.Dense.GEMM_Blocked: **Pass**  
 Scala.Dense.GEMM_NCubed: **Pass**  
-Scala.Dense.Gibbs_Ising2D: **Pass**  
+Scala.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
-Scala.Dense.Kmeans: **Pass**  
+Scala.Dense.Kmeans: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
@@ -33,7 +42,9 @@ Scala.Dense.Stencil3D: **Pass**
 Scala.Dense.SW: **Pass**  
 Scala.Dense.SYRK_col: **Pass**  
 Scala.Dense.TPCHQ6: **Pass**  
-Scala.Dense.TRSM: **Pass**  
+Scala.Dense.TRSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
 Scala.Dense.Viterbi: **Pass**  
 Scala.Sparse.BFS_Bulk: **Pass**  
 Scala.Sparse.BFS_Queue: **Pass**  
