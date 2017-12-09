@@ -1,66 +1,103 @@
-Chisel.Dense.AES: **Pass**  
+Chisel.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.BTC: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Convolutions: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Differentiator: **Pass**  
-Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.DotProduct: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.GDA: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.Kmeans: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.MatMult_inner: **Pass**  
-Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: **Pass**  
+Chisel.Dense.MatMult_outer: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.MD_Grid: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: **Pass**  
+Chisel.Dense.SHA1: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.Sort_Merge: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-08_20-58-08.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
+Chisel.Dense.Sort_Radix: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
-Chisel.Dense.TPCHQ6: **Pass**  
-Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: **Pass**  
-Chisel.Sparse.BFS_Bulk: **Pass**  
+Chisel.Dense.TPCHQ6: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.TRSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.Viterbi: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Sparse.BFS_Bulk: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.GatherStore: **Pass**  
-Chisel.Sparse.PageRank_Bulk: **Pass**  
-Chisel.Sparse.PageRank: **Pass**  
+Chisel.Sparse.GatherStore: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Sparse.PageRank_Bulk: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-08_20-58-08.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/make.log  
+Chisel.Sparse.PageRank: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-08_20-58-08.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank/make.log  
 Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: **Pass**  
-Chisel.Sparse.SPMV_ELL: **Pass**  
-Chisel.Unit.ArbitraryLambda: **Pass**  
+Chisel.Sparse.SPMV_CRS: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Sparse.SPMV_ELL: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.ArbitraryLambda: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.BlockReduce2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
 Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: **Pass**  
+Chisel.Unit.DiagBanking: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.DotProductFSM: **Pass**  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: **Pass**  
+Chisel.Unit.FifoStackFSM: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-08_20-58-08.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/make.log  
 Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: **Pass**  
+Chisel.Unit.FixPtMem: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
@@ -69,7 +106,8 @@ Chisel.Unit.LUTTest: **Pass**
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
-Chisel.Unit.MemTest2D: **Pass**  
+Chisel.Unit.MemTest2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
@@ -85,7 +123,9 @@ Chisel.Unit.SimpleTileLoadStore: **Pass**
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StackLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-08_20-58-08.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/make.log  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
