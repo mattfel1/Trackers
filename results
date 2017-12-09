@@ -42,9 +42,7 @@ Chisel.Dense.SHA1: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-08_20-58-56.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
+Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Stencil2D: **Pass**  
@@ -64,11 +62,9 @@ Chisel.Sparse.BFS_Queue: **Pass**
 Chisel.Sparse.GatherStore: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Sparse.PageRank_Bulk: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-08_20-58-56.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/make.log  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Sparse.PageRank: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-08_20-58-56.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank/make.log  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:195: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -92,9 +88,7 @@ Chisel.Unit.DotProductFSM: **Pass**
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-08_20-58-56.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/make.log  
+Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -123,9 +117,7 @@ Chisel.Unit.SimpleTileLoadStore: **Pass**
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-08_20-58-56.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/make.log  
+Chisel.Unit.StackLoadStore: **Pass**  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
