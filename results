@@ -1,6 +1,4 @@
-Chisel.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
@@ -8,18 +6,13 @@ Chisel.Dense.Convolutions: **Pass**
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
-Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
-Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.FFT_Strided: **Pass**  
+Chisel.Dense.FFT_Transpose: **Pass**  
+Chisel.Dense.GDA: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
@@ -41,9 +34,7 @@ Chisel.Dense.Stencil3D: **Pass**
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
-Chisel.Dense.TRSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: b  
-↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: b  
+Chisel.Dense.TRSM: **Pass**  
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
@@ -95,7 +86,8 @@ Chisel.Unit.SimpleTileLoadStore: **Pass**
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StackLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
