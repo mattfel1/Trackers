@@ -1,96 +1,132 @@
-**pass.38_SimpleRowStridedConv**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SimpleRowStridedConv.csv)  
-**pass.37_Convolutions**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Convolutions.csv)  
-<--------failed_execution_nonexistent_validation.36_BasicBLAS[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BasicBLAS.csv)  
-<--------failed_execution_nonexistent_validation.35_DotProduct[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_DotProduct.csv)  
-<--------failed_execution_nonexistent_validation.34_OuterProduct[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_OuterProduct.csv)  
-<--------failed_execution_nonexistent_validation.33_TRSM[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_TRSM.csv)  
-<--------failed_execution_nonexistent_validation.32_SYRK_col[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SYRK_col.csv)  
-<--------failed_execution_nonexistent_validation.31_MatMult_inner[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MatMult_inner.csv)  
-<--------failed_execution_nonexistent_validation.30_MatMult_outer[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MatMult_outer.csv)  
-<--------failed_execution_nonexistent_validation.29_JPEG_Decompress[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_JPEG_Decompress.csv)  
-<--------failed_execution_nonexistent_validation.28_JPEG_Markers[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_JPEG_Markers.csv)  
-<--------failed_execution_nonexistent_validation.27_SHA1[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SHA1.csv)  
-<--------failed_execution_nonexistent_validation.26_Sobel[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Sobel.csv)  
-<--------failed_execution_nonexistent_validation.25_SW[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SW.csv)  
-<--------failed_execution_nonexistent_validation.24_BTC[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BTC.csv)  
-<--------failed_execution_nonexistent_validation.23_TPCHQ6[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_TPCHQ6.csv)  
-<--------failed_execution_nonexistent_validation.22_SGD_minibatch[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SGD_minibatch.csv)  
-<--------failed_execution_nonexistent_validation.21_SGD[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SGD.csv)  
-<--------failed_execution_nonexistent_validation.20_Gibbs_Ising2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Gibbs_Ising2D.csv)  
-<--------failed_execution_nonexistent_validation.19_GDA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_GDA.csv)  
-<--------failed_execution_nonexistent_validation.18_Differentiator[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Differentiator.csv)  
-<--------failed_execution_nonexistent_validation.17_EdgeDetector[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_EdgeDetector.csv)  
-<--------failed_execution_nonexistent_validation.16_Convolution_FPGA[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Convolution_FPGA.csv)  
-<--------failed_execution_nonexistent_validation.15_Kmeans[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Kmeans.csv)  
-<--------failed_execution_nonexistent_validation.14_FFT_Transpose[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FFT_Transpose.csv)  
-<--------failed_execution_nonexistent_validation.13_FFT_Strided[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FFT_Strided.csv)  
-<--------failed_execution_nonexistent_validation.12_Backprop[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Backprop.csv)  
-<--------failed_execution_nonexistent_validation.11_Sort_Radix[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Sort_Radix.csv)  
-<--------------------failed_app_spatial_compile.9_GEMM_Blocked[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_GEMM_Blocked.csv)  
-<--------------------failed_app_spatial_compile.8_GEMM_NCubed[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_GEMM_NCubed.csv)  
-<--------------------failed_app_spatial_compile.7_KMP[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_KMP.csv)  
-<--------------------failed_app_spatial_compile.6_MD_Grid[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MD_Grid.csv)  
-<--------------------failed_app_spatial_compile.5_MD_KNN[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MD_KNN.csv)  
-<--------------------failed_app_spatial_compile.4_NW[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_NW.csv)  
-<--------------------failed_app_spatial_compile.3_Stencil3D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Stencil3D.csv)  
-<--------------------failed_app_spatial_compile.2_Stencil2D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Stencil2D.csv)  
-<--------------------failed_app_spatial_compile.1_Viterbi[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Viterbi.csv)  
-<--------------------failed_app_spatial_compile.10_Sort_Merge[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Sort_Merge.csv)  
-<--------------------failed_app_spatial_compile.0_AES[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_AES.csv)  
-**pass.8_ScatterGather**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_ScatterGather.csv)  
-**pass.7_GatherStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_GatherStore.csv)  
-**pass.6_PageRank_Bulk**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_PageRank_Bulk.csv)  
-**pass.5_SPMV_DumbPack**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SPMV_DumbPack.csv)  
-**pass.4_PageRank**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_PageRank.csv)  
-**pass.3_BFS_Queue**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BFS_Queue.csv)  
-**pass.2_BFS_Bulk**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BFS_Bulk.csv)  
-**pass.1_SPMV_ELL**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SPMV_ELL.csv)  
-**pass.0_SPMV_CRS**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SPMV_CRS.csv)  
-**pass.9_ArbitraryLambda**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_ArbitraryLambda.csv)  
-**pass.8_BubbledWriteTest**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BubbledWriteTest.csv)  
-**pass.7_MultiplexedWriteTest**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MultiplexedWriteTest.csv)  
-**pass.6_MixedIOTest**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MixedIOTest.csv)  
-**pass.5_LUTTest**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_LUTTest.csv)  
-**pass.47_SSV2D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SSV2D.csv)  
-**pass.46_SSV1D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SSV1D.csv)  
-**pass.45_MultiWriteBuffer**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MultiWriteBuffer.csv)  
-**pass.44_DiagBanking**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_DiagBanking.csv)  
-**pass.43_SpecialMath**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SpecialMath.csv)  
-**pass.42_FixPtMem**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FixPtMem.csv)  
-**pass.41_MaskedWrite**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MaskedWrite.csv)  
-**pass.40_FixPtInOutArg**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FixPtInOutArg.csv)  
-**pass.39_LaneMaskPar**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_LaneMaskPar.csv)  
-**pass.38_FifoStackFSM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FifoStackFSM.csv)  
-**pass.37_CtrlEnable**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_CtrlEnable.csv)  
-**pass.36_DotProductFSM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_DotProductFSM.csv)  
-**pass.35_BasicCondFSM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BasicCondFSM.csv)  
-**pass.34_BasicFSM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BasicFSM.csv)  
-**pass.33_FifoPushPop**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FifoPushPop.csv)  
-**pass.32_ChangingCtrMax**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_ChangingCtrMax.csv)  
-**pass.30_BlockReduce2D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BlockReduce2D.csv)  
-**pass.2_Tensor3D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Tensor3D.csv)  
-**pass.29_UnalignedLd**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_UnalignedLd.csv)  
-**pass.28_BlockReduce1D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_BlockReduce1D.csv)  
-**pass.27_UniqueParallelLoad**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_UniqueParallelLoad.csv)  
-**pass.26_Memcpy2D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Memcpy2D.csv)  
-**pass.25_SimpleFold**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SimpleFold.csv)  
-**pass.24_SimpleMemReduce**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SimpleMemReduce.csv)  
-**pass.23_SimpleReduce**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SimpleReduce.csv)  
-**pass.22_StackLoadStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_StackLoadStore.csv)  
-**pass.21_FifoLoadStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FifoLoadStore.csv)  
-**pass.20_ParFifoLoad**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_ParFifoLoad.csv)  
-**pass.1_FloatBasics**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FloatBasics.csv)  
-**pass.19_CompactingFifo**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_CompactingFifo.csv)  
-**pass.18_UnalignedFifoLoad**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_UnalignedFifoLoad.csv)  
-**pass.17_OHM**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_OHM.csv)  
-**pass.16_SimpleTileLoadStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SimpleTileLoadStore.csv)  
-**pass.15_DeviceMemcpy**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_DeviceMemcpy.csv)  
-**pass.14_SimpleSequential**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SimpleSequential.csv)  
-**pass.13_FifoLoadSRAMStore**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_FifoLoadSRAMStore.csv)  
-**pass.12_MemTest2D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MemTest2D.csv)  
-**pass.11_MemTest1D**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_MemTest1D.csv)  
-**pass.10_Niter**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Niter.csv)  
-**pass.0_InOutArg**[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_InOutArg.csv)  
-<--------failed_execution_nonexistent_validation.4_Tensor5D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Tensor5D.csv)  
-<--------failed_execution_nonexistent_validation.3_Tensor4D[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_Tensor4D.csv)  
-<--------------------failed_app_spatial_compile.31_SequentialWrites[🗠](https://raw.githubusercontent.com/wiki/stanford-ppl/spatial-lang/comptimes_compile_scala_SequentialWrites.csv)  
+Scala.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Convolution_FPGA: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Differentiator: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Dense.DotProduct: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.EdgeDetector: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Dense.FFT_Strided: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.GDA: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.GEMM_Blocked: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Kmeans: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.MatMult_inner: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.MatMult_outer: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.MD_KNN: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.NW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.OuterProduct: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.SGD: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.SGD_minibatch: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Sobel: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Sort_Merge: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Stencil2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.Stencil3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.SW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.SYRK_col: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.TPCHQ6: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.TRSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Sparse.BFS_Bulk: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Sparse.PageRank: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Sparse.ScatterGather: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Sparse.SPMV_CRS: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Unit.DeviceMemcpy: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.FifoLoadSRAMStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.FloatBasics: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.IndirectLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Unit.InOutArg: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.MemTest1D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.MemTest2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.Niter: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.SequentialWrites: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.SimpleSequential: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.SimpleTileLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2017-12-11_02-13-04.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Unit.Tensor4D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.Tensor5D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Scala.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
