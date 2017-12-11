@@ -24,8 +24,8 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Validation]
 Chisel.Dense.JPEG_Decompress: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Kmeans: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -84,8 +84,7 @@ Chisel.Unit.FifoLoadStore: **Pass**
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
