@@ -6,7 +6,8 @@ Chisel.Dense.BTC: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x18944 not yet handled in partial retiming  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x18944 not yet handled in partial retiming  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Convolutions: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
