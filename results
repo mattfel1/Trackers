@@ -69,7 +69,7 @@ Chisel.Sparse.BFS_Queue: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:154: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:195: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.PageRank: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:195: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.ScatterGather: **Pass**  
