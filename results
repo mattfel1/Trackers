@@ -1,6 +1,10 @@
-Chisel.Dense.AES: **Pass**  
+Chisel.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x8174 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x8174 not yet handled in partial retiming  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.BTC: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x18944 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x18944 not yet handled in partial retiming  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
@@ -12,14 +16,20 @@ Chisel.Dense.GDA: **Pass**
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
-Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.JPEG_Decompress: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x31281 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x31281 not yet handled in partial retiming  
+Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x20971 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x20971 not yet handled in partial retiming  
 Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: **Pass**  
+Chisel.Dense.NW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x9327 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x9327 not yet handled in partial retiming  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
@@ -30,7 +40,9 @@ Chisel.Dense.Sort_Merge: **Pass**
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: **Pass**  
+Chisel.Dense.SW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x9797 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x9797 not yet handled in partial retiming  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
@@ -58,7 +70,9 @@ Chisel.Unit.DotProductFSM: **Pass**
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: **Pass**  
+Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x3681 not yet handled in partial retiming  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x3681 not yet handled in partial retiming  
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
