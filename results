@@ -1,57 +1,36 @@
-Chisel.Dense.AES: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/AES/run.log  
+Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
-Chisel.Dense.Differentiator: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/run.log  
+Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
-Chisel.Dense.EdgeDetector: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/run.log  
-Chisel.Dense.FFT_Strided: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/run.log  
+Chisel.Dense.EdgeDetector: **Pass**  
+Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/run.log  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/Kmeans/run.log  
+Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/NW/run.log  
-Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/SGD/run.log  
-Chisel.Dense.SGD_minibatch: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/SGD_minibatch/run.log  
+Chisel.Dense.NW: **Pass**  
+Chisel.Dense.OuterProduct: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/run.log  
+Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-14_15-59-19.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/run.log  
+Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
