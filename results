@@ -1,5 +1,6 @@
 Chisel.Dense.AES: **Pass**  
-Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.BasicBLAS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
@@ -76,6 +77,7 @@ Chisel.Unit.MultiWriteBuffer: **Pass**
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
 Chisel.Unit.SimpleMemReduce: **Pass**  
