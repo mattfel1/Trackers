@@ -31,9 +31,7 @@ Scala.Dense.Sort_Radix: **Pass**
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
 Scala.Dense.SW: **Pass**  
-Scala.Dense.SYRK_col: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2017-12-13_21-21-32.scala.all/spatial-lang/logs/Scala/Dense/SYRK_col/make.log  
+Scala.Dense.SYRK_col: **Pass**  
 Scala.Dense.TPCHQ6: **Pass**  
 Scala.Dense.TRSM: **Pass**  
 Scala.Dense.Viterbi: **Pass**  
@@ -78,6 +76,7 @@ Scala.Unit.MultiWriteBuffer: **Pass**
 Scala.Unit.Niter: **Pass**  
 Scala.Unit.OHM: **Pass**  
 Scala.Unit.ParFifoLoad: **Pass**  
+Scala.Unit.RetimedFifoBranch: **Pass**  
 Scala.Unit.SequentialWrites: **Pass**  
 Scala.Unit.SimpleFold: **Pass**  
 Scala.Unit.SimpleMemReduce: **Pass**  
