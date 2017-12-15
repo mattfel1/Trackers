@@ -76,6 +76,7 @@ Chisel.Unit.MultiWriteBuffer: **Pass**
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
 Chisel.Unit.SimpleMemReduce: **Pass**  
