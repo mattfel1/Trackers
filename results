@@ -1,98 +1,288 @@
-Chisel.Dense.AES: **Pass**  
-Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: **Pass**  
-Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
-Chisel.Dense.Differentiator: **Pass**  
-Chisel.Dense.DotProduct: **Pass**  
-Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: **Pass**  
-Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
-Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.MatMult_inner: **Pass**  
-Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.MD_KNN: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD_minibatch: **Pass**  
-Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: **Pass**  
-Chisel.Dense.SYRK_col: **Pass**  
-Chisel.Dense.TPCHQ6: **Pass**  
-Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: **Pass**  
-Chisel.Sparse.BFS_Bulk: **Pass**  
-Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.GatherStore: **Pass**  
-Chisel.Sparse.PageRank_Bulk: **Pass**  
-Chisel.Sparse.PageRank: **Pass**  
-Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: **Pass**  
-Chisel.Sparse.SPMV_ELL: **Pass**  
-Chisel.Unit.ArbitraryLambda: **Pass**  
-Chisel.Unit.BasicCondFSM: **Pass**  
-Chisel.Unit.BasicFSM: **Pass**  
-Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.BubbledWriteTest: **Pass**  
-Chisel.Unit.ChangingCtrMax: **Pass**  
-Chisel.Unit.CompactingFifo: **Pass**  
-Chisel.Unit.CtrlEnable: **Pass**  
-Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: **Pass**  
-Chisel.Unit.DotProductFSM: **Pass**  
-Chisel.Unit.FifoLoadSRAMStore: **Pass**  
-Chisel.Unit.FifoLoadStore: **Pass**  
-Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: **Pass**  
-Chisel.Unit.IndirectLoad: **Pass**  
-Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: **Pass**  
-Chisel.Unit.MaskedWrite: **Pass**  
-Chisel.Unit.Memcpy2D: **Pass**  
-Chisel.Unit.MemTest1D: **Pass**  
-Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: **Pass**  
-Chisel.Unit.MultiplexedWriteTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
-Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
-Chisel.Unit.RetimedFifoBranch: **Pass**  
-Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: **Pass**  
-Chisel.Unit.SimpleReduce: **Pass**  
-Chisel.Unit.SimpleSequential: **Pass**  
-Chisel.Unit.SimpleTileLoadStore: **Pass**  
-Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.StridedLoad: **Pass**  
-Chisel.Unit.Tensor3D: **Pass**  
-Chisel.Unit.Tensor4D: **Pass**  
-Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: **Pass**  
-Chisel.Unit.UniqueParallelLoad: **Pass**  
+Chisel.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.BasicBLAS: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(9,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(9,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.BTC: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Convolutions: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Differentiator: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.DotProduct: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.EdgeDetector: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(15,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(15,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.GDA: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.GEMM_Blocked: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.GEMM_NCubed: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(5,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(5,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.JPEG_Decompress: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(57,isFSM=false,ctrDepth=0,stateWidth=7,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(57,isFSM=false,ctrDepth=0,stateWidth=7,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(14,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(14,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Kmeans: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(5,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(5,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.MatMult_outer: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.MD_KNN: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.NW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.OuterProduct: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.SGD: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.SGD_minibatch: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.SHA1: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Sobel: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Sort_Merge: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Sort_Radix: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Stencil2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Stencil3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.SW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.SYRK_col: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.TPCHQ6: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.TRSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(6,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(6,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Dense.Viterbi: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.BFS_Bulk: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(7,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.BFS_Queue: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.GatherStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.PageRank_Bulk: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.PageRank: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.ScatterGather: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.SPMV_CRS: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Sparse.SPMV_ELL: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.ArbitraryLambda: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.BasicFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.BubbledWriteTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.ChangingCtrMax: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.CompactingFifo: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.CtrlEnable: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.DeviceMemcpy: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Innerpipe(false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Innerpipe(false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.DiagBanking: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.DotProductFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FifoLoadSRAMStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FifoLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FifoPushPop: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Innerpipe(false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Innerpipe(false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FixPtMem: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(10,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(10,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Innerpipe(false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Innerpipe(false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.IndirectLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.InOutArg: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(6,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(6,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.LUTTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.MaskedWrite: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.Memcpy2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.MemTest1D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.MemTest2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.MixedIOTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(10,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(10,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.MultiplexedWriteTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.MultiWriteBuffer: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.Niter: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.OHM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.ParFifoLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.RetimedFifoBranch: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(5,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(5,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SimpleFold: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SimpleReduce: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SimpleSequential: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SimpleTileLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SpecialMath: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(8,isFSM=false,ctrDepth=0,stateWidth=5,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SSV1D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.SSV2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.StackLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.StridedLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(2,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.Tensor4D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.Tensor5D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(1,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(3,isFSM=false,ctrDepth=0,stateWidth=3,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+Chisel.Unit.UniqueParallelLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: scala.MatchError: Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Module(new Seqpipe(4,isFSM=false,ctrDepth=0,stateWidth=4,staticNiter=true,isReduce=false)) (of class java.lang.String)  
