@@ -54,9 +54,7 @@ Scala.Unit.CompactingFifo: **Pass**
 Scala.Unit.CtrlEnable: **Pass**  
 Scala.Unit.DeviceMemcpy: **Pass**  
 Scala.Unit.DiagBanking: **Pass**  
-Scala.Unit.DotProductFSM: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-16_18-58-36.scala.all/spatial-lang/logs/Scala/Unit/DotProductFSM/run.log  
+Scala.Unit.DotProductFSM: **Pass**  
 Scala.Unit.FifoLoadSRAMStore: **Pass**  
 Scala.Unit.FifoLoadStore: **Pass**  
 Scala.Unit.FifoPushPop: **Pass**  
