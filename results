@@ -1,8 +1,12 @@
 Chisel.Dense.AES: **Pass**  
-Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.BasicBLAS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-12-21_13-34-37.chisel.all/spatial-lang/logs/Chisel/Dense/BasicBLAS/make.log  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Convolutions: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-12-21_13-34-37.chisel.all/spatial-lang/logs/Chisel/Dense/Convolutions/make.log  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
