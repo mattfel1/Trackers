@@ -72,7 +72,9 @@ Chisel.Unit.MemTest1D: **Pass**
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
+Chisel.Unit.MultiWriteBuffer: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-26_18-38-45.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/run.log  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
