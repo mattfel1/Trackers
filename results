@@ -5,9 +5,7 @@ Chisel.Dense.Convolution_FPGA: **Pass**
 Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
-Chisel.Dense.EdgeDetector: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2017-12-28_17-56-16.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/run.log  
+Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.GDA: **Pass**  
@@ -86,9 +84,7 @@ Chisel.Unit.SimpleReduce: **Pass**
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2017-12-28_17-56-16.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/run.log  
+Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
 Chisel.Unit.StridedLoad: **Pass**  
