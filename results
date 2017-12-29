@@ -24,7 +24,9 @@ Chisel.Dense.OuterProduct: **Pass**
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2017-12-28_19-08-28.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/run.log  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
@@ -37,8 +39,7 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.GatherStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 1800 seconds  
+Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
@@ -53,7 +54,9 @@ Chisel.Unit.BubbledWriteTest: **Pass**
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
-Chisel.Unit.DeviceMemcpy: **Pass**  
+Chisel.Unit.DeviceMemcpy: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2017-12-28_19-08-28.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/run.log  
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
