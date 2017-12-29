@@ -15,6 +15,7 @@ Scala.Dense.Gibbs_Ising2D: **Pass**
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
+Scala.Dense.KMP: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
@@ -39,9 +40,7 @@ Scala.Sparse.BFS_Bulk: **Pass**
 Scala.Sparse.BFS_Queue: **Pass**  
 Scala.Sparse.GatherStore: **Pass**  
 Scala.Sparse.PageRank_Bulk: **Pass**  
-Scala.Sparse.PageRank: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-28_22-38-22.scala.all/spatial-lang/logs/Scala/Sparse/PageRank/make.log  
+Scala.Sparse.PageRank: **Pass**  
 Scala.Sparse.ScatterGather: **Pass**  
 Scala.Sparse.SPMV_CRS: **Pass**  
 Scala.Sparse.SPMV_ELL: **Pass**  
