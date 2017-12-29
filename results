@@ -1,8 +1,6 @@
 Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-28_22-38-22.chisel.all/spatial-lang/logs/Chisel/Dense/BTC/run.log  
+Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
@@ -17,10 +15,9 @@ Chisel.Dense.Gibbs_Ising2D: **Pass**
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
-Chisel.Dense.MatMult_outer: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-28_22-38-22.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/run.log  
+Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
@@ -28,12 +25,8 @@ Chisel.Dense.OuterProduct: **Pass**
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-28_22-38-22.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/run.log  
-Chisel.Dense.Sobel: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-28_22-38-22.chisel.all/spatial-lang/logs/Chisel/Dense/Sobel/run.log  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
@@ -51,9 +44,7 @@ Chisel.Sparse.PageRank: **Pass**
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
-Chisel.Unit.ArbitraryLambda: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2017-12-28_22-38-22.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/run.log  
+Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
