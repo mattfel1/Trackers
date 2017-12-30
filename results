@@ -54,10 +54,12 @@ Chisel.Unit.ChangingCtrMax: **Pass**
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2017-12-29_18-10-31.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/run.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-29_20-08-12.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/run.log  
 Chisel.Unit.DeviceMemcpy: **Pass**  
 Chisel.Unit.DiagBanking: **Pass**  
-Chisel.Unit.DotProductFSM: **Pass**  
+Chisel.Unit.DotProductFSM: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-29_20-08-12.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/run.log  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
@@ -81,15 +83,21 @@ Chisel.Unit.OHM: **Pass**
 Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: **Pass**  
+Chisel.Unit.SimpleFold: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-29_20-08-12.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/run.log  
+Chisel.Unit.SimpleMemReduce: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-29_20-08-12.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/run.log  
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StackLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-29_20-08-12.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/run.log  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
