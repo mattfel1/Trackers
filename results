@@ -1,5 +1,7 @@
 Chisel.Dense.AES: **Pass**  
-Chisel.Dense.BasicBLAS: **Pass**  
+Chisel.Dense.BasicBLAS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-master.2017-12-29_20-08-44.chisel.all/spatial-lang/logs/Chisel/Dense/BasicBLAS/run.log  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
@@ -9,12 +11,15 @@ Chisel.Dense.EdgeDetector: **Pass**
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: **Pass**  
+Chisel.Dense.GEMM_Blocked: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-master.2017-12-29_20-08-44.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/run.log  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
@@ -40,7 +45,9 @@ Chisel.Sparse.BFS_Queue: **Pass**
 Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
-Chisel.Sparse.ScatterGather: **Pass**  
+Chisel.Sparse.ScatterGather: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-master.2017-12-29_20-08-44.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/run.log  
 Chisel.Sparse.SPMV_CRS: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
@@ -59,7 +66,9 @@ Chisel.Unit.FifoLoadSRAMStore: **Pass**
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: **Pass**  
+Chisel.Unit.FixPtInOutArg: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-master.2017-12-29_20-08-44.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/run.log  
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
@@ -93,4 +102,6 @@ Chisel.Unit.Tensor4D: **Pass**
 Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
 Chisel.Unit.UnalignedLd: **Pass**  
-Chisel.Unit.UniqueParallelLoad: **Pass**  
+Chisel.Unit.UniqueParallelLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-master.2017-12-29_20-08-44.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/run.log  
