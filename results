@@ -15,6 +15,7 @@ Scala.Dense.Gibbs_Ising2D: **Pass**
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
+Scala.Dense.KMP: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
