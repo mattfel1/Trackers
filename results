@@ -49,7 +49,9 @@ Chisel.Unit.BasicCondFSM: **Pass**
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.BubbledWriteTest: **Pass**  
+Chisel.Unit.BubbledWriteTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2017-12-31_10-46-22.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/run.log  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
