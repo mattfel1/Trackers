@@ -29,9 +29,7 @@ Chisel.Dense.SimpleRowStridedConv: **Pass**
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2017-12-31_10-45-42.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil2D/run.log  
+Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
@@ -49,13 +47,17 @@ Chisel.Sparse.SPMV_ELL: **Pass**
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
-Chisel.Unit.BlockReduce1D: **Pass**  
+Chisel.Unit.BlockReduce1D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2017-12-31_13-50-29.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/run.log  
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
-Chisel.Unit.DeviceMemcpy: **Pass**  
+Chisel.Unit.DeviceMemcpy: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2017-12-31_13-50-29.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/run.log  
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
@@ -77,7 +79,9 @@ Chisel.Unit.MixedIOTest: **Pass**
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: **Pass**  
+Chisel.Unit.OHM: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2017-12-31_13-50-29.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/run.log  
 Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
@@ -85,7 +89,9 @@ Chisel.Unit.SimpleFold: **Pass**
 Chisel.Unit.SimpleMemReduce: **Pass**  
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
-Chisel.Unit.SimpleTileLoadStore: **Pass**  
+Chisel.Unit.SimpleTileLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2017-12-31_13-50-29.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/run.log  
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
