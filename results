@@ -12,7 +12,9 @@ Chisel.Dense.GDA: **Pass**
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.JPEG_Decompress: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-12-31_10-46-45.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/run.log  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: **Pass**  
@@ -22,13 +24,17 @@ Chisel.Dense.MD_Grid: **Pass**
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-12-31_10-46-45.chisel.all/spatial-lang/logs/Chisel/Dense/SGD/run.log  
 Chisel.Dense.SGD_minibatch: **Pass**  
-Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.Sort_Radix: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-12-31_10-46-45.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/run.log  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
@@ -57,7 +63,9 @@ Chisel.Unit.DeviceMemcpy: **Pass**
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
-Chisel.Unit.FifoLoadStore: **Pass**  
+Chisel.Unit.FifoLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-12-31_10-46-45.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/run.log  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
@@ -76,7 +84,9 @@ Chisel.Unit.MultiplexedWriteTest: **Pass**
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.ParFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-12-31_10-46-45.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/run.log  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
@@ -87,7 +97,9 @@ Chisel.Unit.SimpleTileLoadStore: **Pass**
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StackLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2017-12-31_10-46-45.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/run.log  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
