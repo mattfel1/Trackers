@@ -25,7 +25,9 @@ Chisel.Dense.OuterProduct: **Pass**
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-retime.2017-12-31_17-06-36.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
@@ -49,6 +51,9 @@ Chisel.Unit.BasicCondFSM: **Pass**
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.Breakpoint: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-retime.2017-12-31_17-06-36.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
