@@ -49,6 +49,8 @@ Scala.Unit.BasicCondFSM: **Pass**
 Scala.Unit.BasicFSM: **Pass**  
 Scala.Unit.BlockReduce1D: **Pass**  
 Scala.Unit.BlockReduce2D: **Pass**  
+Scala.Unit.Breakpoint: Indeterminate  
+↳&nbsp;&nbsp;Cause: Application did not report validation result.  
 Scala.Unit.BubbledWriteTest: **Pass**  
 Scala.Unit.ChangingCtrMax: **Pass**  
 Scala.Unit.CompactingFifo: **Pass**  
