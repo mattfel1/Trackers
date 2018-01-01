@@ -27,7 +27,7 @@ Chisel.Dense.SGD: **Pass**
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-12-31_16-13-50.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2018-01-01_13-34-46.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
@@ -53,7 +53,7 @@ Chisel.Unit.BlockReduce1D: **Pass**
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.Breakpoint: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2017-12-31_16-13-50.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2018-01-01_13-34-46.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
