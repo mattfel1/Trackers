@@ -49,7 +49,8 @@ Chisel.Unit.BasicCondFSM: **Pass**
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.Breakpoint: **Pass**  
+Chisel.Unit.Breakpoint: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
