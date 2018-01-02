@@ -7,7 +7,9 @@ Chisel.Dense.Differentiator: **Pass**
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: **Pass**  
+Chisel.Dense.FFT_Transpose: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-01-01_18-08-39.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/run.log  
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
@@ -27,7 +29,7 @@ Chisel.Dense.SGD: **Pass**
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2017-12-31_17-07-20.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-01-01_18-08-39.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/make.log  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
@@ -53,7 +55,7 @@ Chisel.Unit.BlockReduce1D: **Pass**
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.Breakpoint: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2017-12-31_17-07-20.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-01-01_18-08-39.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
@@ -67,7 +69,9 @@ Chisel.Unit.FifoPushPop: **Pass**
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: **Pass**  
+Chisel.Unit.FloatBasics: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-01-01_18-08-39.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/run.log  
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
@@ -89,9 +93,7 @@ Chisel.Unit.SimpleMemReduce: **Pass**
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
-Chisel.Unit.SpecialMath: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2017-12-31_17-07-20.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/run.log  
+Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
