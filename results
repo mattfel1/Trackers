@@ -28,8 +28,12 @@ Chisel.Dense.SHA1: **Pass**
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: **Pass**  
+Chisel.Dense.Sort_Radix: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2018-01-02_14-58-11.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/run.log  
+Chisel.Dense.Stencil2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2018-01-02_14-58-11.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil2D/run.log  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
