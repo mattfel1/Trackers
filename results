@@ -20,7 +20,9 @@ Scala.Dense.MatMult_inner: **Pass**
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
 Scala.Dense.MD_KNN: **Pass**  
-Scala.Dense.NW: **Pass**  
+Scala.Dense.NW: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.scala.all/spatial-lang/logs/Scala/Dense/NW/make.log  
 Scala.Dense.OuterProduct: **Pass**  
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
