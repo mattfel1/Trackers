@@ -1,6 +1,4 @@
-Chisel.Dense.AES: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.chisel.all/spatial-lang/logs/Chisel/Dense/AES/run.log  
+Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
@@ -20,9 +18,7 @@ Chisel.Dense.Kmeans: **Pass**
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/run.log  
+Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
@@ -32,13 +28,9 @@ Chisel.Dense.SHA1: **Pass**
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/run.log  
+Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/run.log  
+Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
@@ -51,9 +43,7 @@ Chisel.Sparse.PageRank_Bulk: **Pass**
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: **Pass**  
-Chisel.Sparse.SPMV_ELL: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_ELL/run.log  
+Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
