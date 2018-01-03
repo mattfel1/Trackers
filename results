@@ -20,9 +20,7 @@ Scala.Dense.MatMult_inner: **Pass**
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
 Scala.Dense.MD_KNN: **Pass**  
-Scala.Dense.NW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-fpga.2018-01-03_10-14-13.scala.all/spatial-lang/logs/Scala/Dense/NW/make.log  
+Scala.Dense.NW: **Pass**  
 Scala.Dense.OuterProduct: **Pass**  
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
@@ -51,8 +49,7 @@ Scala.Unit.BasicCondFSM: **Pass**
 Scala.Unit.BasicFSM: **Pass**  
 Scala.Unit.BlockReduce1D: **Pass**  
 Scala.Unit.BlockReduce2D: **Pass**  
-Scala.Unit.Breakpoint: Indeterminate  
-↳&nbsp;&nbsp;Cause: Application did not report validation result.  
+Scala.Unit.Breakpoint: **Pass**  
 Scala.Unit.BubbledWriteTest: **Pass**  
 Scala.Unit.ChangingCtrMax: **Pass**  
 Scala.Unit.CompactingFifo: **Pass**  
