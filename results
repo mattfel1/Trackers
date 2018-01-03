@@ -1,98 +1,228 @@
-Chisel.Dense.AES: **Pass**  
-Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: **Pass**  
-Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.AES: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/AES/run.log  
+Chisel.Dense.BasicBLAS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/BasicBLAS/run.log  
+Chisel.Dense.BTC: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/BTC/run.log  
+Chisel.Dense.Convolution_FPGA: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Convolution_FPGA/run.log  
 Chisel.Dense.Convolutions: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
-Chisel.Dense.DotProduct: **Pass**  
-Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: **Pass**  
+Chisel.Dense.DotProduct: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/DotProduct/run.log  
+Chisel.Dense.EdgeDetector: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/run.log  
+Chisel.Dense.FFT_Strided: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/run.log  
+Chisel.Dense.FFT_Transpose: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/run.log  
+Chisel.Dense.GDA: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/GDA/run.log  
+Chisel.Dense.GEMM_Blocked: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/run.log  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/run.log  
+Chisel.Dense.JPEG_Decompress: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/run.log  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.Kmeans: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Kmeans/run.log  
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
-Chisel.Dense.MatMult_outer: **Pass**  
+Chisel.Dense.MatMult_outer: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/run.log  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: **Pass**  
+Chisel.Dense.NW: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/NW/run.log  
 Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD_minibatch: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/SGD_minibatch/run.log  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: **Pass**  
-Chisel.Dense.SYRK_col: **Pass**  
-Chisel.Dense.TPCHQ6: **Pass**  
-Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: **Pass**  
+Chisel.Dense.SHA1: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/SHA1/run.log  
+Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/run.log  
+Chisel.Dense.Sobel: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Sobel/run.log  
+Chisel.Dense.Sort_Merge: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/run.log  
+Chisel.Dense.Sort_Radix: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/run.log  
+Chisel.Dense.Stencil2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil2D/run.log  
+Chisel.Dense.Stencil3D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/run.log  
+Chisel.Dense.SW: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/SW/run.log  
+Chisel.Dense.SYRK_col: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/SYRK_col/run.log  
+Chisel.Dense.TPCHQ6: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/TPCHQ6/run.log  
+Chisel.Dense.TRSM: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/TRSM/run.log  
+Chisel.Dense.Viterbi: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/run.log  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Sparse.GatherStore: **Pass**  
-Chisel.Sparse.PageRank_Bulk: **Pass**  
+Chisel.Sparse.PageRank_Bulk: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/run.log  
 Chisel.Sparse.PageRank: **Pass**  
-Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: **Pass**  
-Chisel.Sparse.SPMV_ELL: **Pass**  
-Chisel.Unit.ArbitraryLambda: **Pass**  
+Chisel.Sparse.ScatterGather: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/run.log  
+Chisel.Sparse.SPMV_CRS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_CRS/run.log  
+Chisel.Sparse.SPMV_ELL: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_ELL/run.log  
+Chisel.Unit.ArbitraryLambda: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/run.log  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.Breakpoint: **Pass**  
+Chisel.Unit.BlockReduce2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/run.log  
+Chisel.Unit.Breakpoint: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/run.log  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
-Chisel.Unit.CompactingFifo: **Pass**  
-Chisel.Unit.CtrlEnable: **Pass**  
-Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: **Pass**  
-Chisel.Unit.DotProductFSM: **Pass**  
-Chisel.Unit.FifoLoadSRAMStore: **Pass**  
-Chisel.Unit.FifoLoadStore: **Pass**  
-Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: **Pass**  
+Chisel.Unit.CompactingFifo: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/run.log  
+Chisel.Unit.CtrlEnable: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/run.log  
+Chisel.Unit.DeviceMemcpy: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/DeviceMemcpy/run.log  
+Chisel.Unit.DiagBanking: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/run.log  
+Chisel.Unit.DotProductFSM: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/run.log  
+Chisel.Unit.FifoLoadSRAMStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/run.log  
+Chisel.Unit.FifoLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/run.log  
+Chisel.Unit.FifoPushPop: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/run.log  
+Chisel.Unit.FifoStackFSM: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/run.log  
 Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: **Pass**  
-Chisel.Unit.IndirectLoad: **Pass**  
+Chisel.Unit.FixPtMem: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/run.log  
+Chisel.Unit.FloatBasics: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/run.log  
+Chisel.Unit.IndirectLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/IndirectLoad/run.log  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: **Pass**  
+Chisel.Unit.LUTTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/run.log  
 Chisel.Unit.MaskedWrite: **Pass**  
-Chisel.Unit.Memcpy2D: **Pass**  
+Chisel.Unit.Memcpy2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/run.log  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: **Pass**  
-Chisel.Unit.MultiplexedWriteTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
+Chisel.Unit.MixedIOTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/run.log  
+Chisel.Unit.MultiplexedWriteTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/run.log  
+Chisel.Unit.MultiWriteBuffer: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/run.log  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
-Chisel.Unit.RetimedFifoBranch: **Pass**  
-Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: **Pass**  
-Chisel.Unit.SimpleReduce: **Pass**  
-Chisel.Unit.SimpleSequential: **Pass**  
-Chisel.Unit.SimpleTileLoadStore: **Pass**  
-Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.ParFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/run.log  
+Chisel.Unit.RetimedFifoBranch: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/RetimedFifoBranch/run.log  
+Chisel.Unit.SequentialWrites: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SequentialWrites/run.log  
+Chisel.Unit.SimpleFold: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/run.log  
+Chisel.Unit.SimpleMemReduce: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/run.log  
+Chisel.Unit.SimpleReduce: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/run.log  
+Chisel.Unit.SimpleSequential: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleSequential/run.log  
+Chisel.Unit.SimpleTileLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleTileLoadStore/run.log  
+Chisel.Unit.SpecialMath: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/run.log  
+Chisel.Unit.SSV1D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/run.log  
+Chisel.Unit.SSV2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/run.log  
+Chisel.Unit.StackLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/run.log  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: **Pass**  
+Chisel.Unit.UnalignedFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-02_15-23-14.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/run.log  
 Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
