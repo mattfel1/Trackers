@@ -14,7 +14,8 @@ Scala.Dense.GEMM_NCubed: **Pass**
 Scala.Dense.Gibbs_Ising2D: **Pass**  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
-Scala.Dense.Kmeans: **Pass**  
+Scala.Dense.Kmeans: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.KMP: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
@@ -49,8 +50,7 @@ Scala.Unit.BasicCondFSM: **Pass**
 Scala.Unit.BasicFSM: **Pass**  
 Scala.Unit.BlockReduce1D: **Pass**  
 Scala.Unit.BlockReduce2D: **Pass**  
-Scala.Unit.Breakpoint: Indeterminate  
-↳&nbsp;&nbsp;Cause: Application did not report validation result.  
+Scala.Unit.Breakpoint: **Pass**  
 Scala.Unit.BubbledWriteTest: **Pass**  
 Scala.Unit.ChangingCtrMax: **Pass**  
 Scala.Unit.CompactingFifo: **Pass**  
