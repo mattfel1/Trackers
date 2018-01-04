@@ -11,28 +11,45 @@ Chisel.Dense.FFT_Transpose: **Pass**
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x5761 (Classics.scala:978:58) and x5835 (Classics.scala:978:58).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x5761 (Classics.scala:978:58) and x5835 (Classics.scala:978:58).  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.KMP: **Pass**  
-Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.KMP: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x6818 (MachSuite.scala:1360:81) and x6890 (MachSuite.scala:1360:81).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x6818 (MachSuite.scala:1360:81) and x6890 (MachSuite.scala:1360:81).  
+Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x7027 (MatMults.scala:153:43) and x7038 (MatMults.scala:153:43).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x7027 (MatMults.scala:153:43) and x7038 (MatMults.scala:153:43).  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: **Pass**  
+Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x15958 (MachSuite.scala:1247:14) and x16074 (MachSuite.scala:1247:14).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x15958 (MachSuite.scala:1247:14) and x16074 (MachSuite.scala:1247:14).  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.NW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x9255 (MachSuite.scala:884:60) and x9315 (MachSuite.scala:884:60).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x9255 (MachSuite.scala:884:60) and x9315 (MachSuite.scala:884:60).  
+Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x3861 (Classics.scala:1406:22) and x3901 (Classics.scala:1407:22).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x3861 (Classics.scala:1406:22) and x3901 (Classics.scala:1407:22).  
 Chisel.Dense.SGD_minibatch: **Pass**  
-Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.Sobel: **Pass**  
+Chisel.Dense.Sobel: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x10151 (Classics.scala:2282:37) and x10661 (Classics.scala:2282:37).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x10151 (Classics.scala:2282:37) and x10661 (Classics.scala:2282:37).  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: **Pass**  
+Chisel.Dense.Stencil3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x6808 (MachSuite.scala:747:10) and x7065 (MachSuite.scala:747:10).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x6808 (MachSuite.scala:747:10) and x7065 (MachSuite.scala:747:10).  
+Chisel.Dense.SW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x9692 (Classics.scala:2134:60) and x9766 (Classics.scala:2134:60).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x9692 (Classics.scala:2134:60) and x9766 (Classics.scala:2134:60).  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
@@ -41,7 +58,9 @@ Chisel.Sparse.BFS_Bulk: **Pass**
 Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
-Chisel.Sparse.PageRank: **Pass**  
+Chisel.Sparse.PageRank: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x10197 (Classics.scala:1256:41) and x10227 (Classics.scala:1256:41).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x10197 (Classics.scala:1256:41) and x10227 (Classics.scala:1256:41).  
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
@@ -67,7 +86,9 @@ Chisel.Unit.FixPtMem: **Pass**
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: **Pass**  
+Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Trying to schedule nodes with dependencies in parallel with each other: x3199 (UnitTests.scala:2803:28) and x3202 (UnitTests.scala:2803:28).  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Trying to schedule nodes with dependencies in parallel with each other: x3199 (UnitTests.scala:2803:28) and x3202 (UnitTests.scala:2803:28).  
 Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
