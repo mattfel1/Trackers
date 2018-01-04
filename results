@@ -75,9 +75,7 @@ Chisel.Unit.MemTest1D: **Pass**
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2018-01-03_18-09-36.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/run.log  
+Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
