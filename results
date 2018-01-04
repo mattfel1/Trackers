@@ -42,9 +42,7 @@ Scala.Sparse.GatherStore: **Pass**
 Scala.Sparse.PageRank_Bulk: **Pass**  
 Scala.Sparse.PageRank: **Pass**  
 Scala.Sparse.ScatterGather: **Pass**  
-Scala.Sparse.SPMV_CRS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-fpga.2018-01-03_18-08-32.scala.all/spatial-lang/logs/Scala/Sparse/SPMV_CRS/make.log  
+Scala.Sparse.SPMV_CRS: **Pass**  
 Scala.Sparse.SPMV_ELL: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
