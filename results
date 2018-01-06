@@ -3,9 +3,7 @@ Chisel.Dense.BasicBLAS: **Pass**
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Convolutions: **Pass**  
-Chisel.Dense.Differentiator: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-01-05_14-12-28.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/make.log  
+Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
@@ -52,9 +50,7 @@ Chisel.Unit.BasicFSM: **Pass**
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.Breakpoint: **Pass**  
-Chisel.Unit.BubbledWriteTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-01-05_14-12-28.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
+Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
@@ -77,9 +73,7 @@ Chisel.Unit.Memcpy2D: **Pass**
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: **Pass**  
-Chisel.Unit.MultiplexedWriteTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-01-05_14-12-28.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/make.log  
+Chisel.Unit.MultiplexedWriteTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
