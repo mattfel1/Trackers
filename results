@@ -1,6 +1,4 @@
-Chisel.Dense.AES: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/AES/run.log  
+Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
@@ -10,29 +8,17 @@ Chisel.Dense.DotProduct: **Pass**
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
-Chisel.Dense.GDA: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/GDA/run.log  
+Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/run.log  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/Kmeans/run.log  
-Chisel.Dense.KMP: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/run.log  
-Chisel.Dense.MatMult_inner: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_inner/run.log  
+Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.KMP: **Pass**  
+Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/run.log  
+Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
@@ -44,16 +30,12 @@ Chisel.Dense.Sobel: **Pass**
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/run.log  
+Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/run.log  
+Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Sparse.GatherStore: **Pass**  
@@ -113,6 +95,4 @@ Chisel.Unit.Tensor4D: **Pass**
 Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
 Chisel.Unit.UnalignedLd: **Pass**  
-Chisel.Unit.UniqueParallelLoad: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-01-02_15-28-20.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/run.log  
+Chisel.Unit.UniqueParallelLoad: **Pass**  
