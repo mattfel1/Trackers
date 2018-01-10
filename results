@@ -74,9 +74,7 @@ Scala.Unit.MemTest1D: **Pass**
 Scala.Unit.MemTest2D: **Pass**  
 Scala.Unit.MixedIOTest: **Pass**  
 Scala.Unit.MultiplexedWriteTest: **Pass**  
-Scala.Unit.MultiWriteBuffer: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-master.2018-01-09_12-50-00.scala.all/spatial-lang/logs/Scala/Unit/MultiWriteBuffer/run.log  
+Scala.Unit.MultiWriteBuffer: **Pass**  
 Scala.Unit.Niter: **Pass**  
 Scala.Unit.OHM: **Pass**  
 Scala.Unit.ParFifoLoad: **Pass**  
