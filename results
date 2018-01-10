@@ -2,40 +2,68 @@ Chisel.Dense.AES: **Pass**
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Convolutions: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: **Pass**  
+Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
-Chisel.Dense.GEMM_NCubed: **Pass**  
+Chisel.Dense.GEMM_NCubed: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
-Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.JPEG_Decompress: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: **Pass**  
-Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: **Pass**  
+Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.MD_KNN: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.NW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap UnitTests.scala:4300:34 (class org.virtualized.SourceContext$ConcreteSourceContext)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap UnitTests.scala:4300:34 (class org.virtualized.SourceContext$ConcreteSourceContext)  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: **Pass**  
+Chisel.Dense.Stencil2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.Stencil3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.SW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
-Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: **Pass**  
+Chisel.Dense.TRSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.Viterbi: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Sparse.GatherStore: **Pass**  
@@ -43,13 +71,17 @@ Chisel.Sparse.PageRank_Bulk: **Pass**
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: **Pass**  
-Chisel.Sparse.SPMV_ELL: **Pass**  
+Chisel.Sparse.SPMV_ELL: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
 Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.Breakpoint: **Pass**  
+Chisel.Unit.Breakpoint: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap UnitTests.scala:831:20 (class org.virtualized.SourceContext$ConcreteSourceContext)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap UnitTests.scala:831:20 (class org.virtualized.SourceContext$ConcreteSourceContext)  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
@@ -65,7 +97,9 @@ Chisel.Unit.FixPtInOutArg: **Pass**
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
-Chisel.Unit.InOutArg: **Pass**  
+Chisel.Unit.InOutArg: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-10_14-03-20.chisel.all/spatial-lang/logs/Chisel/Unit/InOutArg/make.log  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
