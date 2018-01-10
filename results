@@ -87,8 +87,7 @@ Chisel.Unit.SimpleSequential: **Pass**
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Backend compile timed out after 2000 seconds  
+Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
