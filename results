@@ -65,13 +65,16 @@ Scala.Unit.FixPtInOutArg: **Pass**
 Scala.Unit.FixPtMem: **Pass**  
 Scala.Unit.FloatBasics: **Pass**  
 Scala.Unit.IndirectLoad: **Pass**  
-Scala.Unit.InOutArg: **Pass**  
+Scala.Unit.InOutArg: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: java.lang.AssertionError: assertion failed: Thou shalt not input -99 to this app  
 Scala.Unit.LaneMaskPar: **Pass**  
 Scala.Unit.LUTTest: **Pass**  
 Scala.Unit.MaskedWrite: **Pass**  
 Scala.Unit.Memcpy2D: **Pass**  
 Scala.Unit.MemTest1D: **Pass**  
-Scala.Unit.MemTest2D: **Pass**  
+Scala.Unit.MemTest2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-01-10_14-03-20.scala.all/spatial-lang/logs/Scala/Unit/MemTest2D/make.log  
 Scala.Unit.MixedIOTest: **Pass**  
 Scala.Unit.MultiplexedWriteTest: **Pass**  
 Scala.Unit.MultiWriteBuffer: **Pass**  
