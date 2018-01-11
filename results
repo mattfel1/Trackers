@@ -65,7 +65,8 @@ Scala.Unit.FixPtInOutArg: **Pass**
 Scala.Unit.FixPtMem: **Pass**  
 Scala.Unit.FloatBasics: **Pass**  
 Scala.Unit.IndirectLoad: **Pass**  
-Scala.Unit.InOutArg: **Pass**  
+Scala.Unit.InOutArg: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: java.lang.AssertionError: assertion failed: Thou shalt not input -99 to this app  
 Scala.Unit.LaneMaskPar: **Pass**  
 Scala.Unit.LUTTest: **Pass**  
 Scala.Unit.MaskedWrite: **Pass**  
