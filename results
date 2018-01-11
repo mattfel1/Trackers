@@ -18,8 +18,7 @@ Chisel.Dense.Kmeans: **Pass**
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
