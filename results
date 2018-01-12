@@ -24,8 +24,7 @@ Chisel.Dense.NW: **Pass**
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: TopHost.cpp:36: void Application(int, std::vector<std::basic_string<char> >*): Assertion \`x14432_file.good() && "File filename does not exist"' failed.  
+Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
