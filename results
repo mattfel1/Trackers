@@ -1,102 +1,105 @@
 Chisel.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Differentiator: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap (0,Set(1)) (class scala.Tuple2)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap (0,Set(1)) (class scala.Tuple2)  
+↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
+↳&nbsp;&nbsp;&nbsp;&nbsp;null  
 Chisel.Dense.DotProduct: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.EdgeDetector: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;null  
 Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.GDA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.GEMM_Blocked: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x2266,1)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x2266,1)  
 Chisel.Dense.GEMM_NCubed: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
+↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
+↳&nbsp;&nbsp;&nbsp;&nbsp;null  
 Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Kmeans: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.KMP: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.MatMult_outer: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.MD_KNN: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.NW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.OuterProduct: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.SGD: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.SGD_minibatch: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Sobel: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Sort_Merge: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Stencil2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.Stencil3D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.SW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.SYRK_col: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.TPCHQ6: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Dense.TRSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Sparse.BFS_Bulk: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Sparse.PageRank: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Chisel.Sparse.ScatterGather: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Sparse.SPMV_CRS: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Unit.IndirectLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_12-24-46.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_14-18-07.chisel.all/spatial-lang/isl-bin"): error=2, No such file or directory  
