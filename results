@@ -24,7 +24,8 @@ Scala.Dense.NW: **Pass**
 Scala.Dense.OuterProduct: **Pass**  
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
-Scala.Dense.SHA1: **Pass**  
+Scala.Dense.SHA1: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-master.2018-01-11_18-56-41.scala.all/spatial-lang/apps/data/crypto/sha_txt.csv (No such file or directory)  
 Scala.Dense.SimpleRowStridedConv: **Pass**  
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
