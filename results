@@ -21,11 +21,11 @@ Chisel.Dense.MatMult_outer: **Pass**
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: **Pass**  
+Chisel.Dense.SHA1: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Top: TopHost.cpp:36: void Application(int, std::vector<std::basic_string<char> >*): Assertion \`x14432_file.good() && "File filename does not exist"' failed.  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
