@@ -16,8 +16,7 @@ Scala.Dense.JPEG_Decompress: **Pass**
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
 Scala.Dense.KMP: **Pass**  
-Scala.Dense.MatMult_inner: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Backend compile timed out after 2000 seconds  
+Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
 Scala.Dense.MD_KNN: **Pass**  
@@ -25,8 +24,7 @@ Scala.Dense.NW: **Pass**
 Scala.Dense.OuterProduct: **Pass**  
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
-Scala.Dense.SHA1: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-master.2018-01-12_10-14-27.scala.all/spatial-lang/apps/data/crypto/sha_txt.csv (No such file or directory)  
+Scala.Dense.SHA1: **Pass**  
 Scala.Dense.SimpleRowStridedConv: **Pass**  
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
