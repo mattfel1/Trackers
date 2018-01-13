@@ -1,45 +1,48 @@
 Scala.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.Convolution_FPGA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.FFT_Strided: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.GDA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.Kmeans: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.KMP: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+Scala.Dense.MatMult_outer: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.MD_KNN: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.NW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.SGD: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.SGD_minibatch: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.Sort_Merge: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.Stencil2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.Stencil3D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
 Scala.Dense.TPCHQ6: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-12_23-41-57.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;Cause: java.io.IOException: Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot run program "./emptiness" (in directory "/home/mattfel/regression/testdir-compile.2018-01-13_09-58-15.scala.all/spatial-lang/isl-bin"): error=2, No such file or directory  
