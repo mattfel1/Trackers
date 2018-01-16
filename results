@@ -1,0 +1,154 @@
+Scala.Dense.AES: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x3689 during mirroring!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x3689 during mirroring!  
+Scala.Dense.BasicBLAS: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 6 errors found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;6 errors found during Memory Layout Analyzer  
+Scala.Dense.BTC: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-15_18-30-48.scala.all/spatial-lang/logs/Scala/Dense/BTC/make.log  
+Scala.Dense.Convolution_FPGA: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 4 errors found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;4 errors found during Memory Layout Analyzer  
+Scala.Dense.Convolutions: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 22 errors found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;22 errors found during Memory Layout Analyzer  
+Scala.Dense.Differentiator: **Pass**  
+Scala.Dense.DotProduct: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.EdgeDetector: **Pass**  
+Scala.Dense.FFT_Strided: **Pass**  
+Scala.Dense.FFT_Transpose: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-15_18-30-48.scala.all/spatial-lang/logs/Scala/Dense/FFT_Transpose/make.log  
+Scala.Dense.GDA: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Could not bank all x1042 reads with writes  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1042 reads with writes  
+Scala.Dense.GEMM_Blocked: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
+Scala.Dense.GEMM_NCubed: **Pass**  
+Scala.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Could not bank all x1361 reads with writes  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1361 reads with writes  
+Scala.Dense.JPEG_Decompress: **Pass**  
+Scala.Dense.JPEG_Markers: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
+Scala.Dense.Kmeans: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
+Scala.Dense.KMP: **Pass**  
+Scala.Dense.MatMult_inner: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x1760,1)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x1760,1)  
+Scala.Dense.MatMult_outer: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.MD_Grid: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 3 errors found during Buffer Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;3 errors found during Buffer Analyzer  
+Scala.Dense.MD_KNN: **Pass**  
+Scala.Dense.NW: **Pass**  
+Scala.Dense.OuterProduct: **Pass**  
+Scala.Dense.SGD: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x1641 during mirroring!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x1641 during mirroring!  
+Scala.Dense.SGD_minibatch: **Pass**  
+Scala.Dense.SHA1: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-15_18-30-48.scala.all/spatial-lang/logs/Scala/Dense/SHA1/make.log  
+Scala.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 1  
+↳&nbsp;&nbsp;&nbsp;&nbsp;1  
+Scala.Dense.Sobel: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 4 errors found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;4 errors found during Memory Layout Analyzer  
+Scala.Dense.Sort_Merge: **Pass**  
+Scala.Dense.Sort_Radix: **Pass**  
+Scala.Dense.Stencil2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.Stencil3D: Indeterminate  
+↳&nbsp;&nbsp;Cause: Application did not report validation result.  
+Scala.Dense.SW: **Pass**  
+Scala.Dense.SYRK_col: **Pass**  
+Scala.Dense.TPCHQ6: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.TRSM: **Pass**  
+Scala.Dense.Viterbi: **Pass**  
+Scala.Sparse.BFS_Bulk: **Pass**  
+Scala.Sparse.BFS_Queue: **Pass**  
+Scala.Sparse.GatherStore: **Pass**  
+Scala.Sparse.PageRank_Bulk: **Pass**  
+Scala.Sparse.PageRank: **Pass**  
+Scala.Sparse.ScatterGather: **Pass**  
+Scala.Sparse.SPMV_CRS: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
+Scala.Sparse.SPMV_ELL: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
+↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
+Scala.Unit.ArbitraryLambda: **Pass**  
+Scala.Unit.BasicCondFSM: **Pass**  
+Scala.Unit.BasicFSM: **Pass**  
+Scala.Unit.BlockReduce1D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Unit.BlockReduce2D: **Pass**  
+Scala.Unit.Breakpoint: **Pass**  
+Scala.Unit.BubbledWriteTest: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Unit.ChangingCtrMax: **Pass**  
+Scala.Unit.CompactingFifo: **Pass**  
+Scala.Unit.CtrlEnable: **Pass**  
+Scala.Unit.DeviceMemcpy: **Pass**  
+Scala.Unit.DiagBanking: **Pass**  
+Scala.Unit.DotProductFSM: **Pass**  
+Scala.Unit.FifoLoadSRAMStore: **Pass**  
+Scala.Unit.FifoLoadStore: **Pass**  
+Scala.Unit.FifoPushPop: **Pass**  
+Scala.Unit.FifoStackFSM: **Pass**  
+Scala.Unit.FixPtInOutArg: **Pass**  
+Scala.Unit.FixPtMem: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Unit.FloatBasics: **Pass**  
+Scala.Unit.IndirectLoad: **Pass**  
+Scala.Unit.InOutArg: **Pass**  
+Scala.Unit.LaneMaskPar: **Pass**  
+Scala.Unit.LUTTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x602 during mirroring!  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x602 during mirroring!  
+Scala.Unit.MaskedWrite: **Pass**  
+Scala.Unit.Memcpy2D: **Pass**  
+Scala.Unit.MemTest1D: **Pass**  
+Scala.Unit.MemTest2D: **Pass**  
+Scala.Unit.MixedIOTest: **Pass**  
+Scala.Unit.MultiplexedWriteTest: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Unit.MultiWriteBuffer: **Pass**  
+Scala.Unit.Niter: **Pass**  
+Scala.Unit.OHM: **Pass**  
+Scala.Unit.ParFifoLoad: **Pass**  
+Scala.Unit.RetimedFifoBranch: **Pass**  
+Scala.Unit.SequentialWrites: **Pass**  
+Scala.Unit.SimpleFold: **Pass**  
+Scala.Unit.SimpleMemReduce: **Pass**  
+Scala.Unit.SimpleReduce: **Pass**  
+Scala.Unit.SimpleSequential: **Pass**  
+Scala.Unit.SimpleTileLoadStore: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Unit.SpecialMath: **Pass**  
+Scala.Unit.SSV1D: **Pass**  
+Scala.Unit.SSV2D: **Pass**  
+Scala.Unit.StackLoadStore: **Pass**  
+Scala.Unit.StridedLoad: **Pass**  
+Scala.Unit.Tensor3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: spatial.UndefinedChildException: Internal exception #1008: Parent (x2607,-1) does not appear to contain (x2487,(x2607,-1)) while running childContaining  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Internal exception #1008: Parent (x2607,-1) does not appear to contain (x2487,(x2607,-1)) while running childContaining  
+Scala.Unit.Tensor4D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: spatial.UndefinedChildException: Internal exception #1008: Parent (x3405,-1) does not appear to contain (x3252,(x3405,-1)) while running childContaining  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Internal exception #1008: Parent (x3405,-1) does not appear to contain (x3252,(x3405,-1)) while running childContaining  
+Scala.Unit.Tensor5D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: spatial.UndefinedChildException: Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
+Scala.Unit.UnalignedFifoLoad: **Pass**  
+Scala.Unit.UnalignedLd: **Pass**  
+Scala.Unit.UniqueParallelLoad: **Pass**  
