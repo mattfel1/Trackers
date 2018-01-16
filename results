@@ -137,8 +137,8 @@ Chisel.Sparse.SPMV_ELL: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Unit.ArbitraryLambda: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap Map(0 -> Set(0)) (class scala.collection.immutable.Map$Map1)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap Map(0 -> Set(0)) (class scala.collection.immutable.Map$Map1)  
 Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
@@ -151,9 +151,9 @@ Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]
 Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
-Chisel.Unit.Breakpoint: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+Chisel.Unit.Breakpoint: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_00-01-42.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
 Chisel.Unit.BubbledWriteTest: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(16,new W_Info(32,List(32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(16,new W_Info(32,List(32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32),32)))!  
@@ -177,9 +177,9 @@ Chisel.Unit.FifoLoadSRAMStore: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 Chisel.Unit.FifoLoadStore: **Pass**  
-Chisel.Unit.FifoPushPop: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+Chisel.Unit.FifoPushPop: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_00-01-42.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/make.log  
 Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: scala.MatchError: x4134 (of class argon.core.Sym)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;x4134 (of class argon.core.Sym)  
@@ -221,18 +221,18 @@ Chisel.Unit.MultiplexedWriteTest: Fail [Spatial Compile]
 Chisel.Unit.MultiWriteBuffer: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
-Chisel.Unit.Niter: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+Chisel.Unit.Niter: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_00-01-42.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/make.log  
 Chisel.Unit.OHM: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
-Chisel.Unit.ParFifoLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
-Chisel.Unit.RetimedFifoBranch: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+Chisel.Unit.ParFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_00-01-42.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/make.log  
+Chisel.Unit.RetimedFifoBranch: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_00-01-42.chisel.all/spatial-lang/logs/Chisel/Unit/RetimedFifoBranch/make.log  
 Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(16,new W_Info(32,List(32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(16,new W_Info(32,List(32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32),32)))!  
@@ -242,9 +242,7 @@ Chisel.Unit.SimpleFold: Fail [Spatial Compile]
 Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
-Chisel.Unit.SimpleReduce: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),32)))!  
@@ -275,9 +273,9 @@ Chisel.Unit.Tensor4D: Fail [Spatial Compile]
 Chisel.Unit.Tensor5D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: spatial.UndefinedChildException: Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
-Chisel.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Encountered compiler bug during pass Chisel Codegen  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Encountered compiler bug during pass Chisel Codegen  
+Chisel.Unit.UnalignedFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_00-01-42.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/make.log  
 Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new W_Info(32,List(32),64)))!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new W_Info(32,List(32),64)))!  
