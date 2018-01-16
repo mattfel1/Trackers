@@ -15,12 +15,12 @@ Chisel.Dense.Convolutions: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;22 errors found during Memory Layout Analyzer  
 Chisel.Dense.Differentiator: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/make.log  
 Chisel.Dense.DotProduct: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.EdgeDetector: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/EdgeDetector/make.log  
 Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x5611 not yet handled in partial retiming  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x5611 not yet handled in partial retiming  
@@ -40,7 +40,7 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1361 reads with writes  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
@@ -49,19 +49,19 @@ Chisel.Dense.Kmeans: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Dense.KMP: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
 Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x1760,1)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x1760,1)  
 Chisel.Dense.MatMult_outer: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
 Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 3 errors found during Buffer Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;3 errors found during Buffer Analyzer  
 Chisel.Dense.MD_KNN: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/MD_KNN/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/MD_KNN/make.log  
 Chisel.Dense.NW: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x13671 not yet handled in partial retiming  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x13671 not yet handled in partial retiming  
@@ -81,10 +81,10 @@ Chisel.Dense.Sobel: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;4 errors found during Memory Layout Analyzer  
 Chisel.Dense.Sort_Merge: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Merge/make.log  
 Chisel.Dense.Sort_Radix: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/Sort_Radix/make.log  
 Chisel.Dense.Stencil2D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Unimplemented - BankedLineBufferEnq  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Unimplemented - BankedLineBufferEnq  
@@ -96,27 +96,27 @@ Chisel.Dense.SW: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x14153 not yet handled in partial retiming  
 Chisel.Dense.SYRK_col: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/SYRK_col/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/SYRK_col/make.log  
 Chisel.Dense.TPCHQ6: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.TRSM: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/TRSM/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/TRSM/make.log  
 Chisel.Dense.Viterbi: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/make.log  
 Chisel.Sparse.BFS_Bulk: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Bulk/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Bulk/make.log  
 Chisel.Sparse.BFS_Queue: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Queue/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Queue/make.log  
 Chisel.Sparse.GatherStore: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.min  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;empty.min  
 Chisel.Sparse.PageRank_Bulk: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank_Bulk/make.log  
 Chisel.Sparse.PageRank: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory x10393, port Seq(0,1) had no read top controllers  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Memory x10393, port Seq(0,1) had no read top controllers  
@@ -131,36 +131,36 @@ Chisel.Sparse.SPMV_ELL: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Unit.ArbitraryLambda: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/make.log  
 Chisel.Unit.BasicCondFSM: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/make.log  
 Chisel.Unit.BasicFSM: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/make.log  
 Chisel.Unit.BlockReduce1D: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.BlockReduce2D: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/make.log  
 Chisel.Unit.Breakpoint: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/Breakpoint/make.log  
 Chisel.Unit.BubbledWriteTest: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/make.log  
 Chisel.Unit.CtrlEnable: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/make.log  
 Chisel.Unit.DeviceMemcpy: **Pass**  
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/make.log  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
@@ -175,11 +175,11 @@ Chisel.Unit.FloatBasics: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;FltPt[_24,_8] (of class argon.nodes.FltPtType)  
 Chisel.Unit.IndirectLoad: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/IndirectLoad/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/IndirectLoad/make.log  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/make.log  
 Chisel.Unit.LUTTest: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x602 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x602 during mirroring!  
@@ -191,22 +191,22 @@ Chisel.Unit.MemTest1D: **Pass**
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/make.log  
 Chisel.Unit.MultiplexedWriteTest: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/MultiplexedWriteTest/make.log  
 Chisel.Unit.MultiWriteBuffer: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.Niter: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/Niter/make.log  
 Chisel.Unit.OHM: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/make.log  
 Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.RetimedFifoBranch: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/RetimedFifoBranch/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/RetimedFifoBranch/make.log  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -235,8 +235,8 @@ Chisel.Unit.Tensor5D: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
 Chisel.Unit.UnalignedFifoLoad: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/make.log  
 Chisel.Unit.UnalignedLd: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_13-46-35.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_14-51-26.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/make.log  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
