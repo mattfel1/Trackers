@@ -38,7 +38,7 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1361 reads with writes  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-16_15-24-39.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_16-17-59.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
@@ -47,13 +47,13 @@ Chisel.Dense.Kmeans: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Dense.KMP: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-16_15-24-39.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_16-17-59.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
 Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x1760,1)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x1760,1)  
 Chisel.Dense.MatMult_outer: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-16_15-24-39.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_16-17-59.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
 Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 3 errors found during Buffer Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;3 errors found during Buffer Analyzer  
@@ -121,7 +121,7 @@ Chisel.Unit.BlockReduce2D: **Pass**
 Chisel.Unit.Breakpoint: **Pass**  
 Chisel.Unit.BubbledWriteTest: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-16_15-24-39.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_16-17-59.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
@@ -131,9 +131,7 @@ Chisel.Unit.DotProductFSM: **Pass**
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: scala.MatchError: x4134 (of class argon.core.Sym)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;x4134 (of class argon.core.Sym)  
+Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -175,9 +173,8 @@ Chisel.Unit.SSV1D: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.SSV2D: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.StackLoadStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: scala.MatchError: x1273 (of class argon.core.Sym)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;x1273 (of class argon.core.Sym)  
+Chisel.Unit.StackLoadStore: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: spatial.UndefinedChildException: Internal exception #1008: Parent (x2607,-1) does not appear to contain (x2487,(x2607,-1)) while running childContaining  
