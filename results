@@ -19,9 +19,8 @@ Chisel.Dense.DotProduct: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.EdgeDetector: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.FFT_Strided: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x5611 not yet handled in partial retiming  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x5611 not yet handled in partial retiming  
+Chisel.Dense.FFT_Strided: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: argon.GenerationFailedException: Don't know how to generate node BankedLUTLoad(x26074,Vector(List(x26099)),Vector(x26107),List(Const(true)))  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Don't know how to generate node BankedLUTLoad(x26074,Vector(List(x26099)),Vector(x26107),List(Const(true)))  
@@ -31,14 +30,13 @@ Chisel.Dense.GDA: Fail [Spatial Compile]
 Chisel.Dense.GEMM_Blocked: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
-Chisel.Dense.GEMM_NCubed: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Could not bank all x1361 reads with writes  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1361 reads with writes  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_19-56-54.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_10-28-04.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
@@ -47,18 +45,19 @@ Chisel.Dense.Kmeans: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Dense.KMP: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_19-56-54.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_10-28-04.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
 Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x1760,1)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x1760,1)  
-Chisel.Dense.MatMult_outer: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_19-56-54.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_outer/make.log  
+Chisel.Dense.MatMult_outer: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory accum_1 (x12238) had no readers?  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Memory accum_1 (x12238) had no readers?  
 Chisel.Dense.MD_Grid: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 3 errors found during Buffer Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;3 errors found during Buffer Analyzer  
-Chisel.Dense.MD_KNN: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.MD_KNN: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.min  
+↳&nbsp;&nbsp;&nbsp;&nbsp;empty.min  
 Chisel.Dense.NW: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x13671 not yet handled in partial retiming  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x13671 not yet handled in partial retiming  
@@ -68,8 +67,8 @@ Chisel.Dense.SGD: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x1641 during mirroring!  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SHA1: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x16951 not yet handled in partial retiming  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x16951 not yet handled in partial retiming  
+↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
 Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Unimplemented - BankedLineBufferRotateEnq  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Unimplemented - BankedLineBufferRotateEnq  
@@ -98,8 +97,7 @@ Chisel.Sparse.BFS_Queue: **Pass**
 Chisel.Sparse.GatherStore: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.min  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;empty.min  
-Chisel.Sparse.PageRank_Bulk: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory x10393, port Seq(0,1) had no read top controllers  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Memory x10393, port Seq(0,1) had no read top controllers  
@@ -119,9 +117,9 @@ Chisel.Unit.BlockReduce1D: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.Breakpoint: **Pass**  
-Chisel.Unit.BubbledWriteTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-16_19-56-54.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
+Chisel.Unit.BubbledWriteTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.UnsupportedOperationException: empty.min  
+↳&nbsp;&nbsp;&nbsp;&nbsp;empty.min  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
@@ -135,44 +133,35 @@ Chisel.Unit.FifoStackFSM: **Pass**
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: scala.MatchError: FltPt[_24,_8] (of class argon.nodes.FltPtType)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;FltPt[_24,_8] (of class argon.nodes.FltPtType)  
+Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LUTTest: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x602 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x602 during mirroring!  
-Chisel.Unit.MaskedWrite: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x1288 not yet handled in partial retiming  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x1288 not yet handled in partial retiming  
+Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.MultiWriteBuffer: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SimpleFold: **Pass**  
 Chisel.Unit.SimpleMemReduce: **Pass**  
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Unit.SSV2D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SSV1D: **Pass**  
+Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.StridedLoad: **Pass**  
@@ -186,6 +175,5 @@ Chisel.Unit.Tensor5D: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;Cause: spatial.UndefinedChildException: Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Internal exception #1008: Parent (x4252,-1) does not appear to contain (x4072,(x4252,-1)) while running childContaining  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
