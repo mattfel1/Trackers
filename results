@@ -6,7 +6,7 @@ Scala.Dense.BasicBLAS: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;6 errors found during Memory Layout Analyzer  
 Scala.Dense.BTC: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.scala.all/spatial-lang/logs/Scala/Dense/BTC/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.scala.all/spatial-lang/logs/Scala/Dense/BTC/make.log  
 Scala.Dense.Convolution_FPGA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 4 errors found during Memory Layout Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;4 errors found during Memory Layout Analyzer  
@@ -20,7 +20,7 @@ Scala.Dense.EdgeDetector: **Pass**
 Scala.Dense.FFT_Strided: **Pass**  
 Scala.Dense.FFT_Transpose: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.scala.all/spatial-lang/logs/Scala/Dense/FFT_Transpose/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.scala.all/spatial-lang/logs/Scala/Dense/FFT_Transpose/make.log  
 Scala.Dense.GDA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Could not bank all x1042 reads with writes  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1042 reads with writes  
@@ -56,7 +56,7 @@ Scala.Dense.SGD: Fail [Spatial Compile]
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SHA1: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.scala.all/spatial-lang/logs/Scala/Dense/SHA1/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.scala.all/spatial-lang/logs/Scala/Dense/SHA1/make.log  
 Scala.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 1  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1  
