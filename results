@@ -34,7 +34,7 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1361 reads with writes  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
@@ -43,7 +43,7 @@ Chisel.Dense.Kmeans: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Dense.KMP: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
 Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x1760,1)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x1760,1)  
@@ -54,9 +54,7 @@ Chisel.Dense.MD_Grid: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 3 errors found during Buffer Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;3 errors found during Buffer Analyzer  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x13671 not yet handled in partial retiming  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x13671 not yet handled in partial retiming  
+Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x1641 during mirroring!  
@@ -79,9 +77,7 @@ Chisel.Dense.Stencil2D: Fail [Spatial Compile]
 Chisel.Dense.Stencil3D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Unimplemented - BankedLineBufferEnq  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Unimplemented - BankedLineBufferEnq  
-Chisel.Dense.SW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Node enable x14153 not yet handled in partial retiming  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Node enable x14153 not yet handled in partial retiming  
+Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
@@ -98,7 +94,7 @@ Chisel.Sparse.PageRank: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Memory x10393, port Seq(0,1) had no read top controllers  
 Chisel.Sparse.ScatterGather: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
 Chisel.Sparse.SPMV_CRS: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
@@ -114,7 +110,7 @@ Chisel.Unit.BlockReduce2D: **Pass**
 Chisel.Unit.Breakpoint: **Pass**  
 Chisel.Unit.BubbledWriteTest: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_16-49-31.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
