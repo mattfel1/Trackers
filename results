@@ -13,12 +13,10 @@ Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]
 Chisel.Dense.Convolutions: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 22 errors found during Memory Layout Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;22 errors found during Memory Layout Analyzer  
-Chisel.Dense.Differentiator: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.EdgeDetector: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
@@ -36,7 +34,7 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1361 reads with writes  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_14-39-07.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
@@ -45,7 +43,7 @@ Chisel.Dense.Kmeans: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
 Chisel.Dense.KMP: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_14-39-07.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
 Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: key not found: (x1760,1)  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;key not found: (x1760,1)  
@@ -100,7 +98,7 @@ Chisel.Sparse.PageRank: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Memory x10393, port Seq(0,1) had no read top controllers  
 Chisel.Sparse.ScatterGather: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_14-39-07.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
 Chisel.Sparse.SPMV_CRS: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: 1 error found during Memory Layout Analyzer  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;1 error found during Memory Layout Analyzer  
@@ -116,7 +114,7 @@ Chisel.Unit.BlockReduce2D: **Pass**
 Chisel.Unit.Breakpoint: **Pass**  
 Chisel.Unit.BubbledWriteTest: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_14-39-07.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-17_15-32-18.chisel.all/spatial-lang/logs/Chisel/Unit/BubbledWriteTest/make.log  
 Chisel.Unit.ChangingCtrMax: **Pass**  
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
