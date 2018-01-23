@@ -77,6 +77,7 @@ Scala.Unit.MultiplexedWriteTest: **Pass**
 Scala.Unit.MultiWriteBuffer: **Pass**  
 Scala.Unit.Niter: **Pass**  
 Scala.Unit.OHM: **Pass**  
+Scala.Unit.PageBoundaryTest: **Pass**  
 Scala.Unit.ParFifoLoad: **Pass**  
 Scala.Unit.RetimedFifoBranch: **Pass**  
 Scala.Unit.SequentialWrites: **Pass**  
