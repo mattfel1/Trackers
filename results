@@ -72,9 +72,7 @@ Chisel.Unit.MaskedWrite: **Pass**
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-01-21_09-46-05.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/make.log  
+Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
