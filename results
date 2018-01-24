@@ -1,10 +1,7 @@
-Scala.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Scala.Dense.AES: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.BasicBLAS: **Pass**  
-Scala.Dense.BTC: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-23_12-11-16.scala.all/spatial-lang/logs/Scala/Dense/BTC/make.log  
+Scala.Dense.BTC: **Pass**  
 Scala.Dense.Convolution_FPGA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x2492 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x2492 during mirroring!  
@@ -17,31 +14,23 @@ Scala.Dense.EdgeDetector: **Pass**
 Scala.Dense.FFT_Strided: **Pass**  
 Scala.Dense.FFT_Transpose: Indeterminate  
 ↳&nbsp;&nbsp;Cause: Application did not report validation result.  
-Scala.Dense.GDA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Scala.Dense.GDA: **Pass**  
 Scala.Dense.GEMM_Blocked: **Pass**  
 Scala.Dense.GEMM_NCubed: **Pass**  
-Scala.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Could not bank all x1426 reads with writes  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1426 reads with writes  
+Scala.Dense.Gibbs_Ising2D: **Pass**  
 Scala.Dense.JPEG_Decompress: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
 Scala.Dense.Kmeans: **Pass**  
-Scala.Dense.KMP: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Scala.Dense.KMP: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: Indeterminate  
 ↳&nbsp;&nbsp;Cause: Application did not report validation result.  
 Scala.Dense.MD_KNN: **Pass**  
-Scala.Dense.NW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Scala.Dense.NW: **Pass**  
 Scala.Dense.OuterProduct: **Pass**  
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
@@ -58,9 +47,7 @@ Scala.Dense.Stencil2D: Indeterminate
 ↳&nbsp;&nbsp;Cause: Application did not report validation result.  
 Scala.Dense.Stencil3D: Indeterminate  
 ↳&nbsp;&nbsp;Cause: Application did not report validation result.  
-Scala.Dense.SW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Scala.Dense.SW: **Pass**  
 Scala.Dense.SYRK_col: **Pass**  
 Scala.Dense.TPCHQ6: **Pass**  
 Scala.Dense.TRSM: **Pass**  
@@ -71,9 +58,7 @@ Scala.Sparse.GatherStore: **Pass**
 Scala.Sparse.PageRank_Bulk: **Pass**  
 Scala.Sparse.PageRank: **Pass**  
 Scala.Sparse.ScatterGather: **Pass**  
-Scala.Sparse.SPMV_CRS: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Scala.Sparse.SPMV_CRS: **Pass**  
 Scala.Sparse.SPMV_ELL: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
