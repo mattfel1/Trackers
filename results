@@ -1,10 +1,11 @@
 Chisel.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
-Chisel.Dense.BasicBLAS: **Pass**  
+↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
+Chisel.Dense.BasicBLAS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.BTC: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: argon.GenerationFailedException: Don't know how to generate node BankedLUTLoad(x25308,Vector(List(Const(0))),Vector(x25803),List(x25799))  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Don't know how to generate node BankedLUTLoad(x25308,Vector(List(Const(0))),Vector(x25803),List(x25799))  
+↳&nbsp;&nbsp;Cause: java.lang.RuntimeException: Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Could not quote or remap (0,Set(0)) (class scala.Tuple2)  
 Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x2492 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x2492 during mirroring!  
@@ -15,28 +16,26 @@ Chisel.Dense.Differentiator: **Pass**
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
-Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: argon.GenerationFailedException: Don't know how to generate node BankedLUTLoad(x55561,Vector(List(x55587)),Vector(x55598),List(Const(true)))  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Don't know how to generate node BankedLUTLoad(x55561,Vector(List(x55587)),Vector(x55598),List(Const(true)))  
+Chisel.Dense.FFT_Transpose: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-24_13-26-56.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
 Chisel.Dense.GDA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory sigmaTile_1 (x54451) had no readers?  
+↳&nbsp;&nbsp;&nbsp;&nbsp;Memory sigmaTile_1 (x54451) had no readers?  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Could not bank all x1426 reads with writes  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Could not bank all x1426 reads with writes  
+Chisel.Dense.Gibbs_Ising2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-23_12-11-16.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-24_13-26-56.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
 Chisel.Dense.Kmeans: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.KMP: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Chisel.Dense.KMP: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory accum_1 (x11858) had no readers?  
@@ -44,9 +43,7 @@ Chisel.Dense.MatMult_outer: Fail [Spatial Compile]
 Chisel.Dense.MD_Grid: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.MD_KNN: **Pass**  
-Chisel.Dense.NW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
@@ -67,9 +64,8 @@ Chisel.Dense.Stencil2D: Fail [Spatial Compile]
 Chisel.Dense.Stencil3D: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Unimplemented - BankedLineBufferEnq  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Unimplemented - BankedLineBufferEnq  
-Chisel.Dense.SW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+Chisel.Dense.SW: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
@@ -83,10 +79,9 @@ Chisel.Sparse.PageRank: Fail [Execution]
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.ScatterGather: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-23_12-11-16.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
-Chisel.Sparse.SPMV_CRS: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.IndexOutOfBoundsException: 5  
-↳&nbsp;&nbsp;&nbsp;&nbsp;5  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-24_13-26-56.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
+Chisel.Sparse.SPMV_CRS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.SPMV_ELL: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Unit.ArbitraryLambda: **Pass**  
@@ -113,16 +108,14 @@ Chisel.Unit.FloatBasics: **Pass**
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: argon.GenerationFailedException: Don't know how to generate node BankedLUTLoad(x1058,Vector(List(Const(1)), List(Const(0)), List(Const(2))),Vector(Const(1), Const(0), Const(2)),List(Const(true), Const(true), Const(true)))  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Don't know how to generate node BankedLUTLoad(x1058,Vector(List(Const(1)), List(Const(0)), List(Const(2))),Vector(Const(1), Const(0), Const(2)),List(Const(true), Const(true), Const(true)))  
+Chisel.Unit.LUTTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-24_13-26-56.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/make.log  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-23_12-11-16.chisel.all/spatial-lang/logs/Chisel/Unit/MixedIOTest/make.log  
+Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiplexedWriteTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
