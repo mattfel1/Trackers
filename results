@@ -57,8 +57,7 @@ Scala.Unit.CompactingFifo: **Pass**
 Scala.Unit.CtrlEnable: **Pass**  
 Scala.Unit.DeviceMemcpy: **Pass**  
 Scala.Unit.DiagBanking: **Pass**  
-Scala.Unit.DotProductFSM: Fail [Backend Compile]  
-↳&nbsp;&nbsp;Cause: Backend compile timed out after 2000 seconds  
+Scala.Unit.DotProductFSM: **Pass**  
 Scala.Unit.FifoLoadSRAMStore: **Pass**  
 Scala.Unit.FifoLoadStore: **Pass**  
 Scala.Unit.FifoPushPop: **Pass**  
