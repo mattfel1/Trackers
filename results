@@ -14,7 +14,8 @@ Scala.Dense.GEMM_NCubed: **Pass**
 Scala.Dense.Gibbs_Ising2D: **Pass**  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
-Scala.Dense.Kmeans: **Pass**  
+Scala.Dense.Kmeans: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.KMP: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
@@ -56,7 +57,8 @@ Scala.Unit.CompactingFifo: **Pass**
 Scala.Unit.CtrlEnable: **Pass**  
 Scala.Unit.DeviceMemcpy: **Pass**  
 Scala.Unit.DiagBanking: **Pass**  
-Scala.Unit.DotProductFSM: **Pass**  
+Scala.Unit.DotProductFSM: Fail [Backend Compile]  
+↳&nbsp;&nbsp;Cause: Backend compile timed out after 2000 seconds  
 Scala.Unit.FifoLoadSRAMStore: **Pass**  
 Scala.Unit.FifoLoadStore: **Pass**  
 Scala.Unit.FifoPushPop: **Pass**  
