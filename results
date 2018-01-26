@@ -1,10 +1,9 @@
-Chisel.Dense.AES: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new RegW_Info(32,List(32),8)))!  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new RegW_Info(32,List(32),8)))!  
+Chisel.Dense.AES: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_12-48-06.chisel.all/spatial-lang/logs/Chisel/Dense/AES/make.log  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(8,new RegW_Info(32,List(32),32)))!  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(8,new RegW_Info(32,List(32),32)))!  
+Chisel.Dense.BTC: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x2492 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x2492 during mirroring!  
@@ -21,7 +20,7 @@ Chisel.Dense.EdgeDetector: Fail [Spatial Compile]
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-26_11-41-23.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_12-48-06.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
 Chisel.Dense.GDA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory sigmaTile_1 (x54451) had no readers?  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Memory sigmaTile_1 (x54451) had no readers?  
@@ -31,7 +30,7 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-26_11-41-23.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_12-48-06.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
@@ -50,9 +49,8 @@ Chisel.Dense.NW: **Pass**
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.Exception: Cannot compress Wire(Vec(1,new RegW_Info(32,List(32),32)))!  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Cannot compress Wire(Vec(1,new RegW_Info(32,List(32),32)))!  
+Chisel.Dense.SHA1: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Unimplemented - BankedLineBufferRotateEnq  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Unimplemented - BankedLineBufferRotateEnq  
@@ -82,9 +80,9 @@ Chisel.Sparse.PageRank: Fail [Execution]
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.ScatterGather: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-26_11-41-23.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_12-48-06.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
 Chisel.Sparse.SPMV_CRS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:155: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.SPMV_ELL: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Unit.ArbitraryLambda: **Pass**  
@@ -111,9 +109,7 @@ Chisel.Unit.FloatBasics: **Pass**
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LUTTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-compile.2018-01-26_11-41-23.chisel.all/spatial-lang/logs/Chisel/Unit/LUTTest/make.log  
+Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
