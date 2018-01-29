@@ -1,8 +1,7 @@
 Chisel.Dense.AES: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.BasicBLAS: **Pass**  
-Chisel.Dense.BTC: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x2492 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x2492 during mirroring!  
@@ -15,7 +14,7 @@ Chisel.Dense.EdgeDetector: **Pass**
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_14-57-15.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-28_15-58-24.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Transpose/make.log  
 Chisel.Dense.GDA: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Memory sigmaTile_1 (x54451) had no readers?  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Memory sigmaTile_1 (x54451) had no readers?  
@@ -25,12 +24,11 @@ Chisel.Dense.Gibbs_Ising2D: Fail [Validation]
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.JPEG_Decompress: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_14-57-15.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-28_15-58-24.chisel.all/spatial-lang/logs/Chisel/Dense/JPEG_Decompress/make.log  
 Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Used untransformed symbol x12338 during mirroring!  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x12338 during mirroring!  
-Chisel.Dense.Kmeans: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: Fail [Validation]  
 ↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.MatMult_inner: **Pass**  
@@ -44,8 +42,7 @@ Chisel.Dense.NW: **Pass**
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
 ↳&nbsp;&nbsp;Cause: java.lang.Exception: Unimplemented - BankedLineBufferRotateEnq  
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Unimplemented - BankedLineBufferRotateEnq  
@@ -75,9 +72,9 @@ Chisel.Sparse.PageRank: Fail [Execution]
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.ScatterGather: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-26_14-57-15.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-compile.2018-01-28_15-58-24.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather/make.log  
 Chisel.Sparse.SPMV_CRS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:155: uint64_t FringeContextVCS::getCycles(): Assertion \`0' failed.  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.SPMV_ELL: Fail [Execution]  
 ↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:196: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Unit.ArbitraryLambda: **Pass**  
@@ -91,8 +88,7 @@ Chisel.Unit.ChangingCtrMax: **Pass**
 Chisel.Unit.CompactingFifo: **Pass**  
 Chisel.Unit.CtrlEnable: **Pass**  
 Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
