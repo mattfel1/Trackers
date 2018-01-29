@@ -43,8 +43,8 @@ Scala.Dense.Sobel: Fail [Spatial Compile]
 ↳&nbsp;&nbsp;&nbsp;&nbsp;Used untransformed symbol x3608 during mirroring!  
 Scala.Dense.Sort_Merge: **Pass**  
 Scala.Dense.Sort_Radix: **Pass**  
-Scala.Dense.Stencil2D: Indeterminate  
-↳&nbsp;&nbsp;Cause: Application did not report validation result.  
+Scala.Dense.Stencil2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.Stencil3D: Indeterminate  
 ↳&nbsp;&nbsp;Cause: Application did not report validation result.  
 Scala.Dense.SW: **Pass**  
@@ -71,8 +71,7 @@ Scala.Unit.ChangingCtrMax: **Pass**
 Scala.Unit.CompactingFifo: **Pass**  
 Scala.Unit.CtrlEnable: **Pass**  
 Scala.Unit.DeviceMemcpy: **Pass**  
-Scala.Unit.DiagBanking: Indeterminate  
-↳&nbsp;&nbsp;Cause: Application did not report validation result.  
+Scala.Unit.DiagBanking: **Pass**  
 Scala.Unit.DotProductFSM: **Pass**  
 Scala.Unit.FifoLoadSRAMStore: **Pass**  
 Scala.Unit.FifoLoadStore: **Pass**  
