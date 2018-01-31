@@ -25,7 +25,8 @@ Scala.Dense.OuterProduct: **Pass**
 Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
 Scala.Dense.SHA1: **Pass**  
-Scala.Dense.SimpleRowStridedConv: **Pass**  
+Scala.Dense.SimpleRowStridedConv: Indeterminate  
+↳&nbsp;&nbsp;Cause: Application did not report validation result.  
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
 Scala.Dense.Sort_Radix: **Pass**  
