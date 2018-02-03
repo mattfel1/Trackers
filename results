@@ -2,14 +2,17 @@ Chisel.Dense.AES: **Pass**
 Chisel.Dense.BasicBLAS: **Pass**  
 Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Convolutions: **Pass**  
+Chisel.Dense.Convolutions: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-02_16-55-43.chisel.all/spatial-lang/logs/Chisel/Dense/Convolutions/make.log  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: **Pass**  
+Chisel.Dense.GEMM_Blocked: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
