@@ -15,7 +15,8 @@ Chisel.Dense.Gibbs_Ising2D: **Pass**
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.KMP: **Pass**  
+Chisel.Dense.KMP: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
@@ -61,9 +62,7 @@ Chisel.Unit.FifoLoadSRAMStore: **Pass**
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-02-05_17-28-56.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/run.log  
+Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
