@@ -1,78 +1,117 @@
+Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BlockReduce1D: **Pass**  
-Chisel.Dense.BTC: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.BTC: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.FixPtMem: **Pass**  
-Chisel.Dense.FloatBasics: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Dense/FloatBasics/make.log  
+Chisel.Dense.FloatBasics: **Pass**  
+Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.GEMM_Blocked: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: accel.bit.bin: ../DRAM.h:663: int sendWdataStrb(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int): Assertion \`0' failed.  
-Chisel.Dense.KMP: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/make.log  
-Chisel.Dense.MatMult_inner: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Dense/MatMult_inner/make.log  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.Kmeans: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.KMP: **Pass**  
+Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
-Chisel.Dense.Niter: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Dense/Niter/make.log  
-Chisel.Dense.NW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: accel.bit.bin: ../DRAM.h:663: int sendWdataStrb(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int): Assertion \`0' failed.  
+Chisel.Dense.Niter: **Pass**  
+Chisel.Dense.NW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
-Chisel.Dense.Sobel: **Pass**  
+Chisel.Dense.SHA1: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.Sobel: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.SpecialMath: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Dense/SpecialMath/make.log  
+Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: accel.bit.bin: ../DRAM.h:663: int sendWdataStrb(int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int): Assertion \`0' failed.  
+Chisel.Dense.SW: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
 Chisel.Dense.Tensor4D: **Pass**  
 Chisel.Dense.Tensor5D: **Pass**  
 Chisel.Dense.TPCHQ6: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Dense/TPCHQ6/make.log  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: **Pass**  
-Chisel.Sparse.BFS_Bulk: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/gen/Chisel/Sparse/BFS_Bulk/controller_tree.html (No such file or directory)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/gen/Chisel/Sparse/BFS_Bulk/controller_tree.html (No such file or directory)  
-Chisel.Sparse.BFS_Queue: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.nio.file.FileSystemException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Queue: No space left on device  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/BFS_Queue: No space left on device  
-Chisel.Sparse.GatherStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.nio.file.FileSystemException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/GatherStore: No space left on device  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/GatherStore: No space left on device  
-Chisel.Sparse.PageRank: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.nio.file.FileSystemException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank: No space left on device  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/PageRank: No space left on device  
-Chisel.Sparse.ScatterGather: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.nio.file.FileSystemException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather: No space left on device  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/ScatterGather: No space left on device  
-Chisel.Sparse.SPMV_CRS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_CRS/make.log  
-Chisel.Sparse.SPMV_ELL: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Sparse/SPMV_ELL/make.log  
-Chisel.Unit.IndirectLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.nio.file.FileSystemException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Unit: No space left on device  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Unit: No space left on device  
-Chisel.Unit.SequentialWrites: Fail [S  
+Chisel.Dense.Viterbi: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Unit.ArbitraryLambda: **Pass**  
+Chisel.Unit.BasicCondFSM: **Pass**  
+Chisel.Unit.BasicFSM: **Pass**  
+Chisel.Unit.BlockReduce1D: **Pass**  
+Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.Breakpoint: **Pass**  
+Chisel.Unit.BubbledWriteTest: **Pass**  
+Chisel.Unit.ChangingCtrMax: **Pass**  
+Chisel.Unit.CompactingFifo: **Pass**  
+Chisel.Unit.CtrlEnable: **Pass**  
+Chisel.Unit.DeviceMemcpy: **Pass**  
+Chisel.Unit.DiagBanking: **Pass**  
+Chisel.Unit.DotProductFSM: **Pass**  
+Chisel.Unit.FifoLoadSRAMStore: **Pass**  
+Chisel.Unit.FifoLoadStore: **Pass**  
+Chisel.Unit.FifoPushPop: **Pass**  
+Chisel.Unit.FifoStackFSM: **Pass**  
+Chisel.Unit.FixPtInOutArg: **Pass**  
+Chisel.Unit.FixPtMem: **Pass**  
+Chisel.Unit.FloatBasics: **Pass**  
+Chisel.Unit.IndirectLoad: **Pass**  
+Chisel.Unit.InOutArg: **Pass**  
+Chisel.Unit.LaneMaskPar: **Pass**  
+Chisel.Unit.LittleTypeTest: **Pass**  
+Chisel.Unit.LUTTest: **Pass**  
+Chisel.Unit.MaskedWrite: **Pass**  
+Chisel.Unit.Memcpy2D: **Pass**  
+Chisel.Unit.MemTest1D: **Pass**  
+Chisel.Unit.MemTest2D: **Pass**  
+Chisel.Unit.MixedIOTest: **Pass**  
+Chisel.Unit.MultiWriteBuffer: **Pass**  
+Chisel.Unit.Niter: **Pass**  
+Chisel.Unit.OHM: **Pass**  
+Chisel.Unit.PageBoundaryTest: **Pass**  
+Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.RetimedFifoBranch: **Pass**  
+Chisel.Unit.SequentialWrites: **Pass**  
+Chisel.Unit.SimpleFold: **Pass**  
+Chisel.Unit.SimpleMemReduce: **Pass**  
+Chisel.Unit.SimpleReduce: **Pass**  
+Chisel.Unit.SimpleSequential: **Pass**  
+Chisel.Unit.SimpleTileLoadStore: **Pass**  
+Chisel.Unit.SpecialMath: **Pass**  
+Chisel.Unit.SSV1D: **Pass**  
+Chisel.Unit.SSV2D: **Pass**  
+Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StridedLoad: **Pass**  
+Chisel.Unit.Tensor3D: **Pass**  
+Chisel.Unit.Tensor4D: **Pass**  
+Chisel.Unit.Tensor5D: **Pass**  
+Chisel.Unit.UnalignedFifoLoad: **Pass**  
+Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UnalignedTileLoadStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.nio.file.FileSystemException: /home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Unit: No space left on device  
-↳&nbsp;&nbsp;&nbsp;&nbsp;/home/mattfel/regression/testdir-develop.2018-02-10_13-05-40.chisel.all/spatial-lang/logs/Chisel/Unit: No space left on device  
+↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
+↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Unit.UniqueParallelLoad: **Pass**  
