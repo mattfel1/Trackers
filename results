@@ -1,8 +1,6 @@
 Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BlockReduce1D: **Pass**  
-Chisel.Dense.BTC: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.BTC: **Pass**  
 Chisel.Dense.Convolution_FPGA: **Pass**  
 Chisel.Dense.Differentiator: **Pass**  
 Chisel.Dense.DotProduct: **Pass**  
@@ -12,9 +10,8 @@ Chisel.Dense.FFT_Transpose: **Pass**
 Chisel.Dense.FixPtMem: **Pass**  
 Chisel.Dense.FloatBasics: **Pass**  
 Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.GEMM_Blocked: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
@@ -28,37 +25,28 @@ Chisel.Dense.MD_Grid: **Pass**
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
 Chisel.Dense.Niter: **Pass**  
-Chisel.Dense.NW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.Sobel: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
 Chisel.Dense.Tensor4D: **Pass**  
 Chisel.Dense.Tensor5D: **Pass**  
-Chisel.Dense.TPCHQ6: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Dense.Viterbi: **Pass**  
+Chisel.Sparse.BFS_Bulk: **Pass**  
+Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
@@ -111,7 +99,5 @@ Chisel.Unit.Tensor4D: **Pass**
 Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
 Chisel.Unit.UnalignedLd: **Pass**  
-Chisel.Unit.UnalignedTileLoadStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.util.NoSuchElementException: None.get  
-↳&nbsp;&nbsp;&nbsp;&nbsp;None.get  
+Chisel.Unit.UnalignedTileLoadStore: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
