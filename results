@@ -10,8 +10,7 @@ Chisel.Dense.FFT_Transpose: **Pass**
 Chisel.Dense.FixPtMem: **Pass**  
 Chisel.Dense.FloatBasics: **Pass**  
 Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
