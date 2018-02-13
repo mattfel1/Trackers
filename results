@@ -43,6 +43,8 @@ Scala.Dense.Tensor5D: **Pass**
 Scala.Dense.TPCHQ6: **Pass**  
 Scala.Dense.TRSM: **Pass**  
 Scala.Dense.Viterbi: **Pass**  
+Scala.Sparse.BFS_Bulk: **Pass**  
+Scala.Sparse.BFS_Queue: **Pass**  
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
 Scala.Unit.BasicFSM: **Pass**  
