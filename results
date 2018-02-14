@@ -40,8 +40,7 @@ Chisel.Dense.SYRK_col: **Pass**
 Chisel.Dense.Tensor3D: **Pass**  
 Chisel.Dense.Tensor4D: **Pass**  
 Chisel.Dense.Tensor5D: **Pass**  
-Chisel.Dense.TPCHQ6: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
