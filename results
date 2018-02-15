@@ -12,7 +12,9 @@ Scala.Dense.FloatBasics: **Pass**
 Scala.Dense.GDA: **Pass**  
 Scala.Dense.GEMM_Blocked: **Pass**  
 Scala.Dense.GEMM_NCubed: **Pass**  
-Scala.Dense.Gibbs_Ising2D: **Pass**  
+Scala.Dense.Gibbs_Ising2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-02-14_14-01-36.scala.all/spatial-lang/logs/Scala/Dense/Gibbs_Ising2D/run.log  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
