@@ -14,7 +14,8 @@ Chisel.Dense.GEMM_Blocked: **Pass**
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
-Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.JPEG_Markers: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
@@ -58,8 +59,10 @@ Chisel.Unit.CtrlEnable: **Pass**
 Chisel.Unit.DeviceMemcpy: **Pass**  
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
-Chisel.Unit.FifoLoadSRAMStore: **Pass**  
-Chisel.Unit.FifoLoadStore: **Pass**  
+Chisel.Unit.FifoLoadSRAMStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Unit.FifoLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
 Chisel.Unit.FixPtInOutArg: **Pass**  
@@ -79,7 +82,8 @@ Chisel.Unit.MultiWriteBuffer: **Pass**
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.PageBoundaryTest: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.ParFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
