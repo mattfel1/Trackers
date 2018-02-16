@@ -13,8 +13,6 @@ Chisel.Dense.GDA: **Pass**
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
-Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
@@ -34,7 +32,6 @@ Chisel.Dense.Sort_Merge: **Pass**
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
@@ -45,57 +42,112 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Unit.ArbitraryLambda: **Pass**  
-Chisel.Unit.BasicCondFSM: **Pass**  
-Chisel.Unit.BasicFSM: **Pass**  
-Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: **Pass**  
-Chisel.Unit.Breakpoint: **Pass**  
-Chisel.Unit.BubbledWriteTest: **Pass**  
-Chisel.Unit.ChangingCtrMax: **Pass**  
-Chisel.Unit.CompactingFifo: **Pass**  
-Chisel.Unit.CtrlEnable: **Pass**  
-Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: **Pass**  
-Chisel.Unit.DotProductFSM: **Pass**  
-Chisel.Unit.FifoLoadSRAMStore: **Pass**  
-Chisel.Unit.FifoLoadStore: **Pass**  
-Chisel.Unit.FifoPushPop: **Pass**  
-Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: **Pass**  
-Chisel.Unit.FloatBasics: **Pass**  
-Chisel.Unit.IndirectLoad: **Pass**  
-Chisel.Unit.InOutArg: **Pass**  
-Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LittleTypeTest: **Pass**  
-Chisel.Unit.LUTTest: **Pass**  
-Chisel.Unit.MaskedWrite: **Pass**  
-Chisel.Unit.Memcpy2D: **Pass**  
-Chisel.Unit.MemTest1D: **Pass**  
-Chisel.Unit.MemTest2D: **Pass**  
-Chisel.Unit.MixedIOTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
-Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.PageBoundaryTest: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
-Chisel.Unit.RetimedFifoBranch: **Pass**  
+Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BasicCondFSM/console.log (Too many open files)  
+Chisel.Unit.BasicFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BasicFSM/console.log (Too many open files)  
+Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce1D/console.log (Too many open files)  
+Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/BlockReduce2D/console.log (Too many open files)  
+Chisel.Unit.ChangingCtrMax: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/ChangingCtrMax/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/ChangingCtrMax/console.log (Too many open files)  
+Chisel.Unit.CompactingFifo: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/CompactingFifo/console.log (Too many open files)  
+Chisel.Unit.CtrlEnable: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/CtrlEnable/console.log (Too many open files)  
+Chisel.Unit.DiagBanking: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/DiagBanking/console.log (Too many open files)  
+Chisel.Unit.DotProductFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/DotProductFSM/console.log (Too many open files)  
+Chisel.Unit.FifoLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadStore/console.log (Too many open files)  
+Chisel.Unit.FifoPushPop: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FifoPushPop/console.log (Too many open files)  
+Chisel.Unit.FifoStackFSM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FifoStackFSM/console.log (Too many open files)  
+Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.lang.NoClassDefFoundError: spatial/models/xilinx/ZynqLatencyModel  
+↳&nbsp;&nbsp;&nbsp;&nbsp;spatial/models/xilinx/ZynqLatencyModel  
+Chisel.Unit.FixPtMem: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/console.log (Too many open files)  
+Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/FloatBasics/console.log (Too many open files)  
+Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/LaneMaskPar/console.log (Too many open files)  
+Chisel.Unit.LittleTypeTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/LittleTypeTest/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/LittleTypeTest/console.log (Too many open files)  
+Chisel.Unit.MaskedWrite: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/MaskedWrite/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/MaskedWrite/console.log (Too many open files)  
+Chisel.Unit.Memcpy2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/Memcpy2D/console.log (Too many open files)  
+Chisel.Unit.MultiWriteBuffer: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/console.log (Too many open files)  
+Chisel.Unit.OHM: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/OHM/console.log (Too many open files)  
+Chisel.Unit.PageBoundaryTest: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/PageBoundaryTest/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/PageBoundaryTest/console.log (Too many open files)  
+Chisel.Unit.ParFifoLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/ParFifoLoad/console.log (Too many open files)  
+Chisel.Unit.RetimedFifoBranch: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/RetimedFifoBranch/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/RetimedFifoBranch/console.log (Too many open files)  
 Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: **Pass**  
-Chisel.Unit.SimpleReduce: **Pass**  
-Chisel.Unit.SimpleSequential: **Pass**  
-Chisel.Unit.SimpleTileLoadStore: **Pass**  
-Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.StridedLoad: **Pass**  
-Chisel.Unit.Tensor3D: **Pass**  
-Chisel.Unit.Tensor4D: **Pass**  
-Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: **Pass**  
-Chisel.Unit.UnalignedTileLoadStore: **Pass**  
-Chisel.Unit.UniqueParallelLoad: **Pass**  
+Chisel.Unit.SimpleFold: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleFold/console.log (Too many open files)  
+Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleMemReduce/console.log (Too many open files)  
+Chisel.Unit.SimpleReduce: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SimpleReduce/console.log (Too many open files)  
+Chisel.Unit.SimpleTileLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/gen/Chisel/Unit/SimpleTileLoadStore/chisel/x1371.scala (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/gen/Chisel/Unit/SimpleTileLoadStore/chisel/x1371.scala (Too many open files)  
+Chisel.Unit.SpecialMath: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/console.log (Too many open files)  
+Chisel.Unit.SSV1D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SSV1D/console.log (Too many open files)  
+Chisel.Unit.SSV2D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/SSV2D/console.log (Too many open files)  
+Chisel.Unit.StackLoadStore: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/StackLoadStore/console.log (Too many open files)  
+Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/console.log (Too many open files)  
+Chisel.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedFifoLoad/console.log (Too many open files)  
+Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/UnalignedLd/console.log (Too many open files)  
+Chisel.Unit.UniqueParallelLoad: Fail [Spatial Compile]  
+↳&nbsp;&nbsp;Cause: java.io.FileNotFoundException: /local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/console.log (Too many open files)  
+↳&nbsp;&nbsp;&nbsp;&nbsp;/local/ssd/home/mattfel/regression/testdir-retime.2018-02-15_19-09-19.chisel.all/spatial-lang/logs/Chisel/Unit/UniqueParallelLoad/console.log (Too many open files)  
