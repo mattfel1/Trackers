@@ -85,7 +85,8 @@ Chisel.Unit.MultiWriteBuffer: **Pass**
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.PageBoundaryTest: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.ParFifoLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
