@@ -30,8 +30,7 @@ Chisel.Dense.SGD: **Pass**
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
-Chisel.Dense.Sort_Merge: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
