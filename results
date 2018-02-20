@@ -84,7 +84,8 @@ Chisel.Unit.MixedIOTest: **Pass**
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.PageBoundaryTest: **Pass**  
+Chisel.Unit.PageBoundaryTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
@@ -93,7 +94,8 @@ Chisel.Unit.SimpleMemReduce: **Pass**
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
-Chisel.Unit.SmallTensorLoad: **Pass**  
+Chisel.Unit.SmallTensorLoad: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
