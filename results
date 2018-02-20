@@ -31,7 +31,8 @@ Chisel.Dense.SHA1: **Pass**
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.Sort_Radix: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
@@ -84,8 +85,7 @@ Chisel.Unit.MixedIOTest: **Pass**
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
-Chisel.Unit.PageBoundaryTest: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Unit.PageBoundaryTest: **Pass**  
 Chisel.Unit.ParFifoLoad: **Pass**  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
@@ -94,8 +94,7 @@ Chisel.Unit.SimpleMemReduce: **Pass**
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
-Chisel.Unit.SmallTensorLoad: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SmallTensorLoad: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
