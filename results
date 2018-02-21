@@ -11,7 +11,8 @@ Chisel.Dense.FixPtMem: **Pass**
 Chisel.Dense.FloatBasics: **Pass**  
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
-Chisel.Dense.GEMM_NCubed: **Pass**  
+Chisel.Dense.GEMM_NCubed: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
@@ -35,6 +36,7 @@ Chisel.Dense.Sort_Radix: **Pass**
 Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
+Chisel.Dense.SVRG: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
