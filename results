@@ -15,9 +15,7 @@ Chisel.Dense.GEMM_NCubed: **Pass**
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: argon.GenerationFailedException: Don't know how to generate node BuildHashMap(x6312,Block((x6312,b183) => x6961),Block((x6961) => x6976),Block((x6961) => x6961),Block((b184,b185) => x221),(b184,b185),b183)  
-↳&nbsp;&nbsp;&nbsp;&nbsp;Don't know how to generate node BuildHashMap(x6312,Block((x6312,b183) => x6961),Block((x6961) => x6976),Block((x6961) => x6961),Block((b184,b185) => x221),(b184,b185),b183)  
+Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
@@ -34,10 +32,12 @@ Chisel.Dense.SimpleRowStridedConv: **Pass**
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.SpecialMath: **Pass**  
+Chisel.Dense.SpecialMath: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SVRG: **Pass**  
+Chisel.Dense.SVRG: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
@@ -75,8 +75,7 @@ Chisel.Unit.FixPtInOutArg: **Pass**
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
-Chisel.Unit.InOutArg: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LittleTypeTest: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
@@ -98,7 +97,8 @@ Chisel.Unit.SimpleReduce: **Pass**
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SmallTensorLoad: **Pass**  
-Chisel.Unit.SpecialMath: **Pass**  
+Chisel.Unit.SpecialMath: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
