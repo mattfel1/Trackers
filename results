@@ -32,7 +32,6 @@ Scala.Dense.SimpleRowStridedConv: **Pass**
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
 Scala.Dense.Sort_Radix: **Pass**  
-Scala.Dense.SpecialMath: **Pass**  
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
 Scala.Dense.SVRG: **Pass**  
