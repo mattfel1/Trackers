@@ -36,8 +36,7 @@ Chisel.Dense.Stencil2D: **Pass**
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SVRG: **Pass**  
 Chisel.Dense.SW: **Pass**  
-Chisel.Dense.SYRK_col: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
 Chisel.Dense.Tensor4D: **Pass**  
 Chisel.Dense.Tensor5D: **Pass**  
