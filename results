@@ -35,6 +35,7 @@ Scala.Dense.Sort_Radix: **Pass**
 Scala.Dense.SpecialMath: **Pass**  
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
+Scala.Dense.SVRG: **Pass**  
 Scala.Dense.SW: **Pass**  
 Scala.Dense.SYRK_col: **Pass**  
 Scala.Dense.Tensor3D: **Pass**  
