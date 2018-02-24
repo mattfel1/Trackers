@@ -32,11 +32,9 @@ Chisel.Dense.SimpleRowStridedConv: **Pass**
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.SpecialMath: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
-Chisel.Dense.SVRG: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SVRG: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
