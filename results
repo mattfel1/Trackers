@@ -32,8 +32,7 @@ Scala.Dense.SimpleRowStridedConv: **Pass**
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
 Scala.Dense.Sort_Radix: **Pass**  
-Scala.Dense.SpecialMath: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.SpecialMath: **Pass**  
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
 Scala.Dense.SVRG: **Pass**  
@@ -96,8 +95,7 @@ Scala.Unit.SimpleReduce: **Pass**
 Scala.Unit.SimpleSequential: **Pass**  
 Scala.Unit.SimpleTileLoadStore: **Pass**  
 Scala.Unit.SmallTensorLoad: **Pass**  
-Scala.Unit.SpecialMath: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Unit.SpecialMath: **Pass**  
 Scala.Unit.SSV1D: **Pass**  
 Scala.Unit.SSV2D: **Pass**  
 Scala.Unit.StackLoadStore: **Pass**  
