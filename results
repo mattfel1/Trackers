@@ -24,7 +24,8 @@ Chisel.Dense.MD_KNN: **Pass**
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
 Chisel.Dense.Niter: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.OuterProduct: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
@@ -32,9 +33,6 @@ Chisel.Dense.SimpleRowStridedConv: **Pass**
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.SpecialMath: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-02-23_17-13-30.chisel.all/spatial-lang/logs/Chisel/Dense/SpecialMath/run.log  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SVRG: **Pass**  
@@ -97,8 +95,7 @@ Chisel.Unit.SimpleReduce: **Pass**
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SmallTensorLoad: **Pass**  
-Chisel.Unit.SpecialMath: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SpecialMath: **Pass**  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
