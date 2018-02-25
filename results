@@ -24,8 +24,7 @@ Chisel.Dense.MD_KNN: **Pass**
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
 Chisel.Dense.Niter: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.OuterProduct: **Pass**  
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
