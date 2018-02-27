@@ -1,191 +1,108 @@
-Chisel.Dense.BTC: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.Convolution_FPGA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.Differentiator: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.DotProduct: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.EdgeDetector: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.FFT_Strided: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/make.log  
-Chisel.Dense.FFT_Transpose: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
+Chisel.Dense.AES: **Pass**  
+Chisel.Dense.BlockReduce1D: **Pass**  
+Chisel.Dense.BTC: **Pass**  
+Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.EdgeDetector: **Pass**  
+Chisel.Dense.FFT_Strided: **Pass**  
+Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.FixPtMem: **Pass**  
 Chisel.Dense.FloatBasics: **Pass**  
-Chisel.Dense.GDA: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.GEMM_Blocked: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/make.log  
-Chisel.Dense.Gibbs_Ising2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.JPEG_Decompress: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.JPEG_Markers: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.Kmeans: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.MatMult_inner: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.MatMult_outer: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.MD_Grid: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/make.log  
+Chisel.Dense.GDA: **Pass**  
+Chisel.Dense.GEMM_Blocked: **Pass**  
+Chisel.Dense.GEMM_NCubed: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.JPEG_Markers: **Pass**  
+Chisel.Dense.Kmeans: **Pass**  
+Chisel.Dense.KMP: **Pass**  
+Chisel.Dense.MatMult_inner: **Pass**  
+Chisel.Dense.MatMult_outer: **Pass**  
+Chisel.Dense.MD_Grid: **Pass**  
+Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
-Chisel.Dense.Niter: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/Niter/make.log  
-Chisel.Dense.NW: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/NW/make.log  
-Chisel.Dense.OuterProduct: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.SGD: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.SGD_minibatch: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.SHA1: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.SimpleRowStridedConv: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.Sobel: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
+Chisel.Dense.Niter: **Pass**  
+Chisel.Dense.NW: **Pass**  
+Chisel.Dense.OuterProduct: **Pass**  
+Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
+Chisel.Dense.SHA1: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
+Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/Stencil3D/make.log  
-Chisel.Dense.SVRG: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.SW: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Dense.SYRK_col: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
+Chisel.Dense.Stencil3D: **Pass**  
+Chisel.Dense.SVRG: **Pass**  
+Chisel.Dense.SW: **Pass**  
+Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
+Chisel.Dense.Tensor4D: **Pass**  
 Chisel.Dense.Tensor5D: **Pass**  
-Chisel.Dense.TPCHQ6: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.TRSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Dense.Viterbi: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-syncMem.2018-02-27_09-55-12.chisel.all/spatial-lang/logs/Chisel/Dense/Viterbi/make.log  
-Chisel.Sparse.BFS_Bulk: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Sparse.BFS_Queue: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Sparse.PageRank_Bulk: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NoClassDefFoundError: spatial/models/xilinx/ZynqLatencyModel  
-↳&nbsp;&nbsp;&nbsp;&nbsp;spatial/models/xilinx/ZynqLatencyModel  
-Chisel.Sparse.SPMV_CRS: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;ause: Spatial compile timed out after 2000 seconds  
-Chisel.Unit.BasicCondFSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.BasicFSM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.BlockReduce1D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.BlockReduce2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.CompactingFifo: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.CtrlEnable: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.FixPtInOutArg: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NoClassDefFoundError: spatial/models/xilinx/ZynqLatencyModel  
-↳&nbsp;&nbsp;&nbsp;&nbsp;spatial/models/xilinx/ZynqLatencyModel  
-Chisel.Unit.FloatBasics: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.IndirectLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.InOutArg: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.LaneMaskPar: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.Memcpy2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.MemTest1D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.MemTest2D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.Niter: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.OHM: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.SequentialWrites: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.SimpleFold: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.SimpleMemReduce: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.SimpleReduce: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.SimpleSequential: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.SmallTensorLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.StridedLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.Tensor3D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.Tensor4D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.Tensor5D: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.UnalignedFifoLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.UnalignedLd: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.UnalignedTileLoadStore: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
-Chisel.Unit.UniqueParallelLoad: Fail [Spatial Compile]  
-↳&nbsp;&nbsp;Cause: java.lang.NullPointerException  
-↳&nbsp;&nbsp;&nbsp;&nbsp;null  
+Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TRSM: **Pass**  
+Chisel.Dense.Viterbi: **Pass**  
+Chisel.Sparse.BFS_Bulk: **Pass**  
+Chisel.Sparse.BFS_Queue: **Pass**  
+Chisel.Sparse.GatherStore: **Pass**  
+Chisel.Sparse.PageRank_Bulk: **Pass**  
+Chisel.Sparse.PageRank: **Pass**  
+Chisel.Sparse.ScatterGather: **Pass**  
+Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.SPMV_ELL: **Pass**  
+Chisel.Unit.ArbitraryLambda: **Pass**  
+Chisel.Unit.BasicCondFSM: **Pass**  
+Chisel.Unit.BasicFSM: **Pass**  
+Chisel.Unit.BlockReduce1D: **Pass**  
+Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.Breakpoint: **Pass**  
+Chisel.Unit.BubbledWriteTest: **Pass**  
+Chisel.Unit.ChangingCtrMax: **Pass**  
+Chisel.Unit.CompactingFifo: **Pass**  
+Chisel.Unit.CtrlEnable: **Pass**  
+Chisel.Unit.DeviceMemcpy: **Pass**  
+Chisel.Unit.DiagBanking: **Pass**  
+Chisel.Unit.DotProductFSM: **Pass**  
+Chisel.Unit.FifoLoadSRAMStore: **Pass**  
+Chisel.Unit.FifoLoadStore: **Pass**  
+Chisel.Unit.FifoPushPop: **Pass**  
+Chisel.Unit.FifoStackFSM: **Pass**  
+Chisel.Unit.FixPtInOutArg: **Pass**  
+Chisel.Unit.FixPtMem: **Pass**  
+Chisel.Unit.FloatBasics: **Pass**  
+Chisel.Unit.IndirectLoad: **Pass**  
+Chisel.Unit.InOutArg: **Pass**  
+Chisel.Unit.LaneMaskPar: **Pass**  
+Chisel.Unit.LittleTypeTest: **Pass**  
+Chisel.Unit.LUTTest: **Pass**  
+Chisel.Unit.MaskedWrite: **Pass**  
+Chisel.Unit.Memcpy2D: **Pass**  
+Chisel.Unit.MemTest1D: **Pass**  
+Chisel.Unit.MemTest2D: **Pass**  
+Chisel.Unit.MixedIOTest: **Pass**  
+Chisel.Unit.MultiWriteBuffer: **Pass**  
+Chisel.Unit.Niter: **Pass**  
+Chisel.Unit.OHM: **Pass**  
+Chisel.Unit.PageBoundaryTest: **Pass**  
+Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.RetimedFifoBranch: **Pass**  
+Chisel.Unit.SequentialWrites: **Pass**  
+Chisel.Unit.SimpleFold: **Pass**  
+Chisel.Unit.SimpleMemReduce: **Pass**  
+Chisel.Unit.SimpleReduce: **Pass**  
+Chisel.Unit.SimpleSequential: **Pass**  
+Chisel.Unit.SimpleTileLoadStore: **Pass**  
+Chisel.Unit.SmallTensorLoad: **Pass**  
+Chisel.Unit.SpecialMath: **Pass**  
+Chisel.Unit.SSV1D: **Pass**  
+Chisel.Unit.SSV2D: **Pass**  
+Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.StridedLoad: **Pass**  
+Chisel.Unit.Tensor3D: **Pass**  
+Chisel.Unit.Tensor4D: **Pass**  
+Chisel.Unit.Tensor5D: **Pass**  
+Chisel.Unit.UnalignedFifoLoad: **Pass**  
+Chisel.Unit.UnalignedLd: **Pass**  
+Chisel.Unit.UnalignedTileLoadStore: **Pass**  
+Chisel.Unit.UniqueParallelLoad: **Pass**  
