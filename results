@@ -74,7 +74,8 @@ Chisel.Unit.FloatBasics: **Pass**
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LittleTypeTest: **Pass**  
+Chisel.Unit.LittleTypeTest: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
