@@ -34,7 +34,8 @@ Scala.Dense.Sort_Merge: **Pass**
 Scala.Dense.Sort_Radix: **Pass**  
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
-Scala.Dense.SVRG: **Pass**  
+Scala.Dense.SVRG: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.SW: **Pass**  
 Scala.Dense.SYRK_col: **Pass**  
 Scala.Dense.Tensor3D: **Pass**  
