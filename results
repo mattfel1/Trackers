@@ -71,6 +71,7 @@ Scala.Unit.FifoStackFSM: **Pass**
 Scala.Unit.FixPtInOutArg: **Pass**  
 Scala.Unit.FixPtMem: **Pass**  
 Scala.Unit.FloatBasics: **Pass**  
+Scala.Unit.HugeTileLoadStore: **Pass**  
 Scala.Unit.IndirectLoad: **Pass**  
 Scala.Unit.InOutArg: **Pass**  
 Scala.Unit.LaneMaskPar: **Pass**  
