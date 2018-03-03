@@ -49,8 +49,7 @@ Chisel.Sparse.GatherStore: **Pass**
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Sparse.SPMV_CRS: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
@@ -100,7 +99,8 @@ Chisel.Unit.SpecialMath: **Pass**
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.StridedLoad: **Pass**  
+Chisel.Unit.StridedLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
