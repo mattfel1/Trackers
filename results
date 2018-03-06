@@ -46,9 +46,7 @@ Chisel.Dense.TRSM: **Pass**
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
-Chisel.Sparse.GatherStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-syncMem.2018-03-05_19-12-08.chisel.all/spatial-lang/logs/Chisel/Sparse/GatherStore/run.log  
+Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
 Chisel.Sparse.ScatterGather: **Pass**  
@@ -107,7 +105,6 @@ Chisel.Unit.Tensor3D: **Pass**
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Unit.UnalignedLd: **Pass**  
 Chisel.Unit.UnalignedTileLoadStore: **Pass**  
 Chisel.Unit.UniqueParallelLoad: **Pass**  
