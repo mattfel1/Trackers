@@ -101,7 +101,9 @@ Chisel.Unit.SSV1D: **Pass**
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
 Chisel.Unit.StridedLoad: **Pass**  
-Chisel.Unit.Tensor3D: **Pass**  
+Chisel.Unit.Tensor3D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-pre-master.2018-03-06_18-50-36.chisel.all/spatial-lang/logs/Chisel/Unit/Tensor3D/run.log  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
 Chisel.Unit.UnalignedFifoLoad: **Pass**  
