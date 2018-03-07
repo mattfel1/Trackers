@@ -65,7 +65,9 @@ Chisel.Unit.CtrlEnable: **Pass**
 Chisel.Unit.DeviceMemcpy: **Pass**  
 Chisel.Unit.DiagBanking: **Pass**  
 Chisel.Unit.DotProductFSM: **Pass**  
-Chisel.Unit.FifoLoadSRAMStore: **Pass**  
+Chisel.Unit.FifoLoadSRAMStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /home/mattfel/regression/testdir-retime.2018-03-06_18-42-38.chisel.all/spatial-lang/logs/Chisel/Unit/FifoLoadSRAMStore/run.log  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
@@ -100,7 +102,8 @@ Chisel.Unit.SpecialMath: **Pass**
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
-Chisel.Unit.StridedLoad: **Pass**  
+Chisel.Unit.StridedLoad: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
