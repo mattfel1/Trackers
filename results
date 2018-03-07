@@ -29,7 +29,9 @@ Chisel.Dense.OuterProduct: **Pass**
 Chisel.Dense.SGD_minibatch: **Pass**  
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
+Chisel.Dense.SimpleRowStridedConv: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-develop.2018-03-06_18-42-15.chisel.all/spatial-lang/logs/Chisel/Dense/SimpleRowStridedConv/run.log  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
