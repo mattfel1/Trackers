@@ -88,6 +88,7 @@ Scala.Unit.Niter: **Pass**
 Scala.Unit.OHM: **Pass**  
 Scala.Unit.PageBoundaryTest: **Pass**  
 Scala.Unit.ParFifoLoad: **Pass**  
+Scala.Unit.PartialTileLoadStore: **Pass**  
 Scala.Unit.RetimedFifoBranch: **Pass**  
 Scala.Unit.SequentialWrites: **Pass**  
 Scala.Unit.SimpleFold: **Pass**  
