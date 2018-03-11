@@ -74,8 +74,7 @@ Chisel.Unit.FixPtMem: **Pass**
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.HugeTileLoadStore: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
-Chisel.Unit.InOutArg: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LittleTypeTest: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
