@@ -56,8 +56,7 @@ Chisel.Unit.ArbitraryLambda: **Pass**
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Unit.BlockReduce2D: **Pass**  
 Chisel.Unit.Breakpoint: **Pass**  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
