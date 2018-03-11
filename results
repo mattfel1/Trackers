@@ -34,8 +34,7 @@ Chisel.Dense.Sobel: **Pass**
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
 Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SVRG: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
@@ -53,13 +52,12 @@ Chisel.Sparse.PageRank: **Pass**
 Chisel.Sparse.ScatterGather: **Pass**  
 Chisel.Sparse.SPMV_CRS: **Pass**  
 Chisel.Sparse.SPMV_ELL: **Pass**  
-Chisel.Unit.ArbitraryLambda: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-03-10_19-24-51.chisel.all/spatial-lang/logs/Chisel/Unit/ArbitraryLambda/run.log  
+Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
 Chisel.Unit.BasicFSM: **Pass**  
 Chisel.Unit.BlockReduce1D: **Pass**  
-Chisel.Unit.BlockReduce2D: **Pass**  
+Chisel.Unit.BlockReduce2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.Breakpoint: **Pass**  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
@@ -75,9 +73,7 @@ Chisel.Unit.FifoStackFSM: **Pass**
 Chisel.Unit.FixPtInOutArg: **Pass**  
 Chisel.Unit.FixPtMem: **Pass**  
 Chisel.Unit.FloatBasics: **Pass**  
-Chisel.Unit.HugeTileLoadStore: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Non-zero exit code  
-↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-pre-master.2018-03-10_19-24-51.chisel.all/spatial-lang/logs/Chisel/Unit/HugeTileLoadStore/run.log  
+Chisel.Unit.HugeTileLoadStore: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
@@ -97,8 +93,7 @@ Chisel.Unit.PartialTileLoadStore: **Pass**
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
 Chisel.Unit.SimpleFold: **Pass**  
-Chisel.Unit.SimpleMemReduce: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SimpleMemReduce: **Pass**  
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
