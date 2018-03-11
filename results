@@ -15,8 +15,7 @@ Chisel.Dense.GEMM_NCubed: **Pass**
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
-Chisel.Dense.Kmeans: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.Kmeans: **Pass**  
 Chisel.Dense.KMP: **Pass**  
 Chisel.Dense.LP_SVRG: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
@@ -75,7 +74,8 @@ Chisel.Unit.FixPtMem: **Pass**
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.HugeTileLoadStore: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
-Chisel.Unit.InOutArg: **Pass**  
+Chisel.Unit.InOutArg: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Unit.LaneMaskPar: **Pass**  
 Chisel.Unit.LittleTypeTest: **Pass**  
 Chisel.Unit.LUTTest: **Pass**  
