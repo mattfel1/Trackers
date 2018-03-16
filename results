@@ -31,8 +31,7 @@ Chisel.Dense.SGD_minibatch: **Pass**
 Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.SingleLayerConv_IRCO: Fail [Execution]  
-↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
+Chisel.Dense.SingleLayerConv_IRCO: **Pass**  
 Chisel.Dense.SingleLayerConv_OIRC: **Pass**  
 Chisel.Dense.SingleLayerConv_RCIO: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
