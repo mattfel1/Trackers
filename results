@@ -1,27 +1,41 @@
 Chisel.Dense.AES: **Pass**  
 Chisel.Dense.BlockReduce1D: **Pass**  
 Chisel.Dense.BTC: **Pass**  
-Chisel.Dense.Convolution_FPGA: **Pass**  
-Chisel.Dense.Differentiator: **Pass**  
+Chisel.Dense.Convolution_FPGA: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/Convolution_FPGA/run.log  
+Chisel.Dense.Differentiator: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/Differentiator/make.log  
 Chisel.Dense.DotProduct: **Pass**  
 Chisel.Dense.EdgeDetector: **Pass**  
-Chisel.Dense.FFT_Strided: **Pass**  
+Chisel.Dense.FFT_Strided: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/FFT_Strided/run.log  
 Chisel.Dense.FFT_Transpose: **Pass**  
 Chisel.Dense.FixPtMem: **Pass**  
 Chisel.Dense.FloatBasics: **Pass**  
 Chisel.Dense.GDA: **Pass**  
-Chisel.Dense.GEMM_Blocked: **Pass**  
+Chisel.Dense.GEMM_Blocked: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/GEMM_Blocked/run.log  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/Gibbs_Ising2D/make.log  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.KMP: **Pass**  
+Chisel.Dense.KMP: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/KMP/run.log  
 Chisel.Dense.LP_SGD: **Pass**  
 Chisel.Dense.LP_SVRG: **Pass**  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
-Chisel.Dense.MD_Grid: **Pass**  
+Chisel.Dense.MD_Grid: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-03-16_11-57-20.chisel.all/spatial-lang/logs/Chisel/Dense/MD_Grid/run.log  
 Chisel.Dense.MD_KNN: **Pass**  
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
 Chisel.Dense.Niter: **Pass**  
@@ -36,7 +50,8 @@ Chisel.Dense.SingleLayerConv_OIRC: **Pass**
 Chisel.Dense.SingleLayerConv_RCIO: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
-Chisel.Dense.Sort_Radix: **Pass**  
+Chisel.Dense.Sort_Radix: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Stencil2D: **Pass**  
 Chisel.Dense.Stencil3D: **Pass**  
 Chisel.Dense.SVRG: **Pass**  
@@ -47,8 +62,7 @@ Chisel.Dense.Tensor4D: **Pass**
 Chisel.Dense.Tensor5D: **Pass**  
 Chisel.Dense.TPCHQ6: **Pass**  
 Chisel.Dense.TRSM: **Pass**  
-Chisel.Dense.Viterbi: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
 Chisel.Sparse.BFS_Queue: **Pass**  
 Chisel.Sparse.GatherStore: **Pass**  
