@@ -65,7 +65,8 @@ Scala.Unit.Breakpoint: **Pass**
 Scala.Unit.BubbledWriteTest: **Pass**  
 Scala.Unit.ChangingCtrMax: **Pass**  
 Scala.Unit.CompactingFifo: **Pass**  
-Scala.Unit.CtrlEnable: **Pass**  
+Scala.Unit.CtrlEnable: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: java.lang.ArrayIndexOutOfBoundsException: 64  
 Scala.Unit.DeviceMemcpy: **Pass**  
 Scala.Unit.DiagBanking: **Pass**  
 Scala.Unit.DotProductFSM: **Pass**  
@@ -99,7 +100,8 @@ Scala.Unit.SimpleFold: **Pass**
 Scala.Unit.SimpleMemReduce: **Pass**  
 Scala.Unit.SimpleReduce: **Pass**  
 Scala.Unit.SimpleSequential: **Pass**  
-Scala.Unit.SimpleTileLoadStore: **Pass**  
+Scala.Unit.SimpleTileLoadStore: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: java.lang.ArrayIndexOutOfBoundsException: 182  
 Scala.Unit.SmallTensorLoad: **Pass**  
 Scala.Unit.SpecialMath: **Pass**  
 Scala.Unit.SSV1D: **Pass**  
