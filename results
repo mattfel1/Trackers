@@ -18,8 +18,7 @@ Scala.Dense.JPEG_Markers: **Pass**
 Scala.Dense.Kmeans: **Pass**  
 Scala.Dense.KMP: **Pass**  
 Scala.Dense.LP_SGD: **Pass**  
-Scala.Dense.LP_SVRG: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.LP_SVRG: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
 Scala.Dense.MD_Grid: **Pass**  
