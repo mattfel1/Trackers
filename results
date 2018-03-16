@@ -17,6 +17,7 @@ Scala.Dense.JPEG_Decompress: **Pass**
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
 Scala.Dense.KMP: **Pass**  
+Scala.Dense.LP_SGD: **Pass**  
 Scala.Dense.LP_SVRG: **Pass**  
 Scala.Dense.MatMult_inner: **Pass**  
 Scala.Dense.MatMult_outer: **Pass**  
@@ -30,12 +31,16 @@ Scala.Dense.SGD_minibatch: **Pass**
 Scala.Dense.SGD: **Pass**  
 Scala.Dense.SHA1: **Pass**  
 Scala.Dense.SimpleRowStridedConv: **Pass**  
+Scala.Dense.SingleLayerConv_IRCO: **Pass**  
+Scala.Dense.SingleLayerConv_OIRC: **Pass**  
+Scala.Dense.SingleLayerConv_RCIO: **Pass**  
 Scala.Dense.Sobel: **Pass**  
 Scala.Dense.Sort_Merge: **Pass**  
 Scala.Dense.Sort_Radix: **Pass**  
 Scala.Dense.Stencil2D: **Pass**  
 Scala.Dense.Stencil3D: **Pass**  
-Scala.Dense.SVRG: **Pass**  
+Scala.Dense.SVRG: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.SW: **Pass**  
 Scala.Dense.SYRK_col: **Pass**  
 Scala.Dense.Tensor3D: **Pass**  
