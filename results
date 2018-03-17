@@ -13,6 +13,8 @@ Chisel.Dense.GDA: **Pass**
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
+Chisel.Dense.HALP_handoff: **Pass**  
+Chisel.Dense.HALP: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
