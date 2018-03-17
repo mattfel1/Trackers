@@ -13,8 +13,9 @@ Scala.Dense.GDA: **Pass**
 Scala.Dense.GEMM_Blocked: **Pass**  
 Scala.Dense.GEMM_NCubed: **Pass**  
 Scala.Dense.Gibbs_Ising2D: **Pass**  
+Scala.Dense.HALP: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Scala.Dense.HALP_handoff: **Pass**  
-Scala.Dense.HALP: **Pass**  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
@@ -29,8 +30,7 @@ Scala.Dense.MultiplexedWriteTest: **Pass**
 Scala.Dense.Niter: **Pass**  
 Scala.Dense.NW: **Pass**  
 Scala.Dense.OuterProduct: **Pass**  
-Scala.Dense.SGD_minibatch: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.SGD_minibatch: **Pass**  
 Scala.Dense.SGD: **Pass**  
 Scala.Dense.SHA1: **Pass**  
 Scala.Dense.SimpleRowStridedConv: **Pass**  
