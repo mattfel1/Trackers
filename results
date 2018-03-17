@@ -13,6 +13,8 @@ Scala.Dense.GDA: **Pass**
 Scala.Dense.GEMM_Blocked: **Pass**  
 Scala.Dense.GEMM_NCubed: **Pass**  
 Scala.Dense.Gibbs_Ising2D: **Pass**  
+Scala.Dense.HALP_handoff: **Pass**  
+Scala.Dense.HALP: **Pass**  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
 Scala.Dense.Kmeans: **Pass**  
