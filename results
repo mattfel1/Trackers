@@ -15,8 +15,7 @@ Scala.Dense.GEMM_NCubed: **Pass**
 Scala.Dense.Gibbs_Ising2D: **Pass**  
 Scala.Dense.JPEG_Decompress: **Pass**  
 Scala.Dense.JPEG_Markers: **Pass**  
-Scala.Dense.Kmeans: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Scala.Dense.Kmeans: **Pass**  
 Scala.Dense.KMP: **Pass**  
 Scala.Dense.LP_SGD: **Pass**  
 Scala.Dense.LP_SVRG: **Pass**  
