@@ -29,14 +29,14 @@ Chisel.Dense.MultiplexedWriteTest: **Pass**
 Chisel.Dense.Niter: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.SingleLayerConv_IRCO: **Pass**  
 Chisel.Dense.SingleLayerConv_OIRC: **Pass**  
-Chisel.Dense.SingleLayerConv_RCIO: **Pass**  
+Chisel.Dense.SingleLayerConv_RCIO: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
