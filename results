@@ -35,8 +35,7 @@ Chisel.Dense.SHA1: **Pass**
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.SingleLayerConv_IRCO: **Pass**  
 Chisel.Dense.SingleLayerConv_OIRC: **Pass**  
-Chisel.Dense.SingleLayerConv_RCIO: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SingleLayerConv_RCIO: **Pass**  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
