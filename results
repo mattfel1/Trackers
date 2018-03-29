@@ -29,9 +29,8 @@ Chisel.Dense.MultiplexedWriteTest: **Pass**
 Chisel.Dense.Niter: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.SingleLayerConv_IRCO: **Pass**  
