@@ -13,7 +13,8 @@ Chisel.Dense.GDA: **Pass**
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
 Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.HALP_handoff: **Pass**  
+Chisel.Dense.HALP_handoff: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.HALP: **Pass**  
 Chisel.Dense.JPEG_Decompress: **Pass**  
 Chisel.Dense.JPEG_Markers: **Pass**  
@@ -29,9 +30,8 @@ Chisel.Dense.MultiplexedWriteTest: **Pass**
 Chisel.Dense.Niter: **Pass**  
 Chisel.Dense.NW: **Pass**  
 Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD: Fail [Validation]  
-↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SGD_minibatch: **Pass**  
+Chisel.Dense.SGD: **Pass**  
 Chisel.Dense.SHA1: **Pass**  
 Chisel.Dense.SimpleRowStridedConv: **Pass**  
 Chisel.Dense.SingleLayerConv_IRCO: **Pass**  
