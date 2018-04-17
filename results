@@ -75,21 +75,29 @@ Chisel.Unit.FifoLoadSRAMStore: **Pass**
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
 Chisel.Unit.FifoStackFSM: **Pass**  
-Chisel.Unit.FixPtInOutArg: **Pass**  
-Chisel.Unit.FixPtMem: **Pass**  
+Chisel.Unit.FixPtInOutArg: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-04-17_15-43-39.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtInOutArg/make.log  
+Chisel.Unit.FixPtMem: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-04-17_15-43-39.chisel.all/spatial-lang/logs/Chisel/Unit/FixPtMem/make.log  
 Chisel.Unit.FloatBasics: **Pass**  
 Chisel.Unit.HugeTileLoadStore: **Pass**  
 Chisel.Unit.IndirectLoad: **Pass**  
 Chisel.Unit.InOutArg: **Pass**  
 Chisel.Unit.LaneMaskPar: **Pass**  
-Chisel.Unit.LittleTypeTest: **Pass**  
+Chisel.Unit.LittleTypeTest: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-04-17_15-43-39.chisel.all/spatial-lang/logs/Chisel/Unit/LittleTypeTest/make.log  
 Chisel.Unit.LUTTest: **Pass**  
 Chisel.Unit.MaskedWrite: **Pass**  
 Chisel.Unit.Memcpy2D: **Pass**  
 Chisel.Unit.MemTest1D: **Pass**  
 Chisel.Unit.MemTest2D: **Pass**  
 Chisel.Unit.MixedIOTest: **Pass**  
-Chisel.Unit.MultiWriteBuffer: **Pass**  
+Chisel.Unit.MultiWriteBuffer: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-04-17_15-43-39.chisel.all/spatial-lang/logs/Chisel/Unit/MultiWriteBuffer/make.log  
 Chisel.Unit.Niter: **Pass**  
 Chisel.Unit.OHM: **Pass**  
 Chisel.Unit.PageBoundaryTest: **Pass**  
@@ -103,7 +111,9 @@ Chisel.Unit.SimpleReduce: **Pass**
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SmallTensorLoad: **Pass**  
-Chisel.Unit.SpecialMath: **Pass**  
+Chisel.Unit.SpecialMath: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Non-zero exit code  
+↳&nbsp;&nbsp;&nbsp;&nbsp;See /local/ssd/home/mattfel/regression/testdir-retime.2018-04-17_15-43-39.chisel.all/spatial-lang/logs/Chisel/Unit/SpecialMath/make.log  
 Chisel.Unit.SSV1D: **Pass**  
 Chisel.Unit.SSV2D: **Pass**  
 Chisel.Unit.StackLoadStore: **Pass**  
