@@ -1,9 +1,12 @@
-Chisel.Dense.AES: **Pass**  
+Chisel.Dense.AES: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.BlockReduce1D: **Pass**  
 Chisel.Dense.BTC: **Pass**  
-Chisel.Dense.Convolution_FPGA: **Pass**  
+Chisel.Dense.Convolution_FPGA: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Differentiator: **Pass**  
-Chisel.Dense.DotProduct: **Pass**  
+Chisel.Dense.DotProduct: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.EdgeDetector: **Pass**  
 Chisel.Dense.FFT_Strided: **Pass**  
 Chisel.Dense.FFT_Transpose: **Pass**  
@@ -12,15 +15,22 @@ Chisel.Dense.FloatBasics: **Pass**
 Chisel.Dense.GDA: **Pass**  
 Chisel.Dense.GEMM_Blocked: **Pass**  
 Chisel.Dense.GEMM_NCubed: **Pass**  
-Chisel.Dense.Gibbs_Ising2D: **Pass**  
-Chisel.Dense.HALP_handoff: **Pass**  
-Chisel.Dense.HALP: **Pass**  
-Chisel.Dense.JPEG_Decompress: **Pass**  
+Chisel.Dense.Gibbs_Ising2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.HALP: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.HALP_handoff: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.JPEG_Decompress: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Execution timed out after 2000 seconds  
 Chisel.Dense.JPEG_Markers: **Pass**  
 Chisel.Dense.Kmeans: **Pass**  
-Chisel.Dense.KMP: **Pass**  
-Chisel.Dense.LP_SGD: **Pass**  
-Chisel.Dense.LP_SVRG: **Pass**  
+Chisel.Dense.KMP: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.LP_SGD: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.LP_SVRG: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.MatMult_inner: **Pass**  
 Chisel.Dense.MatMult_outer: **Pass**  
 Chisel.Dense.MD_Grid: **Pass**  
@@ -28,26 +38,37 @@ Chisel.Dense.MD_KNN: **Pass**
 Chisel.Dense.MultiplexedWriteTest: **Pass**  
 Chisel.Dense.Niter: **Pass**  
 Chisel.Dense.NW: **Pass**  
-Chisel.Dense.OuterProduct: **Pass**  
-Chisel.Dense.SGD_minibatch: **Pass**  
-Chisel.Dense.SGD: **Pass**  
-Chisel.Dense.SHA1: **Pass**  
-Chisel.Dense.SimpleRowStridedConv: **Pass**  
-Chisel.Dense.SingleLayerConv_IRCO: **Pass**  
-Chisel.Dense.SingleLayerConv_OIRC: **Pass**  
-Chisel.Dense.SingleLayerConv_RCIO: **Pass**  
+Chisel.Dense.OuterProduct: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SGD: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SGD_minibatch: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SHA1: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SimpleRowStridedConv: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SingleLayerConv_IRCO: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SingleLayerConv_OIRC: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.SingleLayerConv_RCIO: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.Sobel: **Pass**  
 Chisel.Dense.Sort_Merge: **Pass**  
 Chisel.Dense.Sort_Radix: **Pass**  
-Chisel.Dense.Stencil2D: **Pass**  
-Chisel.Dense.Stencil3D: **Pass**  
+Chisel.Dense.Stencil2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Dense.Stencil3D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.SVRG: **Pass**  
 Chisel.Dense.SW: **Pass**  
 Chisel.Dense.SYRK_col: **Pass**  
 Chisel.Dense.Tensor3D: **Pass**  
 Chisel.Dense.Tensor4D: **Pass**  
 Chisel.Dense.Tensor5D: **Pass**  
-Chisel.Dense.TPCHQ6: **Pass**  
+Chisel.Dense.TPCHQ6: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Dense.TRSM: **Pass**  
 Chisel.Dense.Viterbi: **Pass**  
 Chisel.Sparse.BFS_Bulk: **Pass**  
@@ -55,8 +76,10 @@ Chisel.Sparse.BFS_Queue: **Pass**
 Chisel.Sparse.GatherStore: **Pass**  
 Chisel.Sparse.PageRank_Bulk: **Pass**  
 Chisel.Sparse.PageRank: **Pass**  
-Chisel.Sparse.ScatterGather: **Pass**  
-Chisel.Sparse.SPMV_CRS: **Pass**  
+Chisel.Sparse.ScatterGather: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:200: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
+Chisel.Sparse.SPMV_CRS: Fail [Execution]  
+↳&nbsp;&nbsp;Cause: Top: ./fringeVCS/FringeContextVCS.h:200: virtual uint64_t FringeContextVCS::readReg(uint32_t): Assertion \`0' failed.  
 Chisel.Sparse.SPMV_ELL: **Pass**  
 Chisel.Unit.ArbitraryLambda: **Pass**  
 Chisel.Unit.BasicCondFSM: **Pass**  
@@ -66,11 +89,14 @@ Chisel.Unit.BlockReduce2D: **Pass**
 Chisel.Unit.Breakpoint: **Pass**  
 Chisel.Unit.BubbledWriteTest: **Pass**  
 Chisel.Unit.ChangingCtrMax: **Pass**  
-Chisel.Unit.CompactingFifo: **Pass**  
+Chisel.Unit.CompactingFifo: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.CtrlEnable: **Pass**  
 Chisel.Unit.DeviceMemcpy: **Pass**  
-Chisel.Unit.DiagBanking: **Pass**  
-Chisel.Unit.DotProductFSM: **Pass**  
+Chisel.Unit.DiagBanking: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.DotProductFSM: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.FifoLoadSRAMStore: **Pass**  
 Chisel.Unit.FifoLoadStore: **Pass**  
 Chisel.Unit.FifoPushPop: **Pass**  
@@ -91,27 +117,36 @@ Chisel.Unit.MemTest2D: **Pass**
 Chisel.Unit.MixedIOTest: **Pass**  
 Chisel.Unit.MultiWriteBuffer: **Pass**  
 Chisel.Unit.Niter: **Pass**  
-Chisel.Unit.OHM: **Pass**  
+Chisel.Unit.OHM: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.PageBoundaryTest: **Pass**  
-Chisel.Unit.ParFifoLoad: **Pass**  
+Chisel.Unit.ParFifoLoad: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.PartialTileLoadStore: **Pass**  
 Chisel.Unit.RetimedFifoBranch: **Pass**  
 Chisel.Unit.SequentialWrites: **Pass**  
-Chisel.Unit.SimpleFold: **Pass**  
+Chisel.Unit.SimpleFold: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.SimpleMemReduce: **Pass**  
 Chisel.Unit.SimpleReduce: **Pass**  
 Chisel.Unit.SimpleSequential: **Pass**  
 Chisel.Unit.SimpleTileLoadStore: **Pass**  
 Chisel.Unit.SmallTensorLoad: **Pass**  
 Chisel.Unit.SpecialMath: **Pass**  
-Chisel.Unit.SSV1D: **Pass**  
-Chisel.Unit.SSV2D: **Pass**  
-Chisel.Unit.StackLoadStore: **Pass**  
+Chisel.Unit.SSV1D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.SSV2D: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.StackLoadStore: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.StridedLoad: **Pass**  
 Chisel.Unit.Tensor3D: **Pass**  
 Chisel.Unit.Tensor4D: **Pass**  
 Chisel.Unit.Tensor5D: **Pass**  
-Chisel.Unit.UnalignedFifoLoad: **Pass**  
-Chisel.Unit.UnalignedLd: **Pass**  
+Chisel.Unit.UnalignedFifoLoad: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
+Chisel.Unit.UnalignedLd: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
 Chisel.Unit.UnalignedTileLoadStore: **Pass**  
-Chisel.Unit.UniqueParallelLoad: **Pass**  
+Chisel.Unit.UniqueParallelLoad: Fail [Validation]  
+↳&nbsp;&nbsp;Cause: Application reported that it did not pass validation.  
