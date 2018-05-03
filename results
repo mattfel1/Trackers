@@ -61,6 +61,7 @@ Scala.Sparse.SPMV_ELL: **Pass**
 Scala.Unit.ArbitraryLambda: **Pass**  
 Scala.Unit.BasicCondFSM: **Pass**  
 Scala.Unit.BasicFSM: **Pass**  
+Scala.Unit.BinaryFileTest: **Pass**  
 Scala.Unit.BlockReduce1D: **Pass**  
 Scala.Unit.BlockReduce2D: **Pass**  
 Scala.Unit.Breakpoint: **Pass**  
